@@ -1,0 +1,211 @@
+City & State,cancer,cardiovascular,stroke,depression,rehab,vaccine,diarrhea,obesity,diabetes,year
+Portland-Auburn ME,44,6,17,39,21,31,14,29,38,2004
+New York NY,47,6,13,38,16,33,12,27,32,2004
+Binghamton NY,48,3,16,50,12,37,24,31,37,2004
+Macon GA,44,14,14,37,19,49,14,29,31,2004
+Philadelphia PA,52,7,16,41,23,36,14,30,37,2004
+Detroit MI,47,6,16,45,14,31,15,27,34,2004
+Boston MA-Manchester NH,48,6,15,38,25,34,14,27,37,2004
+Savannah GA,43,11,17,37,28,43,10,45,26,2004
+Pittsburgh PA,51,10,17,50,23,34,16,35,43,2004
+Ft. Wayne IN,42,4,14,50,15,25,15,25,36,2004
+Cleveland-Akron (Canton) OH,42,6,16,44,18,26,14,25,36,2004
+Washington DC (Hagerstown MD),47,5,15,33,15,46,11,31,37,2004
+Baltimore MD,51,9,18,44,18,44,16,29,40,2004
+Flint-Saginaw-Bay City MI,43,8,17,50,12,34,19,48,31,2004
+Buffalo NY,49,5,20,49,18,25,16,26,37,2004
+Cincinnati OH,45,6,18,43,17,25,15,28,39,2004
+Erie PA,53,14,17,50,25,43,8,53,44,2004
+Charlotte NC,43,7,16,39,21,29,16,25,35,2004
+Greensboro-High Point-Winston Salem NC,47,10,15,45,24,29,13,32,37,2004
+Charleston SC,55,14,20,42,16,23,15,15,42,2004
+Augusta GA,48,12,26,39,18,24,14,33,37,2004
+Providence RI-New Bedford MA,43,3,16,45,20,36,17,20,32,2004
+Columbus GA,41,7,17,46,25,33,14,64,39,2004
+Burlington VT-Plattsburgh NY,49,6,14,53,21,44,10,43,38,2004
+Atlanta GA,42,6,15,35,19,36,13,23,36,2004
+Albany GA,44,5,12,43,27,24,16,18,46,2004
+Utica NY,42,19,19,63,31,100,19,49,29,2004
+Indianapolis IN,49,10,17,47,16,31,15,38,45,2004
+Miami-Ft. Lauderdale FL,37,7,11,29,17,28,7,20,34,2004
+Louisville KY,49,5,13,42,25,15,11,43,39,2004
+Tallahassee FL-Thomasville GA,45,13,18,45,13,37,16,36,37,2004
+Tri-Cities TN-VA,37,9,15,37,15,40,14,24,31,2004
+Albany-Schenectady-Troy NY,47,7,14,49,18,34,19,26,31,2004
+Hartford & New Haven CT,52,6,16,51,21,43,14,34,35,2004
+Orlando-Daytona Beach-Melbourne FL,39,4,16,32,18,24,11,21,30,2004
+Columbus OH,46,6,14,43,17,36,14,23,34,2004
+Youngstown OH,45,6,12,79,25,27,9,56,29,2004
+Bangor ME,49,13,21,74,14,62,11,48,44,2004
+Rochester NY,43,6,13,49,14,29,14,27,33,2004
+Tampa-St. Petersburg (Sarasota) FL,43,5,18,32,22,24,14,19,33,2004
+Traverse City-Cadillac MI,46,11,11,79,17,35,23,68,32,2004
+Lexington KY,61,15,21,57,15,30,14,82,47,2004
+Dayton OH,43,3,12,45,19,21,13,34,35,2004
+Springfield-Holyoke MA,44,8,18,50,26,40,14,34,33,2004
+Norfolk-Portsmouth-Newport News VA,37,7,17,40,13,28,11,27,34,2004
+Greenville-New Bern-Washington NC,46,10,18,33,28,35,22,65,54,2004
+Columbia SC,45,5,12,45,19,29,11,37,35,2004
+Toledo OH,40,7,13,35,23,38,11,47,37,2004
+West Palm Beach-Ft. Pierce FL,44,5,18,35,19,41,15,23,29,2004
+Watertown NY,28,0,28,41,19,74,48,27,16,2004
+Wilmington NC,50,12,21,44,15,32,19,32,42,2004
+Lansing MI,49,8,22,58,17,52,11,43,46,2004
+Presque Isle ME,45,0,22,53,70,0,0,100,44,2004
+Marquette MI,35,5,22,46,21,28,12,24,30,2004
+Wheeling WV-Steubenville OH,50,11,35,35,33,25,32,18,32,2004
+Syracuse NY,49,7,18,47,16,40,17,38,35,2004
+Richmond-Petersburg VA,43,9,17,45,20,34,11,34,38,2004
+Knoxville TN,46,5,16,35,15,21,13,41,38,2004
+Lima OH,45,11,13,49,13,26,22,29,31,2004
+Bluefield-Beckley-Oak Hill WV,56,0,24,46,19,36,0,67,23,2004
+Raleigh-Durham (Fayetteville) NC,47,8,17,38,17,49,15,36,39,2004
+Jacksonville FL,42,5,14,32,19,24,12,29,40,2004
+Grand Rapids-Kalamazoo-Battle Creek MI,43,7,19,49,14,26,11,46,39,2004
+Charleston-Huntington WV,42,5,12,50,24,27,17,33,39,2004
+Elmira NY,41,0,28,27,15,29,25,85,40,2004
+Harrisburg-Lancaster-Lebanon-York PA,46,9,15,55,20,39,13,26,35,2004
+Greenville-Spartanburg SC-Asheville NC-Anderson SC,42,6,16,40,17,23,14,26,37,2004
+Harrisonburg VA,41,3,17,62,19,24,16,44,51,2004
+Florence-Myrtle Beach SC,55,5,24,52,31,24,10,43,41,2004
+Ft. Myers-Naples FL,48,6,11,27,18,20,10,25,21,2004
+Roanoke-Lynchburg VA,42,7,16,51,16,26,9,35,28,2004
+Johnstown-Altoona PA,47,8,17,40,9,41,11,60,36,2004
+Chattanooga TN,43,3,16,41,11,26,23,36,39,2004
+Salisbury MD,38,12,14,40,13,27,47,27,52,2004
+Wilkes Barre-Scranton PA,48,7,18,60,23,49,12,41,31,2004
+Terre Haute IN,36,6,25,74,13,38,39,95,39,2004
+Lafayette IN,54,7,13,32,9,17,7,78,45,2004
+Alpena MI,69,0,100,97,0,0,0,0,100,2004
+Charlottesville VA,43,12,19,45,15,47,12,27,35,2004
+South Bend-Elkhart IN,43,2,14,41,12,14,14,28,36,2004
+Gainesville FL,45,11,22,36,25,53,15,35,51,2004
+Zanesville OH,31,0,14,39,43,0,54,0,23,2004
+Parkersburg WV,100,0,26,78,42,83,70,0,27,2004
+Clarksburg-Weston WV,47,0,14,40,18,21,24,46,36,2004
+Corpus Christi TX,37,7,17,37,18,32,11,32,43,2004
+Chicago IL,44,6,15,41,20,31,14,26,35,2004
+Joplin MO-Pittsburg KS,45,8,16,53,44,37,16,42,34,2004
+Columbia-Jefferson City MO,56,9,12,65,23,36,14,50,49,2004
+Topeka KS,40,5,15,39,13,37,19,33,34,2004
+Dothan AL,46,11,30,20,26,51,29,75,41,2004
+St. Louis MO,47,8,15,43,23,25,15,26,39,2004
+Rockford IL,52,10,20,53,13,55,10,31,42,2004
+Rochester MN-Mason City IA-Austin MN,71,18,26,64,16,33,25,40,58,2004
+Shreveport LA,42,9,22,45,28,18,17,33,40,2004
+Minneapolis-St. Paul MN,43,7,15,43,16,33,13,31,36,2004
+Kansas City MO,45,6,16,41,15,36,15,27,36,2004
+Milwaukee WI,42,7,17,48,15,40,12,27,39,2004
+Houston TX,47,8,16,33,18,29,12,24,37,2004
+Springfield MO,44,6,16,47,15,24,17,43,34,2004
+New Orleans LA,43,8,14,39,20,30,15,27,35,2004
+Dallas-Ft. Worth TX,38,7,16,35,19,27,12,22,35,2004
+Sioux City IA,43,5,13,48,21,34,16,17,28,2004
+Waco-Temple-Bryan TX,40,11,14,37,17,19,13,40,39,2004
+Victoria TX,64,0,35,100,0,0,0,0,35,2004
+Wichita Falls TX & Lawton OK,40,15,17,32,27,26,15,57,29,2004
+Monroe LA-El Dorado AR,58,19,17,35,23,44,19,57,64,2004
+Birmingham AL,48,11,22,37,25,39,15,27,42,2004
+Ottumwa IA-Kirksville MO,58,0,14,59,17,33,14,30,39,2004
+Paducah KY-Cape Girardeau MO-Harrisburg-Mount Vernon IL,52,4,17,55,16,18,18,36,34,2004
+Odessa-Midland TX,36,0,14,34,28,22,0,24,30,2004
+Amarillo TX,41,6,16,51,14,20,12,20,42,2004
+Austin TX,37,5,13,38,18,31,17,22,33,2004
+Harlingen-Weslaco-Brownsville-McAllen TX,33,6,19,45,29,43,15,38,54,2004
+Cedar Rapids-Waterloo-Iowa City & Dubuque IA,55,11,15,63,13,27,17,51,42,2004
+St. Joseph MO,46,11,17,70,0,26,23,58,28,2004
+Jackson TN,38,8,16,36,20,14,12,18,27,2004
+Memphis TN,48,8,15,34,19,21,17,28,41,2004
+San Antonio TX,39,5,15,38,16,37,11,24,40,2004
+Lafayette LA,36,13,14,41,26,17,12,18,32,2004
+Lake Charles LA,41,19,21,21,0,0,0,32,52,2004
+Alexandria LA,36,0,49,64,26,51,44,38,55,2004
+Greenwood-Greenville MS,34,0,33,97,52,100,0,0,65,2004
+Champaign & Springfield-Decatur IL,44,7,13,55,13,44,16,35,42,2004
+Evansville IN,53,6,22,55,26,20,11,35,37,2004
+Oklahoma City OK,41,5,12,39,17,33,16,31,38,2004
+Lubbock TX,37,5,19,47,20,15,18,35,37,2004
+Omaha NE,46,9,15,41,17,36,20,35,45,2004
+Panama City FL,36,5,17,40,21,22,29,16,23,2004
+Sherman TX-Ada OK,48,22,16,48,26,50,43,38,41,2004
+Green Bay-Appleton WI,44,7,16,51,13,23,15,29,34,2004
+Nashville TN,50,10,18,47,23,27,17,31,44,2004
+San Angelo TX,30,0,15,57,47,0,0,33,29,2004
+Abilene-Sweetwater TX,27,0,16,67,17,50,32,28,45,2004
+Madison WI,49,4,13,48,13,25,12,32,37,2004
+Ft. Smith-Fayetteville-Springdale-Rogers AR,48,5,18,34,23,17,12,50,36,2004
+Tulsa OK,35,4,19,36,21,44,17,18,39,2004
+Columbus-Tupelo-West Point MS,48,8,14,29,19,37,16,34,26,2004
+Peoria-Bloomington IL,48,7,14,51,21,27,5,43,39,2004
+Duluth MN-Superior WI,45,9,15,64,9,57,23,59,45,2004
+Wichita-Hutchinson KS,39,6,21,53,13,40,18,44,38,2004
+Des Moines-Ames IA,46,7,15,48,15,38,15,32,42,2004
+Davenport IA-Rock Island-Moline IL,43,7,18,44,16,36,14,26,40,2004
+Mobile AL-Pensacola (Ft. Walton Beach) FL,39,7,18,37,19,22,10,25,37,2004
+Minot-Bismarck-Dickinson(Williston) ND,46,6,16,64,14,31,21,23,48,2004
+Huntsville-Decatur (Florence) AL,41,7,18,48,18,29,12,20,34,2004
+Beaumont-Port Arthur TX,45,10,18,20,8,35,20,39,47,2004
+Little Rock-Pine Bluff AR,45,8,13,44,19,30,14,30,44,2004
+Montgomery (Selma) AL,43,7,11,40,26,33,13,28,47,2004
+La Crosse-Eau Claire WI,44,5,16,56,15,32,14,54,33,2004
+Wausau-Rhinelander WI,46,6,13,45,31,26,19,32,39,2004
+Tyler-Longview(Lufkin & Nacogdoches) TX,44,9,19,58,28,26,12,30,56,2004
+Hattiesburg-Laurel MS,49,29,15,21,18,34,58,25,54,2004
+Meridian MS,33,0,0,61,100,0,0,73,63,2004
+Baton Rouge LA,43,12,19,34,20,25,16,38,49,2004
+Quincy IL-Hannibal MO-Keokuk IA,42,13,15,66,16,39,23,63,32,2004
+Jackson MS,49,13,17,49,19,24,20,35,47,2004
+Lincoln & Hastings-Kearney NE,41,7,18,43,17,25,18,42,46,2004
+Fargo-Valley City ND,45,6,17,53,10,35,17,32,38,2004
+Sioux Falls(Mitchell) SD,49,7,14,64,16,38,12,47,46,2004
+Jonesboro AR,52,0,15,66,27,35,0,52,38,2004
+Bowling Green KY,39,5,14,54,18,25,18,47,31,2004
+Mankato MN,50,22,17,59,8,44,12,37,51,2004
+North Platte NE,35,100,57,55,0,0,100,0,75,2004
+Anchorage AK,35,5,16,35,13,31,11,24,38,2004
+Honolulu HI,43,6,20,34,17,29,17,34,40,2004
+Fairbanks AK,36,12,32,47,0,43,18,52,36,2004
+Biloxi-Gulfport MS,37,6,15,23,16,27,17,20,37,2004
+Juneau AK,46,0,19,54,15,22,28,0,58,2004
+Laredo TX,30,0,19,20,0,65,0,32,46,2004
+Denver CO,40,6,15,37,16,26,14,24,33,2004
+Colorado Springs-Pueblo CO,32,5,19,32,20,24,12,26,26,2004
+Phoenix AZ,40,5,17,33,17,29,11,23,35,2004
+Butte-Bozeman MT,46,0,15,35,17,42,20,62,27,2004
+Great Falls MT,46,12,34,54,15,72,0,32,34,2004
+"Billings, MT",34,18,20,100,25,59,20,35,49,2004
+Boise ID,39,4,16,38,22,30,13,42,39,2004
+Idaho Falls-Pocatello ID,40,0,16,36,19,18,31,66,34,2004
+Cheyenne WY-Scottsbluff NE,35,9,17,46,20,40,11,29,46,2004
+Twin Falls ID,55,16,28,52,19,56,32,27,24,2004
+Missoula MT,41,4,16,47,16,36,16,30,31,2004
+Rapid City SD,41,0,15,72,14,55,18,20,40,2004
+El Paso TX,43,5,13,43,8,28,7,51,46,2004
+Helena MT,36,16,19,52,17,0,36,28,67,2004
+Casper-Riverton WY,45,0,17,42,21,27,46,60,37,2004
+Salt Lake City UT,42,6,16,39,16,21,14,35,39,2004
+Yuma AZ-El Centro CA,36,0,23,45,19,54,0,27,31,2004
+Grand Junction-Montrose CO,39,11,8,57,14,26,45,57,28,2004
+Tucson (Sierra Vista) AZ,41,5,18,34,15,32,18,24,38,2004
+Albuquerque-Santa Fe NM,43,6,13,44,13,30,13,32,45,2004
+Glendive MT,43,0,0,0,0,0,0,0,0,2004
+Bakersfield CA,38,5,14,58,10,28,20,35,41,2004
+Eugene OR,41,9,19,44,15,42,11,39,40,2004
+Eureka CA,33,0,13,49,25,49,17,0,23,2004
+Los Angeles CA,37,5,15,33,16,25,11,24,30,2004
+Palm Springs CA,43,13,14,40,49,55,23,23,13,2004
+San Francisco-Oakland-San Jose CA,41,5,15,32,13,28,13,20,31,2004
+Yakima-Pasco-Richland-Kennewick WA,44,2,14,37,6,27,9,30,32,2004
+Reno NV,38,5,17,32,15,29,8,21,34,2004
+Medford-Klamath Falls OR,38,12,19,27,13,35,14,41,28,2004
+Seattle-Tacoma WA,42,4,15,39,15,32,13,26,33,2004
+Portland OR,38,4,18,40,15,25,14,29,36,2004
+Bend OR,53,12,18,48,14,55,12,46,45,2004
+San Diego CA,42,5,15,31,14,29,11,22,29,2004
+Monterey-Salinas CA,38,4,12,44,11,29,12,26,32,2004
+Las Vegas NV,33,4,16,32,16,22,16,17,30,2004
+Santa Barbara-Santa Maria-San Luis Obispo CA,35,5,13,40,14,30,9,38,27,2004
+Sacramento-Stockton-Modesto CA,40,4,17,41,12,35,13,29,35,2004
+Fresno-Visalia CA,34,7,13,48,16,19,5,33,34,2004
+Chico-Redding CA,36,4,22,33,16,49,14,41,24,2004
+Spokane WA,44,6,17,49,16,34,10,30,46,2004

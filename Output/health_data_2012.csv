@@ -1,0 +1,211 @@
+City & State,cancer,cardiovascular,stroke,depression,rehab,vaccine,diarrhea,obesity,diabetes,year
+Portland-Auburn ME,67,42,67,74,73,68,61,46,65,2012
+New York NY,58,28,45,59,54,47,52,40,52,2012
+Binghamton NY,62,29,54,74,47,56,68,61,63,2012
+Macon GA,59,48,60,63,74,57,58,67,67,2012
+Philadelphia PA,69,39,56,69,83,62,65,51,61,2012
+Detroit MI,59,38,54,62,56,46,59,41,52,2012
+Boston MA-Manchester NH,64,34,55,64,89,61,62,44,58,2012
+Savannah GA,60,41,65,67,53,56,62,58,60,2012
+Pittsburgh PA,68,39,63,73,76,61,66,52,66,2012
+Ft. Wayne IN,61,42,57,73,47,51,62,56,62,2012
+Cleveland-Akron (Canton) OH,64,38,62,66,56,52,67,47,61,2012
+Washington DC (Hagerstown MD),60,33,50,57,54,59,60,48,58,2012
+Baltimore MD,67,50,61,69,64,66,61,64,69,2012
+Flint-Saginaw-Bay City MI,65,39,64,69,60,49,67,57,57,2012
+Buffalo NY,71,34,59,77,58,64,65,56,64,2012
+Cincinnati OH,62,38,55,70,53,60,60,52,63,2012
+Erie PA,68,30,65,84,69,58,68,64,63,2012
+Charlotte NC,59,29,55,58,59,46,62,41,56,2012
+Greensboro-High Point-Winston Salem NC,64,34,61,66,62,59,59,58,64,2012
+Charleston SC,65,37,74,68,54,55,62,52,64,2012
+Augusta GA,65,56,71,69,74,50,60,72,72,2012
+Providence RI-New Bedford MA,62,38,56,75,69,60,66,54,59,2012
+Columbus GA,62,58,59,70,58,60,60,75,64,2012
+Burlington VT-Plattsburgh NY,65,33,64,74,74,77,59,65,60,2012
+Atlanta GA,59,35,54,54,55,46,60,40,52,2012
+Albany GA,64,55,70,65,53,42,68,75,70,2012
+Utica NY,66,33,69,83,51,57,67,56,59,2012
+Indianapolis IN,65,41,63,74,59,60,65,60,73,2012
+Miami-Ft. Lauderdale FL,56,41,48,49,57,41,52,34,49,2012
+Louisville KY,65,48,65,67,85,57,69,51,66,2012
+Tallahassee FL-Thomasville GA,61,47,55,72,75,51,59,66,67,2012
+Tri-Cities TN-VA,72,54,68,75,67,58,67,47,68,2012
+Albany-Schenectady-Troy NY,67,30,57,70,57,64,68,54,60,2012
+Hartford & New Haven CT,69,38,60,75,81,68,59,56,62,2012
+Orlando-Daytona Beach-Melbourne FL,60,39,56,55,66,45,64,34,53,2012
+Columbus OH,65,29,56,65,57,52,69,48,59,2012
+Youngstown OH,69,47,55,85,67,51,70,63,61,2012
+Bangor ME,70,40,74,77,66,70,71,55,72,2012
+Rochester NY,68,40,58,71,48,66,62,57,60,2012
+Tampa-St. Petersburg (Sarasota) FL,66,48,62,58,77,51,59,41,59,2012
+Traverse City-Cadillac MI,60,27,65,76,56,62,59,56,63,2012
+Lexington KY,67,41,63,70,64,57,76,71,67,2012
+Dayton OH,62,35,57,66,53,54,63,64,65,2012
+Springfield-Holyoke MA,60,34,59,79,75,59,64,47,56,2012
+Norfolk-Portsmouth-Newport News VA,58,47,59,64,52,53,57,52,60,2012
+Greenville-New Bern-Washington NC,62,51,68,68,61,57,69,73,70,2012
+Columbia SC,64,53,62,68,53,58,62,77,72,2012
+Toledo OH,62,44,59,71,62,51,58,72,65,2012
+West Palm Beach-Ft. Pierce FL,64,41,62,56,76,50,55,36,56,2012
+Watertown NY,60,34,63,70,43,74,73,70,61,2012
+Wilmington NC,62,43,71,65,68,52,62,55,57,2012
+Lansing MI,59,53,62,72,75,60,57,62,60,2012
+Presque Isle ME,78,38,100,98,93,46,50,58,78,2012
+Marquette MI,62,51,80,84,61,70,64,44,52,2012
+Wheeling WV-Steubenville OH,77,23,72,82,75,61,100,38,56,2012
+Syracuse NY,64,37,61,76,51,68,61,81,60,2012
+Richmond-Petersburg VA,65,59,59,71,58,51,55,53,69,2012
+Knoxville TN,62,30,64,66,59,58,68,44,59,2012
+Lima OH,66,32,70,97,59,58,62,78,66,2012
+Bluefield-Beckley-Oak Hill WV,68,26,75,74,63,67,85,41,64,2012
+Raleigh-Durham (Fayetteville) NC,65,43,59,65,55,66,60,60,63,2012
+Jacksonville FL,62,59,63,62,89,53,60,53,67,2012
+Grand Rapids-Kalamazoo-Battle Creek MI,59,30,62,75,51,57,61,56,56,2012
+Charleston-Huntington WV,72,45,67,81,62,69,75,65,72,2012
+Elmira NY,69,22,54,73,54,59,73,57,57,2012
+Harrisburg-Lancaster-Lebanon-York PA,66,40,58,72,74,61,65,47,63,2012
+Greenville-Spartanburg SC-Asheville NC-Anderson SC,63,34,64,69,61,60,66,47,59,2012
+Harrisonburg VA,61,34,61,91,69,53,59,66,62,2012
+Florence-Myrtle Beach SC,63,25,58,69,56,37,55,51,60,2012
+Ft. Myers-Naples FL,66,42,70,57,62,49,58,34,52,2012
+Roanoke-Lynchburg VA,61,44,65,78,76,63,57,58,66,2012
+Johnstown-Altoona PA,65,51,60,89,53,57,66,85,61,2012
+Chattanooga TN,58,32,58,69,55,56,63,44,60,2012
+Salisbury MD,66,48,76,76,71,59,68,62,57,2012
+Wilkes Barre-Scranton PA,67,34,62,81,78,69,76,52,63,2012
+Terre Haute IN,58,45,75,85,51,49,68,71,69,2012
+Lafayette IN,61,40,48,68,35,57,62,69,57,2012
+Alpena MI,66,0,63,93,72,87,71,0,53,2012
+Charlottesville VA,69,62,66,76,60,62,70,60,61,2012
+South Bend-Elkhart IN,61,42,54,68,45,54,61,57,58,2012
+Gainesville FL,67,75,70,63,72,78,60,87,78,2012
+Zanesville OH,63,78,76,71,84,47,60,54,61,2012
+Parkersburg WV,71,33,60,73,52,63,73,46,61,2012
+Clarksburg-Weston WV,72,38,58,87,53,69,68,58,66,2012
+Corpus Christi TX,61,35,54,63,52,56,68,52,70,2012
+Chicago IL,58,28,54,58,61,45,64,38,52,2012
+Joplin MO-Pittsburg KS,58,34,58,79,57,55,62,65,67,2012
+Columbia-Jefferson City MO,67,57,67,76,64,63,60,85,66,2012
+Topeka KS,59,36,57,74,50,69,52,77,66,2012
+Dothan AL,54,26,65,56,55,41,71,28,52,2012
+St. Louis MO,62,31,57,63,65,52,65,41,57,2012
+Rockford IL,62,31,64,68,62,61,69,58,67,2012
+Rochester MN-Mason City IA-Austin MN,100,100,93,87,50,100,71,100,91,2012
+Shreveport LA,59,41,61,67,60,61,67,48,64,2012
+Minneapolis-St. Paul MN,56,34,59,64,50,56,62,46,57,2012
+Kansas City MO,61,42,59,67,58,52,62,46,61,2012
+Milwaukee WI,61,38,63,72,62,57,60,45,61,2012
+Houston TX,58,34,50,52,50,60,60,37,55,2012
+Springfield MO,61,35,66,74,60,61,71,48,65,2012
+New Orleans LA,59,41,64,56,60,49,75,38,57,2012
+Dallas-Ft. Worth TX,53,27,50,53,67,54,67,32,51,2012
+Sioux City IA,56,40,60,83,46,43,55,55,62,2012
+Waco-Temple-Bryan TX,50,45,55,68,49,77,70,59,57,2012
+Victoria TX,60,41,64,54,49,67,83,0,58,2012
+Wichita Falls TX & Lawton OK,52,37,54,63,86,53,75,50,58,2012
+Monroe LA-El Dorado AR,61,49,69,75,59,53,62,65,69,2012
+Birmingham AL,66,69,63,67,77,55,65,55,68,2012
+Ottumwa IA-Kirksville MO,63,35,68,91,34,53,53,80,75,2012
+Paducah KY-Cape Girardeau MO-Harrisburg-Mount Vernon IL,65,53,65,73,77,52,68,65,62,2012
+Odessa-Midland TX,54,23,57,60,50,56,78,28,68,2012
+Amarillo TX,55,31,56,69,50,68,66,29,69,2012
+Austin TX,53,28,51,57,64,61,64,39,56,2012
+Harlingen-Weslaco-Brownsville-McAllen TX,55,45,44,59,80,61,49,68,63,2012
+Cedar Rapids-Waterloo-Iowa City & Dubuque IA,63,37,59,71,56,62,63,68,64,2012
+St. Joseph MO,61,76,63,76,59,78,62,63,59,2012
+Jackson TN,61,78,65,74,64,61,64,41,70,2012
+Memphis TN,67,78,59,63,64,49,60,63,72,2012
+San Antonio TX,51,31,43,52,60,53,56,34,55,2012
+Lafayette LA,56,54,64,61,54,39,63,44,54,2012
+Lake Charles LA,56,40,71,67,63,56,82,52,57,2012
+Alexandria LA,58,29,61,82,59,44,55,64,55,2012
+Greenwood-Greenville MS,65,62,55,76,68,50,72,89,100,2012
+Champaign & Springfield-Decatur IL,64,52,63,77,51,60,59,77,63,2012
+Evansville IN,66,36,60,73,66,56,77,58,64,2012
+Oklahoma City OK,57,32,55,63,56,64,65,56,67,2012
+Lubbock TX,53,38,52,68,71,55,57,53,68,2012
+Omaha NE,62,32,58,63,65,53,66,50,62,2012
+Panama City FL,59,39,70,60,63,45,62,32,55,2012
+Sherman TX-Ada OK,59,39,64,75,63,68,63,42,63,2012
+Green Bay-Appleton WI,60,28,63,69,44,55,59,51,54,2012
+Nashville TN,66,45,63,67,68,63,68,54,65,2012
+San Angelo TX,54,34,58,60,100,69,85,60,65,2012
+Abilene-Sweetwater TX,58,27,57,59,71,44,50,35,58,2012
+Madison WI,59,24,65,63,51,62,66,44,55,2012
+Ft. Smith-Fayetteville-Springdale-Rogers AR,54,30,57,71,77,56,69,50,58,2012
+Tulsa OK,64,27,62,61,58,56,64,45,64,2012
+Columbus-Tupelo-West Point MS,60,50,70,74,78,63,67,76,77,2012
+Peoria-Bloomington IL,63,33,63,69,46,65,63,59,65,2012
+Duluth MN-Superior WI,61,46,83,90,53,71,66,58,75,2012
+Wichita-Hutchinson KS,58,38,59,67,50,53,61,47,56,2012
+Des Moines-Ames IA,59,28,56,74,54,61,57,51,59,2012
+Davenport IA-Rock Island-Moline IL,61,40,57,69,49,56,59,52,61,2012
+Mobile AL-Pensacola (Ft. Walton Beach) FL,63,40,65,62,58,52,65,45,61,2012
+Minot-Bismarck-Dickinson(Williston) ND,57,24,69,62,33,53,64,38,61,2012
+Huntsville-Decatur (Florence) AL,65,36,60,64,68,54,67,44,63,2012
+Beaumont-Port Arthur TX,60,51,61,59,50,52,68,41,57,2012
+Little Rock-Pine Bluff AR,65,46,68,75,83,58,67,59,72,2012
+Montgomery (Selma) AL,64,72,63,69,78,49,61,54,67,2012
+La Crosse-Eau Claire WI,56,43,77,80,44,68,67,79,60,2012
+Wausau-Rhinelander WI,61,70,66,77,55,72,59,71,61,2012
+Tyler-Longview(Lufkin & Nacogdoches) TX,57,52,62,70,60,62,61,48,60,2012
+Hattiesburg-Laurel MS,61,35,61,67,68,44,82,40,61,2012
+Meridian MS,65,54,60,92,49,34,75,87,85,2012
+Baton Rouge LA,59,50,61,58,69,48,66,59,60,2012
+Quincy IL-Hannibal MO-Keokuk IA,66,55,69,100,51,63,64,95,69,2012
+Jackson MS,68,59,63,73,90,46,69,68,75,2012
+Lincoln & Hastings-Kearney NE,59,32,55,71,49,55,65,68,62,2012
+Fargo-Valley City ND,61,50,65,80,45,61,61,53,72,2012
+Sioux Falls(Mitchell) SD,69,58,66,75,46,66,66,69,77,2012
+Jonesboro AR,70,33,71,91,81,47,56,60,66,2012
+Bowling Green KY,60,19,66,62,79,49,65,71,58,2012
+Mankato MN,57,53,61,85,33,55,51,88,72,2012
+North Platte NE,54,32,56,90,45,50,54,0,70,2012
+Anchorage AK,48,22,64,58,33,60,54,46,58,2012
+Honolulu HI,52,26,59,56,44,49,59,65,59,2012
+Fairbanks AK,45,18,56,65,23,51,60,55,57,2012
+Biloxi-Gulfport MS,63,38,79,66,62,55,62,43,65,2012
+Juneau AK,54,0,81,65,28,70,42,0,66,2012
+Laredo TX,52,55,30,59,44,60,55,50,63,2012
+Denver CO,53,29,54,59,54,52,62,47,49,2012
+Colorado Springs-Pueblo CO,52,32,55,74,56,51,66,53,56,2012
+Phoenix AZ,59,44,57,62,63,53,64,46,60,2012
+Butte-Bozeman MT,51,22,60,60,52,65,62,60,55,2012
+Great Falls MT,57,34,62,69,41,73,62,68,61,2012
+"Billings, MT",58,35,59,69,61,62,56,47,65,2012
+Boise ID,52,29,59,68,80,60,57,55,64,2012
+Idaho Falls-Pocatello ID,48,34,74,86,51,56,72,71,68,2012
+Cheyenne WY-Scottsbluff NE,53,39,65,72,50,58,52,74,69,2012
+Twin Falls ID,51,32,64,69,44,56,54,67,49,2012
+Missoula MT,56,35,68,71,57,74,55,47,65,2012
+Rapid City SD,55,39,68,81,48,57,70,67,59,2012
+El Paso TX,55,44,40,69,43,71,60,64,69,2012
+Helena MT,62,28,59,72,72,85,62,73,71,2012
+Casper-Riverton WY,54,33,79,79,33,57,80,32,58,2012
+Salt Lake City UT,51,34,57,68,62,48,59,54,60,2012
+Yuma AZ-El Centro CA,53,19,44,72,44,43,56,60,58,2012
+Grand Junction-Montrose CO,64,22,73,75,41,51,64,58,59,2012
+Tucson (Sierra Vista) AZ,60,35,61,68,45,58,60,54,66,2012
+Albuquerque-Santa Fe NM,60,30,56,67,51,67,59,53,70,2012
+Glendive MT,62,0,0,0,0,0,0,0,0,2012
+Bakersfield CA,53,35,52,62,38,46,60,50,51,2012
+Eugene OR,53,33,59,72,46,59,53,65,60,2012
+Eureka CA,54,26,61,84,51,49,54,42,57,2012
+Los Angeles CA,53,26,50,56,47,42,58,40,50,2012
+Palm Springs CA,59,24,66,57,53,45,64,36,56,2012
+San Francisco-Oakland-San Jose CA,53,30,51,55,40,50,52,38,51,2012
+Yakima-Pasco-Richland-Kennewick WA,55,31,57,67,54,65,58,49,67,2012
+Reno NV,58,31,61,68,46,54,61,50,59,2012
+Medford-Klamath Falls OR,57,29,67,66,43,60,48,45,58,2012
+Seattle-Tacoma WA,53,22,54,61,51,65,60,36,52,2012
+Portland OR,53,30,57,64,48,60,56,49,58,2012
+Bend OR,60,38,69,67,41,76,51,52,52,2012
+San Diego CA,56,41,51,57,50,50,58,46,58,2012
+Monterey-Salinas CA,52,25,58,64,39,51,48,54,50,2012
+Las Vegas NV,55,44,50,55,57,46,57,36,52,2012
+Santa Barbara-Santa Maria-San Luis Obispo CA,53,25,54,67,40,50,56,57,51,2012
+Sacramento-Stockton-Modesto CA,56,29,56,61,49,49,60,51,60,2012
+Fresno-Visalia CA,49,30,48,59,47,36,52,49,48,2012
+Chico-Redding CA,56,32,62,65,67,49,61,53,65,2012
+Spokane WA,57,37,65,73,51,68,57,61,63,2012

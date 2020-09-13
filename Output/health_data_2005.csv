@@ -1,0 +1,211 @@
+City & State,cancer,cardiovascular,stroke,depression,rehab,vaccine,diarrhea,obesity,diabetes,year
+Portland-Auburn ME,70,16,38,11,27,36,26,14,23,2005
+New York NY,63,15,35,10,22,29,23,15,19,2005
+Binghamton NY,62,8,44,13,25,21,23,24,18,2005
+Macon GA,55,25,48,10,29,33,22,23,22,2005
+Philadelphia PA,73,17,39,12,32,33,24,18,23,2005
+Detroit MI,66,14,43,11,20,27,22,18,20,2005
+Boston MA-Manchester NH,69,16,41,11,36,31,25,15,22,2005
+Savannah GA,61,11,50,10,29,17,22,18,25,2005
+Pittsburgh PA,74,17,49,13,27,30,17,20,26,2005
+Ft. Wayne IN,60,13,43,10,20,32,24,25,20,2005
+Cleveland-Akron (Canton) OH,64,15,44,12,22,22,21,15,21,2005
+Washington DC (Hagerstown MD),66,15,36,9,21,42,24,17,21,2005
+Baltimore MD,69,23,43,11,28,35,24,19,22,2005
+Flint-Saginaw-Bay City MI,64,12,41,12,19,25,19,23,19,2005
+Buffalo NY,73,12,38,12,24,25,21,25,22,2005
+Cincinnati OH,64,13,41,11,25,27,18,19,22,2005
+Erie PA,73,14,48,16,20,34,33,30,29,2005
+Charlotte NC,58,16,41,10,23,24,29,19,20,2005
+Greensboro-High Point-Winston Salem NC,66,16,54,11,26,27,33,24,27,2005
+Charleston SC,74,19,45,9,35,31,20,24,27,2005
+Augusta GA,67,21,58,12,42,23,19,21,24,2005
+Providence RI-New Bedford MA,63,11,45,12,24,30,26,19,21,2005
+Columbus GA,56,34,43,15,30,36,24,21,29,2005
+Burlington VT-Plattsburgh NY,74,14,45,13,30,31,26,30,24,2005
+Atlanta GA,63,17,37,9,28,28,22,16,21,2005
+Albany GA,69,20,28,14,28,29,9,17,20,2005
+Utica NY,64,42,37,10,20,39,23,29,20,2005
+Indianapolis IN,70,18,48,13,22,27,28,25,29,2005
+Miami-Ft. Lauderdale FL,54,15,36,8,22,23,21,13,18,2005
+Louisville KY,71,21,48,10,36,27,20,20,28,2005
+Tallahassee FL-Thomasville GA,65,20,52,11,30,35,18,14,25,2005
+Tri-Cities TN-VA,61,15,47,13,20,23,34,18,26,2005
+Albany-Schenectady-Troy NY,67,13,53,13,26,27,26,18,21,2005
+Hartford & New Haven CT,69,13,45,13,29,35,28,22,24,2005
+Orlando-Daytona Beach-Melbourne FL,56,13,44,9,24,17,23,14,18,2005
+Columbus OH,66,14,39,12,24,29,30,17,22,2005
+Youngstown OH,58,11,33,17,25,17,11,18,32,2005
+Bangor ME,77,26,48,19,26,46,25,46,23,2005
+Rochester NY,64,13,46,11,18,30,25,19,22,2005
+Tampa-St. Petersburg (Sarasota) FL,69,14,45,9,31,24,25,11,19,2005
+Traverse City-Cadillac MI,63,15,50,17,7,37,21,28,19,2005
+Lexington KY,84,26,44,18,25,32,13,56,29,2005
+Dayton OH,60,12,42,11,23,19,27,22,24,2005
+Springfield-Holyoke MA,65,10,41,12,28,32,17,19,21,2005
+Norfolk-Portsmouth-Newport News VA,53,14,41,9,25,20,18,17,19,2005
+Greenville-New Bern-Washington NC,67,18,45,11,20,29,32,35,32,2005
+Columbia SC,65,19,36,12,31,22,22,25,29,2005
+Toledo OH,65,18,42,13,25,20,29,33,26,2005
+West Palm Beach-Ft. Pierce FL,62,15,35,11,30,20,18,8,18,2005
+Watertown NY,63,0,50,9,14,53,62,11,26,2005
+Wilmington NC,69,12,47,12,36,44,37,25,23,2005
+Lansing MI,75,28,37,14,27,44,23,33,24,2005
+Presque Isle ME,77,59,95,14,51,54,0,28,22,2005
+Marquette MI,58,12,38,13,20,39,25,22,21,2005
+Wheeling WV-Steubenville OH,71,35,67,16,26,16,24,13,19,2005
+Syracuse NY,71,19,40,14,24,33,23,26,22,2005
+Richmond-Petersburg VA,66,15,37,10,21,23,20,20,23,2005
+Knoxville TN,61,11,29,11,22,29,31,15,21,2005
+Lima OH,53,18,60,11,38,42,25,13,19,2005
+Bluefield-Beckley-Oak Hill WV,100,78,63,12,23,24,0,51,25,2005
+Raleigh-Durham (Fayetteville) NC,74,16,45,10,26,41,34,22,24,2005
+Jacksonville FL,57,12,50,9,31,15,16,16,22,2005
+Grand Rapids-Kalamazoo-Battle Creek MI,63,11,45,13,26,24,23,24,22,2005
+Charleston-Huntington WV,69,15,59,12,30,17,36,24,27,2005
+Elmira NY,66,18,73,10,11,33,49,13,26,2005
+Harrisburg-Lancaster-Lebanon-York PA,67,17,43,13,34,29,26,20,22,2005
+Greenville-Spartanburg SC-Asheville NC-Anderson SC,63,10,38,11,28,22,24,17,21,2005
+Harrisonburg VA,75,11,43,16,26,35,17,36,22,2005
+Florence-Myrtle Beach SC,66,31,44,13,30,33,26,17,23,2005
+Ft. Myers-Naples FL,71,12,41,9,23,20,14,13,23,2005
+Roanoke-Lynchburg VA,62,9,34,12,22,30,21,20,19,2005
+Johnstown-Altoona PA,65,17,45,12,22,22,23,34,22,2005
+Chattanooga TN,57,16,54,11,23,26,22,18,22,2005
+Salisbury MD,69,18,55,8,19,23,31,16,24,2005
+Wilkes Barre-Scranton PA,64,20,50,15,23,38,32,29,21,2005
+Terre Haute IN,62,21,39,11,32,28,18,18,20,2005
+Lafayette IN,72,35,40,9,11,46,17,38,14,2005
+Alpena MI,43,0,0,100,0,0,0,0,100,2005
+Charlottesville VA,63,17,45,11,18,29,31,16,22,2005
+South Bend-Elkhart IN,59,12,45,12,19,26,22,14,17,2005
+Gainesville FL,78,34,53,11,37,37,38,28,29,2005
+Zanesville OH,68,48,32,4,21,22,0,23,21,2005
+Parkersburg WV,63,0,55,14,39,0,0,100,31,2005
+Clarksburg-Weston WV,76,0,64,9,22,23,25,18,23,2005
+Corpus Christi TX,56,15,47,11,30,23,21,27,24,2005
+Chicago IL,64,15,39,11,24,24,24,16,21,2005
+Joplin MO-Pittsburg KS,48,12,60,8,22,22,33,24,15,2005
+Columbia-Jefferson City MO,76,27,43,17,26,29,46,38,27,2005
+Topeka KS,59,12,25,10,21,19,17,26,22,2005
+Dothan AL,64,26,88,11,15,31,57,13,17,2005
+St. Louis MO,64,12,46,11,28,26,27,17,23,2005
+Rockford IL,58,17,49,13,15,18,0,29,18,2005
+Rochester MN-Mason City IA-Austin MN,98,46,68,18,21,40,40,32,31,2005
+Shreveport LA,52,15,30,9,30,31,25,13,20,2005
+Minneapolis-St. Paul MN,64,15,46,12,19,27,21,21,22,2005
+Kansas City MO,66,18,51,10,24,26,28,19,23,2005
+Milwaukee WI,65,17,44,12,22,25,28,17,23,2005
+Houston TX,68,17,45,9,21,26,26,16,21,2005
+Springfield MO,59,15,39,13,19,19,17,22,20,2005
+New Orleans LA,57,23,43,10,25,28,16,17,20,2005
+Dallas-Ft. Worth TX,57,15,41,9,27,25,24,13,21,2005
+Sioux City IA,55,15,45,16,29,21,31,28,24,2005
+Waco-Temple-Bryan TX,54,15,37,12,15,32,22,19,21,2005
+Victoria TX,70,0,68,14,100,76,0,0,26,2005
+Wichita Falls TX & Lawton OK,61,55,51,8,42,30,37,27,20,2005
+Monroe LA-El Dorado AR,84,28,32,18,25,31,0,21,34,2005
+Birmingham AL,71,21,54,11,34,24,29,22,26,2005
+Ottumwa IA-Kirksville MO,63,38,62,10,26,27,43,37,35,2005
+Paducah KY-Cape Girardeau MO-Harrisburg-Mount Vernon IL,68,27,40,16,31,23,18,25,27,2005
+Odessa-Midland TX,49,0,45,16,0,25,37,24,27,2005
+Amarillo TX,49,17,37,11,31,53,17,15,33,2005
+Austin TX,53,15,35,10,24,28,30,15,19,2005
+Harlingen-Weslaco-Brownsville-McAllen TX,50,25,30,12,27,20,27,29,30,2005
+Cedar Rapids-Waterloo-Iowa City & Dubuque IA,76,23,45,13,18,33,25,32,23,2005
+St. Joseph MO,57,69,31,10,17,29,25,28,19,2005
+Jackson TN,56,17,35,12,27,15,23,16,16,2005
+Memphis TN,67,20,38,9,29,25,32,21,27,2005
+San Antonio TX,60,12,34,8,28,28,28,14,25,2005
+Lafayette LA,43,19,37,11,17,17,19,14,14,2005
+Lake Charles LA,43,81,100,9,0,74,0,0,36,2005
+Alexandria LA,53,0,57,11,0,49,72,26,20,2005
+Greenwood-Greenville MS,74,100,81,9,0,90,0,73,44,2005
+Champaign & Springfield-Decatur IL,71,19,47,14,17,33,30,26,26,2005
+Evansville IN,61,22,41,12,37,22,21,23,26,2005
+Oklahoma City OK,60,16,41,10,24,29,31,16,24,2005
+Lubbock TX,53,13,40,14,29,40,21,22,22,2005
+Omaha NE,63,15,47,11,27,31,23,21,25,2005
+Panama City FL,48,14,56,6,15,15,29,4,15,2005
+Sherman TX-Ada OK,55,24,38,14,58,27,0,26,21,2005
+Green Bay-Appleton WI,56,7,40,14,18,24,17,17,18,2005
+Nashville TN,64,16,44,11,27,33,30,25,26,2005
+San Angelo TX,68,21,45,7,25,57,56,25,26,2005
+Abilene-Sweetwater TX,51,29,36,10,57,23,30,29,21,2005
+Madison WI,69,11,45,12,18,34,23,14,20,2005
+Ft. Smith-Fayetteville-Springdale-Rogers AR,62,11,41,12,21,25,19,27,23,2005
+Tulsa OK,57,10,41,9,34,25,20,16,24,2005
+Columbus-Tupelo-West Point MS,72,19,28,9,10,27,31,31,19,2005
+Peoria-Bloomington IL,69,17,54,17,18,32,14,28,24,2005
+Duluth MN-Superior WI,66,12,40,15,20,28,28,31,21,2005
+Wichita-Hutchinson KS,60,12,49,13,21,32,23,23,21,2005
+Des Moines-Ames IA,65,8,43,11,19,28,20,17,23,2005
+Davenport IA-Rock Island-Moline IL,63,14,48,14,24,26,37,20,25,2005
+Mobile AL-Pensacola (Ft. Walton Beach) FL,54,15,50,10,29,24,28,9,19,2005
+Minot-Bismarck-Dickinson(Williston) ND,64,23,45,15,15,32,43,26,25,2005
+Huntsville-Decatur (Florence) AL,60,14,46,9,26,26,11,16,23,2005
+Beaumont-Port Arthur TX,52,17,39,12,20,31,28,8,28,2005
+Little Rock-Pine Bluff AR,69,19,41,13,25,21,16,17,23,2005
+Montgomery (Selma) AL,66,19,47,9,29,27,29,22,23,2005
+La Crosse-Eau Claire WI,65,18,45,15,20,31,21,26,20,2005
+Wausau-Rhinelander WI,73,16,44,15,30,33,17,28,27,2005
+Tyler-Longview(Lufkin & Nacogdoches) TX,64,27,44,9,29,50,33,28,27,2005
+Hattiesburg-Laurel MS,63,81,44,15,41,29,31,11,29,2005
+Meridian MS,76,74,78,15,0,100,100,35,32,2005
+Baton Rouge LA,61,15,39,11,31,26,19,18,19,2005
+Quincy IL-Hannibal MO-Keokuk IA,64,20,35,25,14,44,32,35,24,2005
+Jackson MS,70,25,53,15,27,22,26,22,29,2005
+Lincoln & Hastings-Kearney NE,71,19,47,16,24,30,42,27,24,2005
+Fargo-Valley City ND,77,19,48,14,20,35,14,24,27,2005
+Sioux Falls(Mitchell) SD,64,22,35,17,22,34,27,28,23,2005
+Jonesboro AR,60,25,40,15,44,34,34,30,33,2005
+Bowling Green KY,63,28,46,17,20,17,45,35,20,2005
+Mankato MN,87,18,47,14,5,36,37,25,24,2005
+North Platte NE,78,73,60,13,44,0,0,0,21,2005
+Anchorage AK,57,6,47,11,13,27,24,16,23,2005
+Honolulu HI,55,8,46,9,19,19,19,21,20,2005
+Fairbanks AK,51,21,59,12,12,41,28,13,25,2005
+Biloxi-Gulfport MS,49,13,40,10,15,27,40,15,16,2005
+Juneau AK,66,0,32,10,25,31,23,0,22,2005
+Laredo TX,50,0,21,6,0,23,34,12,34,2005
+Denver CO,59,13,43,10,21,30,27,15,19,2005
+Colorado Springs-Pueblo CO,49,11,41,9,17,25,12,18,17,2005
+Phoenix AZ,57,12,40,10,23,24,22,16,21,2005
+Butte-Bozeman MT,62,19,49,12,17,44,58,30,21,2005
+Great Falls MT,69,22,40,23,19,45,22,12,23,2005
+"Billings, MT",59,27,68,24,33,19,37,29,28,2005
+Boise ID,52,8,39,14,33,25,26,22,21,2005
+Idaho Falls-Pocatello ID,57,16,46,9,19,20,22,28,18,2005
+Cheyenne WY-Scottsbluff NE,65,15,52,13,22,28,23,22,20,2005
+Twin Falls ID,57,27,50,10,32,24,36,32,22,2005
+Missoula MT,74,14,48,16,13,43,41,19,29,2005
+Rapid City SD,71,12,32,15,24,34,37,13,29,2005
+El Paso TX,51,17,34,11,16,21,18,26,35,2005
+Helena MT,55,15,52,11,22,32,30,14,21,2005
+Casper-Riverton WY,62,18,40,9,32,45,24,27,23,2005
+Salt Lake City UT,55,11,40,12,22,22,16,23,22,2005
+Yuma AZ-El Centro CA,40,25,21,14,15,58,0,18,27,2005
+Grand Junction-Montrose CO,52,0,65,15,22,23,37,14,25,2005
+Tucson (Sierra Vista) AZ,64,9,44,9,16,35,20,18,24,2005
+Albuquerque-Santa Fe NM,63,8,48,11,22,29,31,14,29,2005
+Glendive MT,70,0,0,0,0,0,0,0,0,2005
+Bakersfield CA,50,11,50,12,20,18,19,25,20,2005
+Eugene OR,64,26,46,15,26,23,17,28,22,2005
+Eureka CA,53,13,36,15,16,33,18,20,14,2005
+Los Angeles CA,54,11,35,9,20,21,19,16,18,2005
+Palm Springs CA,61,10,44,9,21,24,26,21,19,2005
+San Francisco-Oakland-San Jose CA,57,12,39,9,16,29,24,15,18,2005
+Yakima-Pasco-Richland-Kennewick WA,66,15,46,11,20,28,25,10,23,2005
+Reno NV,56,6,46,10,18,22,16,18,19,2005
+Medford-Klamath Falls OR,61,11,51,12,16,23,23,20,23,2005
+Seattle-Tacoma WA,60,11,39,10,19,27,22,16,20,2005
+Portland OR,56,14,42,10,21,25,21,18,20,2005
+Bend OR,59,17,37,10,33,35,28,19,18,2005
+San Diego CA,60,12,35,8,18,27,26,15,20,2005
+Monterey-Salinas CA,51,12,45,10,19,35,14,17,20,2005
+Las Vegas NV,52,10,35,7,24,20,23,10,18,2005
+Santa Barbara-Santa Maria-San Luis Obispo CA,55,10,31,10,16,23,23,15,15,2005
+Sacramento-Stockton-Modesto CA,60,13,45,10,18,29,20,19,23,2005
+Fresno-Visalia CA,54,17,35,13,21,17,27,24,21,2005
+Chico-Redding CA,45,10,45,11,18,13,27,38,19,2005
+Spokane WA,54,16,47,14,22,26,31,24,19,2005
