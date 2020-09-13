@@ -6,16 +6,16 @@ Research Question
 How does search interest for top health issues change over time? 
 
 ## Data sources
-• Kaggle: Health searches by US Metropolitan Area, 2005-2017
+* Kaggle: Health searches by US Metropolitan Area, 2005-2017
    - https://www.kaggle.com/GoogleNewsLab/health-searches-us-county
 ## Data cleaning 
-•	Python Jupyter Notebook:
+* Python Jupyter Notebook:
 ## Analysis 
-•	Health Search Volume by Year
-•	Health Search Volume by Year and Condition
-•	Health search Volume by State and Region
-•	Health search volume by year and region 
-•	Correlation Between Health Conditions
+* Health Search Volume by Year
+* Health Search Volume by Year and Condition
+* Health search Volume by State and Region
+* Health search volume by year and region 
+* Correlation Between Health Conditions
 ## Team members
 
 
