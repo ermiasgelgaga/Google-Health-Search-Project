@@ -1,6 +1,4 @@
-# Google-Health-Search-Project proposal
-
-## Project Title: Google Health Search Trends by US Metropolitan Area, 2005 – 2017
+## Google Health Search Trends by US Metropolitan Area, 2005 – 2017
 
 ## Project Goal
 Google Trends data allows us to see what people are searching for at a very local level. The goal of this project is to track, and visualize the top searches for common health issues in the United States, from Cancer to Diabetes, and compares them with the actual location of occurrences for those same health conditions to understand how search data reflects life for millions of Americans.
