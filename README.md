@@ -5,7 +5,7 @@ Google Trends data allows us to see what people are searching for at a very loca
 Research Question
 How does search interest for top health issues change over time? 
 
-## Data sources
+## Data source
 * Kaggle: Health searches by US Metropolitan Area, 2005-2017
    - https://www.kaggle.com/GoogleNewsLab/health-searches-us-county
 ## Data cleaning 
