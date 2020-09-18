@@ -1,5 +1,5 @@
 ## Google Health Search Trends by US Metropolitan Area, 2005 – 2017
-<img src="Image/google-medic-update-1533729137.gif" height="500" width="900" />
+<img src="/img/google-medic-update-1533729137.gif" height="500" width="900" />
 
 ## Project Goal
 Google Trends data allows us to see what people are searching for at a very local level. The goal of this project is to track, and visualize the top searches for common health issues in the United States, from Cancer to Diabetes, and compares them with the actual location of occurrences for those same health conditions to understand how search data reflects life for millions of Americans.
