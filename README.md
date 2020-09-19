@@ -17,6 +17,8 @@ How does search interest for top health issues change over time?
 * Health search Volume by State and Region
 * Health search volume by year and region 
 * Correlation Between Health Conditions
+
+![Architectural Diagram](img/architectural_diagram.png)
 ## Team members
 
 
