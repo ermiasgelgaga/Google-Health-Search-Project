@@ -11,6 +11,10 @@ How does search interest for top health issues change over time?
    - https://www.kaggle.com/GoogleNewsLab/health-searches-us-county
 ## Data cleaning 
 * Python Jupyter Notebook:
+
+## Architectural Diagram
+![Architectural Diagram](img/architectural_diagram.png)
+
 ## Analysis 
 * Health Search Volume by Year
 * Health Search Volume by Year and Condition
@@ -18,7 +22,12 @@ How does search interest for top health issues change over time?
 * Health search volume by year and region 
 * Correlation Between Health Conditions
 
-![Architectural Diagram](img/architectural_diagram.png)
-## Team members
+
+## Team members:
+ - Adedamola Atekoja (‘Damola)
+ - Amanda Qianyue Ma
+ - Amos Johnson  
+ - Ermias Gaga 
+ - Maria Lorena Nunez
 
 
