@@ -29,7 +29,7 @@ The possible visualization & comparisons to be made include the following:
 * Correlation Between Health Conditions
 * Correlation Between Health Conditions versus the Actual People dying through the years 
 
-## Team members
+## Team members (Team Eagle)
 * Adedamola Atekoja (‘Damola)
 * Amanda Qianyue Ma
 * Amos Johnson
