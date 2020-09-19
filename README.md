@@ -1,4 +1,4 @@
-## Google Health Search Trends by US Metropolitan Area, 2005 – 2017
+## Google Health Search Trends by US Metropolitan Area, 2004 – 2017
 <img src="/img/google-medic-update-1533729137.gif" height="500" width="900" />
 
 ## Project Goal
@@ -8,10 +8,10 @@ Google Trends data allows us to see what people are searching for at a very loca
 How have the most searched diseases changed over the years in the US?
 
 ## Data sources
-* Kaggle: Health searches by US Metropolitan Area, 2005-2017
+* Kaggle: Health searches by US Metropolitan Area, 2004-2017
    - https://www.kaggle.com/GoogleNewsLab/health-searches-us-county
    
-* CDC Data: 10 leading causes of death per 100,000 population from 2005-2017 
+* CDC Data: 10 leading causes of death per 100,000 population from 2004-2017 
    - https://www.cdc.gov/nchs/fastats/deaths.htm
    
 ## Data Architectural diagram 
