@@ -31,7 +31,7 @@ CREATE TABLE "search_condition" (
      )
 );
 
-	CREATE TABLE "leading_causes_of_death" (
+CREATE TABLE "leading_causes_of_death" (
     "Diseases_of_heart" VARCHAR,
     "Malignant_neoplasms" VARCHAR,
     "Accidents" VARCHAR,
@@ -45,19 +45,12 @@ CREATE TABLE "search_condition" (
     "year" VARCHAR
 );
 
+
 ALTER TABLE "search_condition" ADD CONSTRAINT "fk_search_condition_location_id" FOREIGN KEY("location_id")
 REFERENCES "location" ("location_id");
 
-ALTER TABLE "leading_causes_of_death" ADD CONSTRAINT "fk_leading_causes_year" FOREIGN KEY("year")
+ALTER TABLE "leading_causes_of_death" ADD CONSTRAINT "fk_leading_causes_of_death" FOREIGN KEY("year")
 REFERENCES "search_condition" ("year");
 
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+
+
