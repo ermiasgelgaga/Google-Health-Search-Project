@@ -93,7 +93,7 @@ function optionCompareChangedOne(select) {
 function optionCompareChangedTwo(select) {
     //Giving select a variable name
     var sel = select
-    // Importing data from portionsandweights
+        // Importing data from portionsandweights
     d3.json("/portionsandweights").then((importData) => {
 
         // Searching food names through json
