@@ -429,7 +429,7 @@ var Vaccine = {
 var data = [Cancer, Cardiovascular, Depression, Diabetes, Diarrhea, Obesity, Rehab, Vaccine];
 
 var layout = {
-    title: 'Boxplot of Health Google Search 2004-2016'
+    title: 'Boxplot '
 };
 
 Plotly.newPlot('boxDiv', data, layout);

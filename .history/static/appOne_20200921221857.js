@@ -306,132 +306,73 @@ var layout = {
 };
 Plotly.newPlot('myDiv', data, layout);
 // box plot
-var Cancer = {
-    y: [27660, 39633, 31005, 39609, 40311, 36543, 39438, 36807, 38241, 40284, 45633, 40734, 40911, 40767],
-    type: 'box',
-    name: 'Cancer',
-    boxpoints: 'all',
 
-    marker: {
-        color: 'rgba(255, 144, 14, 0.5)',
-        size: 3
+var xData = ['Cancer', 'Cardiovascular','Depression','Diabetes', 'Diarrhea','Obesity', 'Rehab',
+    'Stroke', 'Vaccine'];
+
+function getrandom(num, mul) {
+    var value = [];
+    for (i = 0; i <= num; i++) {
+        var rand = Math.random() * mul;
+        value.push(rand);
+    }
+    return value;
+}
+
+var yData = [[27660, 39633, 31005, 39609, 40311, 36543, 39438, 36807, 38241, 40284, 45633, 40734, 40911, 40767],
+[4683, 11763, 13581, 20145, 13533, 13536, 28038, 24159, 24438, 22764, 25863, 28716, 28809, 22632],
+[28743, 7713, 15204, 24537, 20166, 13464, 17589, 37254, 43716, 43452, 39906, 41412, 38292, 39582],
+[23967, 14640, 24774, 34416, 28755, 38538, 25563, 42612, 38934, 43170, 44898, 45333, 49029, 48705],
+[10257, 15606, 26301, 12780, 32454, 34662, 18264, 39699, 39510, 43224, 43062, 43770, 45660, 45816],
+[21585, 13557, 18189, 22179, 17907, 27450, 21165, 24246, 33957, 34230, 29505, 36432, 32610, 32610],
+[11901, 15009, 19371, 21711, 36132, 26709, 35544, 39288, 36729, 33288, 37551, 35301, 32043, 33345],
+[11115, 28110, 15447, 34833, 38184, 34800, 26919, 37455, 38514, 42690, 38601, 35856, 40044, 44628],
+[20460, 18486, 24036, 25785, 15186, 22332, 28605, 36507, 35901, 39456, 38865, 39303, 39681, 45864]];
+var colors = ['rgba(93, 164, 214, 0.5)', 'rgba(255, 144, 14, 0.5)', 'rgba(44, 160, 101, 0.5)', 'rgba(255, 65, 54, 0.5)', 'rgba(207, 114, 255, 0.5)', 'rgba(127, 96, 0, 0.5)', 'rgba(255, 140, 184, 0.5)', 'rgba(79, 90, 117, 0.5)', 'rgba(222, 223, 0, 0.5)'];
+
+var data = [];
+
+for (var i = 0; i < xData.length; i++) {
+    var result = {
+        type: 'box',
+        y: yData[i],
+        name: xData[i],
+        boxpoints: 'all',
+        jitter: 0.5,
+        whiskerwidth: 0.2,
+        fillcolor: 'cls',
+        marker: {
+            size: 2
+        },
+        line: {
+            width: 1
+        }
+    };
+    data.push(result);
+};
+
+layout = {
+    title: 'Points Scored by the Top 9 Scoring NBA Players in 2012',
+    yaxis: {
+        autorange: true,
+        showgrid: true,
+        zeroline: true,
+        dtick: 5,
+        gridcolor: 'rgb(255, 255, 255)',
+        gridwidth: 1,
+        zerolinecolor: 'rgb(255, 255, 255)',
+        zerolinewidth: 2
     },
-    line: {
-        width: 1
+    margin: {
+        l: 40,
+        r: 30,
+        b: 80,
+        t: 100
     },
-};
-
-
-var Cardiovascular = {
-    y: [4683, 11763, 13581, 20145, 13533, 13536, 28038, 24159, 24438, 22764, 25863, 28716, 28809, 22632],
-    type: 'box',
-    name: 'Cardiovascular',
-    boxpoints: 'all',
-    marker: {
-        color: 'rgba(44, 160, 101, 0.5)',
-        size: 3,
-        line: {
-            width: 1
-        },
-    }
-};
-var Depression = {
-    y: [28743, 7713, 15204, 24537, 20166, 13464, 17589, 37254, 43716, 43452, 39906, 41412, 38292, 39582],
-    type: 'box',
-    name: 'Depression',
-    boxpoints: 'all',
-    marker: {
-        color: 'rgba(255, 65, 54, 0.5)',
-        size: 3,
-        line: {
-            width: 1
-        },
-    }
-};
-var Diabetes = {
-    y: [23967, 14640, 24774, 34416, 28755, 38538, 25563, 42612, 38934, 43170, 44898, 45333, 49029, 48705],
-    type: 'box',
-    name: 'Diabetes',
-    boxpoints: 'all',
-    marker: {
-        color: 'rgba(207, 114, 255, 0.5)',
-        size: 3,
-        line: {
-            width: 1
-        },
-    }
-};
-var Diarrhea = {
-    y: [10257, 15606, 26301, 12780, 32454, 34662, 18264, 39699, 39510, 43224, 43062, 43770, 45660, 45816],
-    type: 'box',
-    name: 'Diarrhea',
-    boxpoints: 'all',
-    marker: {
-        color: 'rgba(127, 96, 0, 0.5)',
-        size: 3,
-        line: {
-            width: 1
-        },
-    }
-};
-
-var Obesity = {
-    y: [21585, 13557, 18189, 22179, 17907, 27450, 21165, 24246, 33957, 34230, 29505, 36432, 32610, 32610],
-    type: 'box',
-    name: 'Obesity',
-    boxpoints: 'all',
-    marker: {
-        color: 'rgba(255, 140, 184, 0.5)',
-        size: 3,
-        line: {
-            width: 1
-        },
-    }
-};
-var Rehab = {
-    y: [11901, 15009, 19371, 21711, 36132, 26709, 35544, 39288, 36729, 33288, 37551, 35301, 32043, 33345],
-    type: 'box',
-    name: 'Rehab',
-    boxpoints: 'all',
-    marker: {
-        color: 'rgba(79, 90, 117, 0.5)',
-        size: 3,
-        line: {
-            width: 1
-        },
-    }
-};
-
-var Stroke = {
-    y: [11115, 28110, 15447, 34833, 38184, 34800, 26919, 37455, 38514, 42690, 38601, 35856, 40044, 44628],
-    type: 'box',
-    name: 'Stroke',
-    boxpoints: 'all',
-    marker: {
-        color: 'rgba(222, 223, 0, 0.5)',
-        size: 3,
-        line: {
-            width: 1
-        },
-    }
-};
-var Vaccine = {
-    y: [20460, 18486, 24036, 25785, 15186, 22332, 28605, 36507, 35901, 39456, 38865, 39303, 39681, 45864],
-    type: 'box',
-    name: 'Vaccine',
-    boxpoints: 'all',
-    marker: {
-        color: 'rgba(222, 223, 0, 0.5)',
-        size: 3
-    }
-};
-
-var data = [Cancer, Cardiovascular, Depression, Diabetes, Diarrhea, Obesity, Rehab, Vaccine];
-
-var layout = {
-    title: 'Boxplot of Health Google Search 2004-2016'
+    paper_bgcolor: 'rgb(243, 243, 243)',
+    plot_bgcolor: 'rgb(243, 243, 243)',
+    showlegend: false
 };
 
 Plotly.newPlot('boxDiv', data, layout);
-
 
