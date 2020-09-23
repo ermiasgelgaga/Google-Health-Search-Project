@@ -15,6 +15,7 @@ How have the most searched diseases changed over the years in the US?
    - https://www.cdc.gov/nchs/fastats/deaths.htm
    
 ## Data Architectural Diagram 
+<img src="/img/architectural__new.png" height="500" width="900" />
 
 
 ## Data cleaning and visualization 
