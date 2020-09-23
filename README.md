@@ -15,7 +15,7 @@ How have the most searched diseases changed over the years in the US?
    - https://www.cdc.gov/nchs/fastats/deaths.htm
    
 ## Data Architectural Diagram 
-<img src="/img/architectural__new.png" height="500" width="900" />
+
 
 ## Data cleaning and visualization 
 Python Jupyter Notebook was used in cleaning the data. This project makes use of Python Flask–powered RESTful API, HTML/CSS, JavaScript, D3, Plotly and SQL database PostgreSQL for analysis and visualisation
