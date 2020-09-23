@@ -14,7 +14,7 @@ How have the most searched diseases changed over the years in the US?
 * CDC Data: 10 leading causes of death per 100,000 population from 2004-2017 
    - https://www.cdc.gov/nchs/fastats/deaths.htm
    
-## Data Architectural diagram 
+## Data Architectural Diagram 
 <img src="/img/architectural.png" height="500" width="900" />
 
 ## Data cleaning and visualization 
