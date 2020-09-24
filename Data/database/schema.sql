@@ -5,8 +5,10 @@ DROP TABLE IF EXISTS leading_causes_of_death CASCADE;
 
 
 CREATE TABLE "location" (
-    "location" VARCHAR,
-    "location_id" VARCHAR NOT NULL,
+	"location_id" VARCHAR NOT NULL,
+    "city" VARCHAR,
+	"state" VARCHAR,
+	"postal" VARCHAR,
     "latitude" VARCHAR,
     "longitude" VARCHAR,
     CONSTRAINT "pk_location" PRIMARY KEY (

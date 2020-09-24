@@ -14,12 +14,18 @@ FROM search_condition
 GROUP BY year
 ORDER BY year;
 
--- Health Search Volume by State and Region
-SELECT l.location, l.latitude, l.longitude, SUM (s."Cancer" + s."cardiovascular" + s."stroke" + s."depression" + s."rehab" + s."vaccine" + s."diarrhea" + s."obesity" + s."diabetes") AS Searches  
+-- Health Search Volume by city
+SELECT l.city,l.postal,l.state, l.latitude, l.longitude, SUM (s."Cancer" + s."cardiovascular" + s."stroke" + s."depression" + s."rehab" + s."vaccine" + s."diarrhea" + s."obesity" + s."diabetes") AS Searches  
 FROM location l
 INNER JOIN search_condition s on s.location_id = l.location_id
-GROUP BY l.location, l.latitude, l.longitude
-ORDER BY location;
+GROUP BY l.city,l.state,l.postal, l.latitude, l.longitude
+ORDER BY l.city;
+
+-- Health Search Volume by state
+SELECT l.state,l.postal, SUM (s."Cancer" + s."cardiovascular" + s."stroke" + s."depression" + s."rehab" + s."vaccine" + s."diarrhea" + s."obesity" + s."diabetes") AS Searches  
+FROM location l
+INNER JOIN search_condition s on s.location_id = l.location_id
+GROUP BY l.state,l.postal;
 
 
 -- Health Search Volume by location and Year

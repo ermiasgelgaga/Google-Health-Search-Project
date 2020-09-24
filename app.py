@@ -68,15 +68,15 @@ def searchyearandcondition():
     result = json.loads(df)
     return jsonify(result)
 
-@app.route('/searchbystate')
-def searchbystate():
+@app.route('/searchbycity')
+def searchbycity():
 
     sqlStatement = """
-    SELECT l.location, l.latitude, l.longitude, SUM (s."Cancer" + s."cardiovascular" + s."stroke" + s."depression" + s."rehab" + s."vaccine" + s."diarrhea" + s."obesity" + s."diabetes") AS Searches  
-    FROM location l
-    INNER JOIN search_condition s on s.location_id = l.location_id
-    GROUP BY l.location, l.latitude, l.longitude
-    ORDER BY location;
+SELECT l.location,l.state, l.latitude, l.longitude, SUM (s."Cancer" + s."cardiovascular" + s."stroke" + s."depression" + s."rehab" + s."vaccine" + s."diarrhea" + s."obesity" + s."diabetes") AS Searches  
+FROM location l
+INNER JOIN search_condition s on s.location_id = l.location_id
+GROUP BY l.location,l.state, l.latitude, l.longitude
+ORDER BY location;
 
     """
     df = pdsql.read_sql(sqlStatement, engine)
@@ -84,6 +84,24 @@ def searchbystate():
     df = df.to_json(orient='table')
     result = json.loads(df)
     return jsonify(result)
+
+@app.route('/searchbystate.json')
+def searchbystate():
+    sqlStatement = """
+SELECT l.state,l.postal, SUM (s."Cancer" + s."cardiovascular" + s."stroke" + s."depression" + s."rehab" + s."vaccine" + s."diarrhea" + s."obesity" + s."diabetes") AS Searches  
+FROM location l
+INNER JOIN search_condition s on s.location_id = l.location_id
+GROUP BY l.state,l.postal;
+ """
+    df = pdsql.read_sql(sqlStatement, engine)
+    df.set_index('state', inplace=True)
+    df = df.to_json(orient='table')
+    result = json.loads(df)
+    return jsonify(result)
+    
+
+
+
 
 @app.route('/bylocationandyear')
 def bylocationandyear():
