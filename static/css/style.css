@@ -1,4 +1,6 @@
 /* Let bootstrap do as much as it can, keep css minimal, mostly colors and positioning,as well as media queries (toward completion of doc */
+
+
 /* Giving the body the specified background color, adding font sizes for the h1 and h3 elements we'll be using */
 
 html,
@@ -89,13 +91,6 @@ footer,
 header,
 hgroup,
 menu,
-
-.jumbotron {
-    background-color: #030349;
-    background-size: cover;
-    height: 100%;
-    color: #FFF;
-}
 section {
     display: block;
 }
@@ -117,11 +112,9 @@ h1 {
     font-size: 80px;
 }
 
-
- 
 h3 {
     font-size: 30px;
-} 
+}
 
 
 /* Styling the header, giving it a height, a background color, and some top padding */
@@ -223,6 +216,7 @@ h3 {
         background-attachment: scroll;
     }
 }
+
 
 /* **************        MAIN CONTENT           **************  */
 
