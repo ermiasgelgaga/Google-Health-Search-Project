@@ -90,12 +90,7 @@ header,
 hgroup,
 menu,
 
-.jumbotron {
-    background-color: #030349;
-    background-size: cover;
-    height: 100%;
-    color: #FFF;
-}
+
 section {
     display: block;
 }
