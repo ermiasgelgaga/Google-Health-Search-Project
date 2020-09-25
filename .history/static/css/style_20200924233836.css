@@ -1,4 +1,6 @@
 /* Let bootstrap do as much as it can, keep css minimal, mostly colors and positioning,as well as media queries (toward completion of doc */
+
+
 /* Giving the body the specified background color, adding font sizes for the h1 and h3 elements we'll be using */
 
 html,
@@ -80,6 +82,15 @@ summary,
 time,
 mark,
 audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
 article,
 aside,
 details,
@@ -111,10 +122,10 @@ h1 {
 }
 
 
- 
+/* 
 h3 {
     font-size: 30px;
-} 
+} */
 
 
 /* Styling the header, giving it a height, a background color, and some top padding */
@@ -211,11 +222,270 @@ h3 {
     }
 }
 
+
+/* ******           BANNER - CRUELLA            *********** */
+
+#banner-cruella {
+    padding: 12em 0 10em 0;
+    background-image: url('../img/Health-Related-Searches.jpg');
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    text-align: center;
+    /* border-top: 0.5em solid #5385c1; */
+}
+
+#banner-cruella h1 {
+    font-size: 3.5em;
+    font-weight: 600;
+    color: #1B2631;
+    line-height: 1em;
+    margin: 0 0 0.5em 0;
+    padding: 0;
+}
+
+#banner-cruella p {
+    font-size: 1em;
+    color: #1B2631;
+    /* color: rgba(255, 255, 255, 0.55); */
+    margin-bottom: 1.75em;
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+    #banner-cruella {
+        background-attachment: scroll;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    #banner-cruella {
+        padding: 10em 2em 8em 2em;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    #banner-cruella {
+        background-attachment: scroll;
+    }
+}
+
+@media screen and (max-width: 736px) {
+    #banner-cruella {
+        padding: 8em 1.5em 6em 1.5em;
+    }
+    #banner-cruella h1 {
+        font-size: 2.5em;
+    }
+    #banner-cruella p {
+        font-size: .9em;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #banner-cruella {
+        padding: 6em 1.5em 4em 1.5em;
+    }
+}
+
+
+/* * ******         BANNER - DOROTHY        ***********  */
+
+#banner-dorothy {
+    padding: 12em 0 10em 0;
+    background-image: url('../img/DorothyBanner.png');
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    text-align: center;
+    /* border-top: 0.5em solid #5385c1; */
+}
+
+#banner-dorothy h1 {
+    font-size: 3.5em;
+    font-weight: 600;
+    color: #1B2631;
+    line-height: 1em;
+    margin: 0 0 0.5em 0;
+    padding: 0;
+}
+
+#banner-dorothy p {
+    font-size: 1em;
+    color: #1B2631;
+    /* color: rgba(255, 255, 255, 0.55); */
+    margin-bottom: 1.75em;
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+    #banner-dorothy {
+        background-attachment: scroll;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    #banner-dorothy {
+        padding: 10em 2em 8em 2em;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    #banner-dorothy {
+        background-attachment: scroll;
+    }
+}
+
+@media screen and (max-width: 736px) {
+    #banner-dorothy {
+        padding: 8em 1.5em 6em 1.5em;
+    }
+    #banner-dorothy h1 {
+        font-size: 2.5em;
+    }
+    #banner-dorothy p {
+        font-size: .9em;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #banner-dorothy {
+        padding: 6em 1.5em 4em 1.5em;
+    }
+}
+
+
+/* * ******             BANNER - SOFIA          ***********  */
+
+#banner-sofia {
+    padding: 12em 0 10em 0;
+    background-image: url('../img/SofiaBanner.jpeg');
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    text-align: center;
+    /* border-top: 0.5em solid #5385c1; */
+}
+
+#banner-sofia h1 {
+    font-size: 3.5em;
+    font-weight: 600;
+    color: #1B2631;
+    line-height: 1em;
+    margin: 0 0 0.5em 0;
+    padding: 0;
+}
+
+#banner-sofia p {
+    font-size: 1em;
+    color: #1B2631;
+    /* color: rgba(255, 255, 255, 0.55); */
+    margin-bottom: 1.75em;
+}
+
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
     #banner-sofia {
         background-attachment: scroll;
     }
 }
+
+@media screen and (max-width: 1280px) {
+    #banner-sofia {
+        padding: 10em 2em 8em 2em;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    #banner-sofia {
+        background-attachment: scroll;
+    }
+}
+
+@media screen and (max-width: 736px) {
+    #banner-sofia {
+        padding: 8em 1.5em 6em 1.5em;
+    }
+    #banner-sofia h1 {
+        font-size: 2.5em;
+    }
+    #banner-sofia p {
+        font-size: .9em;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #banner-sofia {
+        padding: 6em 1.5em 4em 1.5em;
+    }
+}
+
+
+/* * ******            BANNER - ELLE       ***********  */
+
+#banner-elle {
+    padding: 12em 0 10em 0;
+    background-image: url('../img/ElleBanner.jpg');
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    text-align: center;
+    /* border-top: 0.5em solid #5385c1; */
+}
+
+#banner-elle h1 {
+    font-size: 3.5em;
+    font-weight: 600;
+    color: #1B2631;
+    line-height: 1em;
+    margin: 0 0 0.5em 0;
+    padding: 0;
+}
+
+#banner-elle p {
+    font-size: 1em;
+    color: #1B2631;
+    /* color: rgba(255, 255, 255, 0.55); */
+    margin-bottom: 1.75em;
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+    #banner-elle {
+        background-attachment: scroll;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    #banner-elle {
+        padding: 10em 2em 8em 2em;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    #banner-elle {
+        background-attachment: scroll;
+    }
+}
+
+@media screen and (max-width: 736px) {
+    #banner-elle {
+        padding: 8em 1.5em 6em 1.5em;
+    }
+    #banner-elle h1 {
+        font-size: 2.5em;
+    }
+    #banner-elle p {
+        font-size: .9em;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #banner-elle {
+        padding: 6em 1.5em 4em 1.5em;
+    }
+}
+
 
 /* **************        MAIN CONTENT           **************  */
 

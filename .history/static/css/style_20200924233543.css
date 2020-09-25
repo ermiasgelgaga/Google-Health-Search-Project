@@ -80,6 +80,14 @@ summary,
 time,
 mark,
 audio,
+
+.jumbotron {
+    background-color: #030349;
+    background-size: cover;
+    height: 100%;
+    color: #FFF;
+}
+
 article,
 aside,
 details,
