@@ -10,11 +10,8 @@ CREATE TABLE "location" (
 	"state" VARCHAR,
 	"postal" VARCHAR,
     "latitude" VARCHAR,
-    "longitude" VARCHAR,
-    CONSTRAINT "pk_location" PRIMARY KEY (
-        "location_id"
-     )
-);
+    "longitude" VARCHAR);
+
 
 CREATE TABLE "search_condition" (
     "location_id" VARCHAR   NOT NULL,
@@ -27,11 +24,8 @@ CREATE TABLE "search_condition" (
     "diarrhea" VARCHAR,
     "obesity" VARCHAR,
     "diabetes" VARCHAR,
-    "year" VARCHAR,
-    CONSTRAINT "pk_search_condition" PRIMARY KEY (
-        "year"
-     )
-);
+    "year" VARCHAR);
+
 
 CREATE TABLE "leading_causes_of_death" (
     "Diseases_of_heart" VARCHAR,
@@ -48,11 +42,7 @@ CREATE TABLE "leading_causes_of_death" (
 );
 
 
-ALTER TABLE "search_condition" ADD CONSTRAINT "fk_search_condition_location_id" FOREIGN KEY("location_id")
-REFERENCES "location" ("location_id");
 
-ALTER TABLE "leading_causes_of_death" ADD CONSTRAINT "fk_leading_causes_of_death" FOREIGN KEY("year")
-REFERENCES "search_condition" ("year");
 
 
 

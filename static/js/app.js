@@ -16,7 +16,7 @@ Plotly.d3.json(url, function(figure) {
 
         Plotly.plot(document.getElementById('graph'), [trace]);
     })
-//Health Search Volume by Year
+    //Health Search Volume by Year
 var lineDiv = document.getElementById('line-chart');
 var totalvolume = {
     x: [2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017],
@@ -701,54 +701,12 @@ var data = [{
     type: "choroplethmapbox",
     name: "Searches",
     geojson: "https://raw.githubusercontent.com/python-visualization/folium/master/examples/data/us-states.json",
-    locations: ["NE", "CT", "ND", "WA", "MS",
-        "SD",
-        "CO",
-        "MO",
-        "MT",
-        "NV",
-        "LA",
-        "PA",
-        "SC",
-        "OH",
-        "OR",
-        "KS",
-        "TN",
-        "VA",
-        "IL",
-        "MA",
-        "IA",
-        "NM",
-        "KY",
-        "OK",
-        "ID",
-        "ME",
-        "AK",
-        "AL",
-        "AR",
-        "AZ",
-        "FL",
-        "GA",
-        "WV",
-        "NY",
-        "MN",
-        "MD",
-        "NC",
-        "WI",
-        "IN",
-        "WY",
-        "CA",
-        "UT",
-        "TX",
-        "MI",
-        "HI",
-        "NH",
-        "VT"
-    ],
+    locations: ["NE", "CT", "ND", "WA", "MS", "SD", "CO", "MO", "MT", "NV", "LA", "PA", "SC", "OH", "OR", "KS", "TN", "VA", "IL", "MA", "IA", "NM", "KY", "OK", "ID", "ME", "AK", "AL", "AR", "AZ", "FL", "GA", "WV", "NY", "MN", "MD", "NC", "WI", "IN", "WY", "CA", "UT", "TX", "MI", "HI", "NH", "VT"],
     z: [23859, 6568, 12587, 17104, 40802, 13050, 16895, 39160, 32212, 10720, 36367, 39719, 24643, 55656, 22755, 17978, 31771, 37967, 37390, 18807, 25804, 6009, 20093, 24128, 18444, 20752, 15823, 25755, 26217, 11807, 53592, 43646, 27302, 61798, 20884, 18444, 31417, 37555, 37994, 6028, 64598, 5742, 98134, 44093, 5555, 6236, 6457],
 
     zmin: 2555,
     zmax: 98134,
+
     colorbar: { y: 0, yanchor: "bottom", title: { text: "Seaches", side: "right" } },
     colorscale: [
         [0, '#131f0c'],
@@ -760,10 +718,12 @@ var data = [{
 
 
 var layout = {
+    scope: "usa",
     mapbox: { style: "dark", center: { lon: -110, lat: 50 }, zoom: 0.8 },
     width: 1200,
     height: 500,
     margin: { t: 0, b: 0 },
+
 }
 var config = { mapboxAccessToken: "pk.eyJ1IjoiZWdhZ2EiLCJhIjoiY2tmOG51MXY4MGR3NjJ5cnE4N3B2NTl0cCJ9.vVCAwSF-oh9ymZ8-pM-nBQ" };
 
