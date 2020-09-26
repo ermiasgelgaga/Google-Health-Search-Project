@@ -30,14 +30,15 @@ app = Flask(__name__)
 #################################################
 # Flask Routes
 #################################################
-
 @app.route("/")
+def index():
+    return render_template("index.html")
+
+
+@app.route("/Home")
 def home():                                                                                                                     
     return render_template("index.html")
 
-@app.route("/comparison")
-def comparison():
-    return render_template("comparison.html")
 
 
 @app.route('/searchbyyear')
