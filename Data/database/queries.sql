@@ -28,12 +28,26 @@ INNER JOIN search_condition s on s.location_id = l.location_id
 GROUP BY l.state,l.postal;
 
 
--- Health Search Volume by location and Year
-SELECT l.location, l.latitude, l.longitude,s.year, SUM (s."Cancer" + s."cardiovascular" + s."stroke" + s."depression" + s."rehab" + s."vaccine" + s."diarrhea" + s."obesity" + s."diabetes") AS Searches  
+-- Health Search Volume by city and Year
+SELECT l.city, l.latitude, l.longitude,s.year, SUM (s."Cancer" + s."cardiovascular" + s."stroke" + s."depression" + s."rehab" + s."vaccine" + s."diarrhea" + s."obesity" + s."diabetes") AS Searches  
 FROM location l
 INNER JOIN search_condition s on s.location_id = l.location_id
-GROUP BY l.location, l.latitude, l.longitude,s.year
+GROUP BY l.city, l.latitude, l.longitude,s.year
 ORDER BY year;
+
+
+-- Top ten states most searched
+SELECT l.state, SUM ("Cancer") AS Cancer,SUM ("cardiovascular") As Cardiovascular,SUM ("stroke") As Stroke,SUM ("depression") As Depression,SUM ("rehab") AS Rehab,SUM ("vaccine") AS Vaccine, SUM ("diarrhea") AS Diarrhea, SUM("obesity") AS Obesity, SUM ("diabetes") AS Diabetes 
+FROM location l
+INNER JOIN search_condition s on s.location_id = l.location_id
+GROUP BY state
+order by Cancer desc, Cardiovascular desc,Stroke desc,Depression desc,Rehab desc,Vaccine desc, Diarrhea desc, Diabetes desc, Obesity desc
+LIMIT 10;
+
+-- Health Search Volume by Condition
+SELECT SUM ("Cancer") AS Cancer,SUM ("cardiovascular") As Cardiovascular,SUM ("stroke") As Stroke,SUM ("depression") As Depression,SUM ("rehab") AS Rehab,SUM ("vaccine") AS Vaccine, SUM ("diarrhea") AS Diarrhea, SUM("obesity") AS Obesity, SUM ("diabetes") AS Diabetes    
+FROM search_condition 
+
 
 -- Top Cases people dying through the year
 SELECT * FROM leading_causes_of_death;
