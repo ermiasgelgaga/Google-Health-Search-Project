@@ -1,4 +1,22 @@
-//Health Search Volume by Year
+let url = './searchbyyear'
+let xl = []
+let yl = []
+var lineDiv = document.getElementById('graph');
+Plotly.d3.json(url, function(figure) {
+        let data = figure.data
+        var obj = JSON.parse(json)
+        for (var i = 0; i < data.length; i++) {
+            xl.push(figure.data[i][0])
+            yl.push(figure.data[i][1])
+        }
+        let trace = {
+            x: xl,
+            y: yl
+        }
+
+        Plotly.plot(document.getElementById('graph'), [trace]);
+    })
+    //Health Search Volume by Year
 var lineDiv = document.getElementById('line-chart');
 var totalvolume = {
     x: [2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017],
