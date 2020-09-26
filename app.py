@@ -16,11 +16,11 @@ from flask_sqlalchemy import SQLAlchemy
 # Database Setup
 ##################################################
 
-connection_string = f"{pg_user}:{pg_password}@localhost:5432/{db_name}"
-engine = create_engine(f'postgresql://{connection_string}')
+#connection_string = f"{pg_user}:{pg_password}@localhost:5432/{db_name}"
+#engine = create_engine(f'postgresql://{connection_string}')
 
 # checking the table names
-engine.table_names()
+#engine.table_names()
 
 
 #################################################
@@ -33,7 +33,6 @@ app.config['SQLAlCHEMY_DATABASE_URI']=os.environ.get('DATABASE_URI','') or "sqli
 app.config['SQLAlCHEMY_TRACK_MODIFICATION']=False
 
 db=SQLAlchemy(app)
-
 
 #################################################
 # Flask Routes
