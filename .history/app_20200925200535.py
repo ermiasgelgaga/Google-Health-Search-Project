@@ -3,14 +3,12 @@ import os
 import json
 import requests
 import sqlalchemy
-
 from sqlalchemy.ext.automap import automap_base
 from sqlalchemy.orm import Session
 from sqlalchemy import create_engine
 import pandas.io.sql as pdsql
 from config import pg_user, pg_password, db_name
 from flask import Flask, jsonify, render_template, abort, redirect
-from flask_sqlalchemy import SQLAlchemy
 
 #################################################
 # Database Setup
@@ -28,25 +26,18 @@ engine.table_names()
 #################################################
 app = Flask(__name__)
 
-app.config['SQLAlCHEMY_DATABASE_URI']=os.environ.get('DATABASE_URI','') or "sqlite:///db.sqlite"
-
-app.config['SQLAlCHEMY_TRACK_MODIFICATION']=False
-
-db=SQLAlchemy(app)
-
 
 #################################################
 # Flask Routes
 #################################################
+
 @app.route("/")
-def index():
-    return render_template("index.html")
-
-
-@app.route("/Home")
 def home():                                                                                                                     
     return render_template("index.html")
 
+@app.route("/comparison")
+def comparison():
+    return render_template("comparison.html")
 
 
 @app.route('/searchbyyear')
@@ -174,33 +165,8 @@ def conditions():
     df = df.to_json(orient='table')
     result = json.loads(df)
     return jsonify(result)
-@app.route('/mostsserached')
-def mostsserached():
-    sqlStatement = """
-    SELECT l.state, SUM ("Cancer") AS Cancer,SUM ("cardiovascular") As Cardiovascular,SUM ("stroke") As Stroke,SUM ("depression") As Depression,SUM ("rehab") AS Rehab,SUM ("vaccine") AS Vaccine, SUM ("diarrhea") AS Diarrhea, SUM("obesity") AS Obesity, SUM ("diabetes") AS Diabetes 
-    FROM location l
-    INNER JOIN search_condition s on s.location_id = l.location_id
-    GROUP BY state
-    order by Cancer desc, Cardiovascular desc,Stroke desc,Depression desc,Rehab desc,Vaccine desc, Diarrhea desc, Diabetes desc, Obesity desc
-    LIMIT 10; 
-    """
-    df = pdsql.read_sql(sqlStatement, engine)
-    df.set_index('state', inplace=True)
-    df = df.to_json(orient='table')
-    result = json.loads(df)
-    return jsonify(result)
 
-@app.route('/totalcondition')
-def totalcondition():
-    sqlStatement = """
-    SELECT SUM ("Cancer") AS Cancer,SUM ("cardiovascular") As Cardiovascular,SUM ("stroke") As Stroke,SUM ("depression") As Depression,SUM ("rehab") AS Rehab,SUM ("vaccine") AS Vaccine, SUM ("diarrhea") AS Diarrhea, SUM("obesity") AS Obesity, SUM ("diabetes") AS Diabetes    
-    FROM search_condition 
-    """
-    df = pdsql.read_sql(sqlStatement, engine)
-    df.set_index('cancer', inplace=True)
-    df = df.to_json(orient='table')
-    result = json.loads(df)
-    return jsonify(result)
+
 
 if __name__ == '__main__':
     app.run(debug=True)

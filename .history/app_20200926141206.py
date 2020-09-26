@@ -28,13 +28,9 @@ engine.table_names()
 #################################################
 app = Flask(__name__)
 
-app.config['SQLAlCHEMY_DATABASE_URI']=os.environ.get('DATABASE_URI','') or "sqlite:///db.sqlite"
+#app.config['SQLAlCHEMY_DATABASE_URI']=os.environ.get('DATABASE_URI','') or "sqlite:///db.sqlite"
 
-app.config['SQLAlCHEMY_TRACK_MODIFICATION']=False
-
-db=SQLAlchemy(app)
-
-
+#app.config['SQLAlCHEMY_TRACK_MODIFICATION']=False
 #################################################
 # Flask Routes
 #################################################

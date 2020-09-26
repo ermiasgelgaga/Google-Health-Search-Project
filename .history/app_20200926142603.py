@@ -32,8 +32,6 @@ app.config['SQLAlCHEMY_DATABASE_URI']=os.environ.get('DATABASE_URI','') or "sqli
 
 app.config['SQLAlCHEMY_TRACK_MODIFICATION']=False
 
-db=SQLAlchemy(app)
-
 
 #################################################
 # Flask Routes

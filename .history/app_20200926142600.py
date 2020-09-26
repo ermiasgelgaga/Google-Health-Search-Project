@@ -28,11 +28,10 @@ engine.table_names()
 #################################################
 app = Flask(__name__)
 
-app.config['SQLAlCHEMY_DATABASE_URI']=os.environ.get('DATABASE_URI','') or "sqlite:///db.sqlite"
+app.config['SQLAlCHEMY_DATABASE_URI'] = os.environ.get(
+    'DATABASE_URI', 'postgres://pgtlpsdnwzsrzx:991e9313e53e861518735aca49c287bc132bb460b3c4d696a5ad516d476f9d37@ec2-34-236-215-156.compute-1.amazonaws.com:5432/d6d2vvpbvavlie') or "sqlite:///db.sqlite"
 
 app.config['SQLAlCHEMY_TRACK_MODIFICATION']=False
-
-db=SQLAlchemy(app)
 
 
 #################################################
