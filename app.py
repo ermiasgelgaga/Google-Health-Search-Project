@@ -3,22 +3,24 @@ import os
 import json
 import requests
 import sqlalchemy
+
 from sqlalchemy.ext.automap import automap_base
 from sqlalchemy.orm import Session
 from sqlalchemy import create_engine
 import pandas.io.sql as pdsql
 from config import pg_user, pg_password, db_name
 from flask import Flask, jsonify, render_template, abort, redirect
+from flask_sqlalchemy import SQLAlchemy
 
 #################################################
 # Database Setup
 ##################################################
 
-connection_string = f"{pg_user}:{pg_password}@localhost:5432/{db_name}"
-engine = create_engine(f'postgresql://{connection_string}')
+#connection_string = f"{pg_user}:{pg_password}@localhost:5432/{db_name}"
+#engine = create_engine(f'postgresql://{connection_string}')
 
 # checking the table names
-engine.table_names()
+#engine.table_names()
 
 
 #################################################
@@ -26,7 +28,9 @@ engine.table_names()
 #################################################
 app = Flask(__name__)
 
+app.config['SQLAlCHEMY_DATABASE_URI']=os.environ.get('DATABASE_URI','') or "sqlite:///db.sqlite"
 
+app.config['SQLAlCHEMY_TRACK_MODIFICATION']=False
 #################################################
 # Flask Routes
 #################################################
