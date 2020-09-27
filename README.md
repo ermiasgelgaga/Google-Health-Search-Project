@@ -22,13 +22,33 @@ How have the most searched diseases changed over the years in the US?
 Python Jupyter Notebook was used in cleaning the data. This project makes use of Python Flask–powered RESTful API, HTML/CSS, JavaScript, D3, Plotly and SQL database PostgreSQL for analysis and visualisation
 
 ## Data Analysis 
-The possible visualization & comparisons to be made include the following:
-* Health Search Volume by Year (Single Line Chart)
-* Health Search Volume by Year and Condition (Multiple Line Chart)
-* Health search Volume by State and Region (Choropleth map)
-* Health Search volume by Location, Year and Condition (Comparison dashboard includes menu, dropdown, gauge and bar chart) 
-* Correlation Between Health Conditions
-* Correlation Between Health Conditions versus the Actual People dying through the years 
+The following visualization has made:
+### Health Search Volume by State and Region (Choropleth map)
+<img src="/img/map.png" height="500" width="900" />
+
+###  Health Search Volume by Year (Single Line Chart)
+<img src="/img/line_chart1.png" height="500" width="900" />
+
+###  Health Search Volume by Year and Condition (Multiple Line Chart)
+<img src="/img/line_chart2.png" height="500" width="900" />
+
+###  Health Search volume by State.
+<img src="/img/bar_graph.png" height="500" width="900" />
+
+###  Correlation Between Health Conditions
+<img src="/img/corroletion_matrix.png" height="500" width="900" />
+
+### Boxplot of Health Google Search 2004-2017
+<img src="/img/box_plot.png" height="500" width="900" />
+
+### Radar plot on all Time Total Volume of Health Searches
+<img src="/img/radar.png" height="500" width="900" />
+
+### API Links
+<img src="/img/Api_links.png" height="300" width="300" />
+
+## Deployment 
+The app is deployed in Heroku in order to access the page click the following link [Eagle Dashboard](https://eagledashboard-health.herokuapp.com/)
 
 ## Team members (Team Eagle)
 * Adedamola Atekoja (‘Damola)
