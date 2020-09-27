@@ -48,7 +48,7 @@ The following visualization has made:
 <img src="/img/Api_links.png" height="300" width="300" />
 
 ## Deployment 
-The app is deployed in Heroku in order to access this click this link [Eagle Dashboard](https://eagledashboard-health.herokuapp.com/)
+The app is deployed in Heroku in order to access the page click the following link [Eagle Dashboard](https://eagledashboard-health.herokuapp.com/)
 
 ## Team members (Team Eagle)
 * Adedamola Atekoja (‘Damola)
