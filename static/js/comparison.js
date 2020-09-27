@@ -65,7 +65,7 @@ Plotly.d3.json('/allsearchrecord', function(rows) {
     setBarPlot('Abilene-Sweetwater');
 
     function setBarPlot(chosenCity) {
-        getCityData(chosenCity);
+        getCityData(chosenCity)
         var Cancer = {
             x: serched_years,
             y: cancer_search,
