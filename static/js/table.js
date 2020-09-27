@@ -1,69 +1,75 @@
-var tableData = undefined;
-var tbody = d3.select("tbody");
+Plotly.d3.json('/searchbycity', function(rows) {
+    function unpack(rows, key) {
+        return rows.map(function(row) { return row[key]; });
+    }
+    var data = rows.data
 
-d3.json('./allsearchrecord').then(function(data) {
-    console.log("table data")
-    console.log(data)
-    tableData = data.table
+    var allCityName = unpack(data, 'city'),
+        searches = unpack(data, 'searches'),
+        state = unpack(data, 'state'),
+        listofCities = [],
+        activesearches = [],
+        activestate = [];
 
-})
+    for (var i = 0; i < allCityName.length; i++) {
+        if (listofCities.indexOf(allCityName[i]) === -1) {
+            listofCities.push(allCityName[i]);
+        }
+    }
 
-function tableBuilder(data) {
+    function getCountryData(chosenCity) {
+        activesearches = [];
+        activestate = [];
+        for (var i = 0; i < allCityName.length; i++) {
+            if (allCityName[i] === chosenCity) {
+                activesearches.push(searches[i]);
+                activestate.push(state[i]);
+            }
+        }
+    };
 
-    tbody.selectAll("tr").remove();
-    console.log(data)
+    // Default Country Data
+    setBubblePlot('Abilene-Sweetwater');
 
-    data.forEach(function(record) {
+    function setBubblePlot(chosenCity) {
+        getCountryData(chosenCity);
 
-        var row = tbody.append("tr");
-
-        Object.values(record).forEach(function(recordValue) {
-
-            var td = row.append("td")
-
-            td.text(recordValue)
-        });
-
-    });
-
-};
-
-var findButton = d3.select("#filter-btn");
-
-findButton.on("click", function() {
-
-    console.log("Button")
-
-    var inputYear = d3.select("#year").property("value")
-    var inputState = d3.select("#state").property("value")
-    var inputCity = d3.select("#city").property("value")
-
-    var filteredData = tableData.filter(function(rec) {
-
-
-        var yearFlag = true;
-        var stateFlag = true;
-        var cityFlag = true;
-
-        if (inputYear !== "") {
-
-            yearFlag = rec["type"] === inputYear;
+        var trace1 = {
+            x: activesearches,
+            y: activestate,
+            mode: 'lines+markers',
+            marker: {
+                size: 12,
+                opacity: 0.5
+            }
         };
 
-        if (inputState !== "") {
+        var data = [trace1];
 
-            stateFlag = rec["state"] === inputState;
+        var layout = {
+            title: 'GDP per cap according to Country<br>' + chosenCity + ' GDP'
         };
 
-        if (inputCity !== "") {
+        Plotly.newPlot('plotdiv', data, layout, { showSendToCloud: true });
+    };
 
-            cityFlag = rec["city"] === inputCity;
-        };
-        return yearFlag & cityFlag & stateFlag;
-    });
+    var innerContainer = document.querySelector('[data-num="0"'),
+        plotEl = innerContainer.querySelector('.plot'),
+        citySelector = innerContainer.querySelector('.countrydata');
 
+    function assignOptions(textArray, selector) {
+        for (var i = 0; i < textArray.length; i++) {
+            var currentOption = document.createElement('option');
+            currentOption.text = textArray[i];
+            selector.appendChild(currentOption);
+        }
+    }
 
-    tableBuilder(filteredData);
+    assignOptions(listofCountries, citySelector);
 
+    function updateCountry() {
+        setBubblePlot(citySelector.value);
+    }
 
+    citySelector.addEventListener('change', updateCountry, false);
 });
