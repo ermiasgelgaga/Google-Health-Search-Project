@@ -22,13 +22,16 @@ How have the most searched diseases changed over the years in the US?
 Python Jupyter Notebook was used in cleaning the data. This project makes use of Python Flask–powered RESTful API, HTML/CSS, JavaScript, D3, Plotly and SQL database PostgreSQL for analysis and visualisation
 
 ## Data Analysis 
-The possible visualization & comparisons to be made include the following:
+The following visualization has made:
 * Health Search Volume by Year (Single Line Chart)
+
 * Health Search Volume by Year and Condition (Multiple Line Chart)
 * Health search Volume by State and Region (Choropleth map)
 * Health Search volume by Location, Year and Condition (Comparison dashboard includes menu, dropdown, gauge and bar chart) 
 * Correlation Between Health Conditions
-* Correlation Between Health Conditions versus the Actual People dying through the years 
+
+## Deployment 
+The app is deployed in Heroku in order to access this click this link [Eagle Dashboard](https://eagledashboard-health.herokuapp.com/)
 
 ## Team members (Team Eagle)
 * Adedamola Atekoja (‘Damola)
