@@ -16,7 +16,7 @@ from flask_sqlalchemy import SQLAlchemy
 # Database Setup
 ##################################################
 
-connection_string = f"{pg_user}:{pg_password}ec2-34-236-215-156.compute-1.amazonaws.com:5432/{db_name}"
+connection_string = f"{pg_user}:{pg_password}@localhost:5432/{db_name}"
 engine = create_engine(f'postgresql://{connection_string}')
 
 # checking the table names
