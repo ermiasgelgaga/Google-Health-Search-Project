@@ -45,7 +45,7 @@ The following visualization has made:
 <img src="/img/radar.png" height="500" width="900" />
 
 ### API Links
-![Eagle Dashboard](/img/Api_links.png)
+<img src="/img/Api_links.png" height="200" width="300" />
 
 ## Deployment 
 The app is deployed in Heroku in order to access this click this link [Eagle Dashboard](https://eagledashboard-health.herokuapp.com/)
