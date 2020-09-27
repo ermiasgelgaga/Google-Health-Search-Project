@@ -12,7 +12,16 @@ var data = [totalvolume];
 var layout = {
     width: 1000,
     height: 600,
-    title: 'Total Volume of Searches by Year'
+    title: 'Total Volume of Searches by Year',
+    xaxis: {
+        title: 'YearS',
+        showgrid: false,
+        zeroline: false
+    },
+    yaxis: {
+        title: 'Searches',
+        showline: false
+    }
 };
 Plotly.plot(lineDiv, data, layout);
 // Health Search Volume by Year and Conditionvar lineDiv = document.getElementById('line-chart');
@@ -43,21 +52,7 @@ var Cardiovascular = {
 
 var Depression = {
     x: [2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017],
-    y: [9581,
-        2571,
-        5068,
-        8179,
-        6722,
-        4488,
-        5863,
-        12418,
-        14572,
-        14484,
-        13302,
-        13804,
-        12764,
-        13194,
-    ],
+    y: [9581, 2571, 5068, 8179, 6722, 4488, 5863, 12418, 14572, 14484, 13302, 13804, 12764, 13194, ],
     name: 'Depression',
     type: 'scatter',
     line: {
@@ -68,21 +63,7 @@ var Depression = {
 };
 var Diabetes = {
     x: [2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017],
-    y: [7989,
-        4880,
-        8258,
-        11472,
-        9585,
-        12846,
-        8521,
-        14204,
-        12978,
-        14390,
-        14966,
-        15111,
-        16343,
-        16235,
-    ],
+    y: [7989, 4880, 8258, 11472, 9585, 12846, 8521, 14204, 12978, 14390, 14966, 15111, 16343, 16235, ],
     name: 'Diabetes',
     type: 'scatter',
     line: {
@@ -93,21 +74,7 @@ var Diabetes = {
 };
 var Diarrhea = {
     x: [2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017],
-    y: [3419,
-        5202,
-        8767,
-        4260,
-        10818,
-        11554,
-        6088,
-        13233,
-        13170,
-        14408,
-        14354,
-        14590,
-        15220,
-        15272,
-    ],
+    y: [3419, 5202, 8767, 4260, 10818, 11554, 6088, 13233, 13170, 14408, 14354, 14590, 15220, 15272, ],
     name: 'Diarrhea',
     type: 'scatter',
     line: {
@@ -118,21 +85,7 @@ var Diarrhea = {
 };
 var Obesity = {
     x: [2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017],
-    y: [7195,
-        4519,
-        6063,
-        7393,
-        5969,
-        9150,
-        7055,
-        8082,
-        11319,
-        11410,
-        9835,
-        12144,
-        10870,
-        10870,
-    ],
+    y: [7195, 4519, 6063, 7393, 5969, 9150, 7055, 8082, 11319, 11410, 9835, 12144, 10870, 10870, ],
     name: 'Obesity',
     type: 'scatter',
     line: {
@@ -143,21 +96,7 @@ var Obesity = {
 };
 var Rehab = {
     x: [2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017],
-    y: [3967,
-        5003,
-        6457,
-        7237,
-        12044,
-        8903,
-        11848,
-        13096,
-        12243,
-        11096,
-        12517,
-        11767,
-        10681,
-        11115,
-    ],
+    y: [3967, 5003, 6457, 7237, 12044, 8903, 11848, 13096, 12243, 11096, 12517, 11767, 10681, 11115, ],
     name: 'Rehab',
     type: 'scatter',
     line: {
@@ -169,21 +108,7 @@ var Rehab = {
 
 var Stroke = {
     x: [2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017],
-    y: [3705,
-        9370,
-        5149,
-        11611,
-        12728,
-        11600,
-        8973,
-        12485,
-        12838,
-        14230,
-        12867,
-        11952,
-        13348,
-        14876,
-    ],
+    y: [3705, 9370, 5149, 11611, 12728, 11600, 8973, 12485, 12838, 14230, 12867, 11952, 13348, 14876, ],
     name: 'Stroke',
     type: 'scatter',
     line: {
@@ -194,21 +119,7 @@ var Stroke = {
 };
 var Vaccine = {
     x: [2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017],
-    y: [6820,
-        6162,
-        8012,
-        8595,
-        5062,
-        7444,
-        9535,
-        12169,
-        11967,
-        13152,
-        12955,
-        13101,
-        13227,
-        15288,
-    ],
+    y: [6820, 6162, 8012, 8595, 5062, 7444, 9535, 12169, 11967, 13152, 12955, 13101, 13227, 15288, ],
     name: 'Vaccine',
     type: 'scatter',
     line: {
@@ -225,7 +136,16 @@ var data = [Cancer, Cardiovascular, Depression, Diabetes, Diarrhea, Obesity, Reh
 var layout = {
     width: 1000,
     height: 600,
-    title: 'Total Volume of Searches by year Versus Health Conditions'
+    title: 'Total Volume of Searches by year Versus Health Conditions',
+    xaxis: {
+        title: 'Years',
+        showgrid: false,
+        zeroline: false
+    },
+    yaxis: {
+        title: 'Searches',
+        showline: false
+    }
 };
 Plotly.plot(lineDiv, data, layout);
 
@@ -406,23 +326,11 @@ var layout = {
     annotations: make_annotations(xValues, yValues, zValues, colorscale)
 };
 Plotly.newPlot('myDiv', data, layout);
+
+
 // box plot
 var Cancer = {
-    y: [9220,
-        13211,
-        10335,
-        13203,
-        13437,
-        12181,
-        13146,
-        12269,
-        12747,
-        13428,
-        15211,
-        13578,
-        13637,
-        13589,
-    ],
+    y: [9220, 13211, 10335, 13203, 13437, 12181, 13146, 12269, 12747, 13428, 15211, 13578, 13637, 13589, ],
     type: 'box',
     name: 'Cancer',
     boxpoints: 'all',
@@ -574,19 +482,7 @@ var Obesity = {
     }
 };
 var Rehab = {
-    y: [3967,
-        5003,
-        6457,
-        7237,
-        12044,
-        8903,
-        11848,
-        13096,
-        12243,
-        11096,
-        12517,
-        11767,
-        10681,
+    y: [3967, 5003, 6457, 7237, 12044, 8903, 11848, 13096, 12243, 11096, 12517, 11767, 10681,
         11115,
     ],
     type: 'box',
@@ -602,21 +498,7 @@ var Rehab = {
 };
 
 var Stroke = {
-    y: [3705,
-        9370,
-        5149,
-        11611,
-        12728,
-        11600,
-        8973,
-        12485,
-        12838,
-        14230,
-        12867,
-        11952,
-        13348,
-        14876,
-    ],
+    y: [3705, 9370, 5149, 11611, 12728, 11600, 8973, 12485, 12838, 14230, 12867, 11952, 13348, 14876, ],
     type: 'box',
     name: 'Stroke',
     boxpoints: 'all',
@@ -644,7 +526,16 @@ var data = [Cancer, Cardiovascular, Depression, Diabetes, Diarrhea, Obesity, Reh
 var layout = {
     width: 1000,
     height: 600,
-    title: 'Boxplot of Health Google Search 2004-2016'
+    title: 'Boxplot of Health Google Search 2004-2017',
+    xaxis: {
+        title: 'Condition',
+        showgrid: false,
+        zeroline: false
+    },
+    yaxis: {
+        title: 'Search',
+        showline: false
+    }
 };
 
 Plotly.newPlot('boxDiv', data, layout);
@@ -673,7 +564,7 @@ var data = [{
 
 var layout = {
     scope: "usa",
-    mapbox: { style: "dark", center: { lon: -110, lat: 50 }, zoom: 0.8 },
+    mapbox: { style: "dark", center: { lon: -95.712891, lat: 37.090240 }, zoom: 3 },
     width: 1200,
     height: 500,
     margin: { t: 0, b: 0 },
@@ -772,7 +663,17 @@ var layout = {
     barmode: 'scatter',
     bargap: 0.25,
     bargroupgap: 0.1,
-    barnorm: 'percent'
+    xaxis: {
+        title: 'States ',
+        showgrid: false,
+        zeroline: false
+    },
+    yaxis: {
+        title: 'Searches',
+        showline: false
+    }
+
+
 };
 
 Plotly.plot(barDiv, data, layout);
