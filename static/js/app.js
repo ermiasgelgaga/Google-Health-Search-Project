@@ -14,7 +14,7 @@ var layout = {
     height: 600,
     title: 'Total Volume of Searches by Year',
     xaxis: {
-        title: 'YearS',
+        title: 'Years',
         showgrid: false,
         zeroline: false
     },
