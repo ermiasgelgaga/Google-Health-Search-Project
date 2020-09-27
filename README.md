@@ -23,13 +23,18 @@ Python Jupyter Notebook was used in cleaning the data. This project makes use of
 
 ## Data Analysis 
 The following visualization has made:
+* Health Search Volume by State and Region (Choropleth map)
+<img src="/img/map.png" height="500" width="900" />
 * Health Search Volume by Year (Single Line Chart)
 <img src="/img/line_chart1.png" height="500" width="900" />
-
 * Health Search Volume by Year and Condition (Multiple Line Chart)
-* Health search Volume by State and Region (Choropleth map)
-* Health Search volume by Location, Year and Condition (Comparison dashboard includes menu, dropdown, gauge and bar chart) 
+<img src="/img/line_chart2.png" height="500" width="900" />
+* Health Search volume by State.
+<img src="/img/bar_graph.png" height="500" width="900" />
 * Correlation Between Health Conditions
+<img src="/img/corroletion_matrix.png" height="500" width="900" />
+* Correlation Between Health Conditions
+<img src="/img/corroletion_matrix.png" height="500" width="900" />
 
 ## Deployment 
 The app is deployed in Heroku in order to access this click this link [Eagle Dashboard](https://eagledashboard-health.herokuapp.com/)
