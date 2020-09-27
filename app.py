@@ -16,11 +16,11 @@ from flask_sqlalchemy import SQLAlchemy
 # Database Setup
 ##################################################
 
-#connection_string = f"{pg_user}:{pg_password}@localhost:5432/{db_name}"
-#engine = create_engine(f'postgresql://{connection_string}')
+engine = create_engine('postgres://lnhentjbjsyehy:14cc7d8917fc041a5ffee695f88c9bc054f40944f6dfd4000b20d99c0211a31e@ec2-52-86-116-94.compute-1.amazonaws.com:5432/dfvu5tqvp1uonb')
+
 
 # checking the table names
-#engine.table_names()
+engine.table_names()
 
 
 #################################################
@@ -51,9 +51,9 @@ def home():
 @app.route('/searchbyyear')
 def searchbyyear():
     sqlStatement = """
-    SELECT year, SUM ("Cancer" + "cardiovascular" + "stroke" + "depression" + "rehab" + "vaccine" + "diarrhea" + "obesity" + "diabetes") AS Searches  
-    FROM search_condition 
-    GROUP BY year
+   SELECT year, SUM ("Cancer" + "cardiovascular" + "stroke" + "depression" + "rehab" + "vaccine" + "diarrhea" + "obesity" + "diabetes") AS Searches  
+   FROM search_condition 
+   GROUP BY year
     ORDER BY year;
     """
     df = pdsql.read_sql(sqlStatement, engine)

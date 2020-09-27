@@ -1,6 +1,6 @@
 -- Data Engineering
-DROP TABLE IF EXISTS  location CASCADE;
-DROP TABLE IF EXISTS  search_condition CASCADE;
+DROP TABLE IF EXISTS location CASCADE;
+DROP TABLE IF EXISTS search_condition CASCADE;
 DROP TABLE IF EXISTS leading_causes_of_death CASCADE;
 
 
