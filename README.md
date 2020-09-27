@@ -24,6 +24,7 @@ Python Jupyter Notebook was used in cleaning the data. This project makes use of
 ## Data Analysis 
 The following visualization has made:
 * Health Search Volume by Year (Single Line Chart)
+<img src="/img/line_chart1.png" height="500" width="900" />
 
 * Health Search Volume by Year and Condition (Multiple Line Chart)
 * Health search Volume by State and Region (Choropleth map)
