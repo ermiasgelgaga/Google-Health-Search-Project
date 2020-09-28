@@ -71,5 +71,10 @@ Plotly.d3.json('/searchbycity', function(rows) {
         setBubblePlot(citySelector.value);
     }
 
+<<<<<<< Updated upstream
     citySelector.addEventListener('change', updateCountry, false);
 });
+=======
+});
+
+>>>>>>> Stashed changes

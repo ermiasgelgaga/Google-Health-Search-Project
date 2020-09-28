@@ -1,3 +1,10 @@
+
+    d3.json('searchbyyear',function(data){
+        console.log(data);
+    })
+
+
+
 //Health Search Volume by Year
 /////////////////////////////////////////////////////
 //    Single line chart started here                // 
