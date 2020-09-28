@@ -141,7 +141,7 @@ Plotly.d3.json('/searchyearandcondition', function(rows) {
 
     var Rehab = {
         x: allyear,
-        y: obesity,
+        y: rehab,
         name: 'Rehab',
         type: 'scatter',
         line: {
@@ -197,10 +197,6 @@ Plotly.d3.json('/searchyearandcondition', function(rows) {
 /////////////////////////////////////////////////////
 //   -multiple  line chart end here--              // 
 /////////////////////////////////////////////////////
-
-
-
-
 
 
 /////////////////////////////////////////////////////
@@ -532,7 +528,7 @@ Plotly.d3.json('/searchyearandcondition', function(rows) {
         }
     };
 
-    var data = [Cancer, Cardiovascular, Depression, Diabetes, Diarrhea, Obesity, Rehab, Vaccine];
+    var data = [Cancer, Cardiovascular, Depression, Diabetes, Diarrhea, Obesity, Rehab, Stroke, Vaccine];
 
     var layout = {
         width: 1000,
