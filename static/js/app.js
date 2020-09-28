@@ -741,9 +741,8 @@ Plotly.d3.json('/mostsserached', function(rows) {
 
 
 ////////////////////////////////////////////////////
-// Radar plot 1 startnhere                           // 
+// Radar plot 1 start here                           // 
 /////////////////////////////////////////////////////
-
 data = [{
     type: 'scatterpolar',
     r: [179192, 94220, 137010, 167778, 150355, 121874, 137974, 155732, 143489],
@@ -752,7 +751,7 @@ data = [{
 }]
 
 layout = {
-    title: 'The Sum total Volume of Health condition Searches from 2004- 2017 ',
+    title: 'The Sum total Volume of Health Condition Searches from 2004- 2017 ',
     width: 1000,
     height: 700,
     polar: {
@@ -767,6 +766,195 @@ layout = {
 Plotly.newPlot("radarmyDiv", data, layout)
 
 
+
 ////////////////////////////////////////////////////
 // Radar plot 2 starthere                           // 
 /////////////////////////////////////////////////////
+
+
+data = [{
+    type: 'scatterpolar',
+    r: [571, 357.3, 568.3, 308.5, 2574, 229.9, 2282.4, 196.8, 589.5, 171],
+    theta: ["Accidents", "Alzheimer ", "Cerebrovascular", "Diabetes", "Diseases of heart", "Influenza and Pneumonia", "Malignant Neoplasms(Tumor)", "Nephrosis ", "Respiratory", "Suicide"],
+    fill: 'toself'
+}]
+
+
+layout = {
+    title: 'The Sum total Volume of 10 Leading Causes of Death Per 100,000 Population from 2004-2017 ',
+    width: 1000,
+    height: 700,
+    polar: {
+        radialaxis: {
+            visible: true,
+            range: [-2000, 2874]
+        }
+    },
+    showlegend: false
+}
+
+Plotly.newPlot("radarmyDiv2", data, layout)
+
+
+/////////////////////////////////////////////////////
+//    multiple  line chart leading causes of death // 
+/////////////////////////////////////////////////////
+
+// Health Search Volume by Year and Conditionvar lineDiv = document.getElementById('line-chart');
+Plotly.d3.json('/casesleadingdeath', function(rows) {
+    function unpack(rows, key) {
+        return rows.map(function(row) { return row[key]; });
+    }
+    var data = rows.data
+
+
+    var year = unpack(data, 'year'),
+        accidents = unpack(data, "Accidents"),
+        alzheimer = unpack(data, "Alzheimer"),
+        cerebrovascular = unpack(data, "Cerebrovascular"),
+        ddiabetes = unpack(data, "Diabetes"),
+        heart = unpack(data, "Diseases_of_heart"),
+        influenza = unpack(data, "Influenza_and_pneumonia"),
+        malignant = unpack(data, "Malignant_neoplasms"),
+        nephrosis = unpack(data, "Nephrosis"),
+        respiratory = unpack(data, "Respiratory"),
+        suicide = unpack(data, "Suicide")
+
+    var lineDiv = document.getElementById('line-chart3');
+    var Accidents = {
+        x: year,
+        y: accidents,
+        name: 'Accidents',
+        type: 'scatter',
+        line: {
+            shape: 'spline',
+            smoothing: 0.5,
+
+        }
+    };
+
+    var Alzheimer = {
+        x: year,
+        y: alzheimer,
+        name: 'Alzheimer',
+        type: 'scatter',
+        line: {
+            shape: 'spline',
+            smoothing: 0.5,
+
+        }
+    };
+
+    var Cerebrovascular = {
+        x: year,
+        y: cerebrovascular,
+        name: 'Cerebrovascular',
+        type: 'scatter',
+        line: {
+            shape: 'spline',
+            smoothing: 0.5,
+
+        }
+    };
+
+    var Diabetesd = {
+        x: year,
+        y: ddiabetes,
+        name: 'Diabetes',
+        type: 'scatter',
+        line: {
+            shape: 'spline',
+            smoothing: 0.5,
+
+        }
+    };
+
+    var Heart = {
+        x: year,
+        y: heart,
+        name: 'Diseases of Heart',
+        type: 'scatter',
+        line: {
+            shape: 'spline',
+            smoothing: 0.5,
+
+        }
+    };
+
+    var Influenza = {
+        x: year,
+        y: influenza,
+        name: 'Influenza and Pneumonia',
+        type: 'scatter',
+        line: {
+            shape: 'spline',
+            smoothing: 0.5,
+
+        }
+    };
+
+    var Malignant = {
+        x: year,
+        y: malignant,
+        name: 'Malignant Neoplasms',
+        type: 'scatter',
+        line: {
+            shape: 'spline',
+            smoothing: 0.5,
+
+        }
+    };
+
+    var Nephrosis = {
+        x: year,
+        y: nephrosis,
+        name: 'Nephrosis',
+        type: 'scatter',
+        line: {
+            shape: 'spline',
+            smoothing: 0.5,
+
+        }
+    };
+
+    var Respiratory = {
+        x: year,
+        y: respiratory,
+        name: 'Respiratory',
+        type: 'scatter',
+        line: {
+            shape: 'spline',
+            smoothing: 0.5,
+
+        }
+    };
+
+    var Suicide = {
+        x: year,
+        y: suicide,
+        name: 'Suicide',
+        type: 'scatter',
+        line: {
+            shape: 'spline',
+            smoothing: 0.5,
+
+        }
+    };
+
+    var data = [Accidents, Alzheimer, Cerebrovascular, Diabetesd, Heart, Influenza, Malignant, Nephrosis, Respiratory, Suicide];
+    var layout = {
+        width: 1000,
+        height: 600,
+        xaxis: {
+            title: 'Years',
+            showgrid: false,
+            zeroline: false
+        },
+        yaxis: {
+            title: 'Searches',
+            showline: false
+        }
+    };
+
+    Plotly.plot(lineDiv, data, layout);
+});

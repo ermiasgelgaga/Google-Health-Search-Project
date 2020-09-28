@@ -56,6 +56,7 @@
                     <a class="dropdown-item" href="/conditions" target="_blank">Search Conditions</a>
                     <a class="dropdown-item" href="/mostsserached" target="_blank">Top Ten Searched States by Conditions</a>
                     <a class="dropdown-item" href="/totalcondition" target="_blank">Sum of All Search Conditions</a>
+                    <a class="dropdown-item" href="/totaldeathcase" target="_blank">The Sum Total of the leading causes of Death per 100,000 people</a>
                 </div>
             </li>
             <li class="nav-item dropdown">
@@ -127,7 +128,7 @@
     <!-- END NAV BAR-->
     <div class="row">
 
-        <div class="col-md-12 jumbotron text-center" style="background-color: #030349;">
+        <div class="col-md-12 jumbotron text-center" style="background-color: #030349; ">
             <h1 id="head" style="color: rgb(255, 255, 255);">Google Health Search Trends</h1>
             <hr>
             <p style="color: rgb(255, 255, 255); font-size: 25px;">An interactive charts to explore the search trends of people for common health issues in the United States
@@ -244,10 +245,17 @@
                 </p>
         </section>
 
-        <!-- Radar-chart-->
+        <!-- Radar-chart1-->
         <div class="col-md-4" style="margin-top: 20px; margin-bottom:20px;">
             <div class="col-md-10">
                 <div id="radarmyDiv"></div>
+            </div>
+        </div>
+
+        <!-- Radar-chart2-->
+        <div class="col-md-4" style="margin-top: 20px; margin-bottom:20px;">
+            <div class="col-md-10">
+                <div id="radarmyDiv2"></div>
             </div>
         </div>
 
@@ -274,13 +282,45 @@
             </article>
         </section>
 
+
+        <section class="posts">
+            <article class="post ">
+                <h5 style="text-align:center; font-size: 25px;">10 Leading Causes of Death Per 100,000 Population from 2004-2017</h5>
+                <p style="text-align:left; font-size: 18px;">
+                </p>
+                <div class="row">
+
+                    <!-- Multiple line chart -->
+                    <div class="col-md-4" style="margin-top: 20px; margin-bottom:20px;">
+                        <div class="col-md-10">
+                            <div id='line-chart3'></div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <p style="text-align:left; font-size: 18px;">
+                </p>
+                <p style="text-align:left; font-size: 18px;">
+                </p>
+        </section>
+
+
+        <footer id="footer">
+            <div class="inner">
+                <div>
+                    <div class="copyright text-center">
+                        &copy;
+                    </div>
+                </div>
+            </div>
+        </footer>
+
         <script src="https://canvasjs.com/assets/script/jquery-1.11.1.min.js">
         </script>
         <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
 
-        <script>
-            importData()
-        </script>
+
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js "></script>
         <script src="https://cdn.plot.ly/plotly-latest.min.js "></script>
