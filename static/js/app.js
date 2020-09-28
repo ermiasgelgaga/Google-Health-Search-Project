@@ -754,44 +754,29 @@ Plotly.d3.json('/mostsserached', function(rows) {
 ////////////////////////////////////////////////////
 // Radar plot 1 startnhere                           // 
 /////////////////////////////////////////////////////
-Plotly.d3.json('/totalcondition', function(rows) {
-    function unpack(rows, key) {
-        return rows.map(function(row) { return row[key]; });
-    }
-    var data = rows.data
 
-    var cancer = unpack(data, 'cancer'),
-        cardiovascular = unpack(data, 'cardiovascular'),
-        depression = unpack(data, 'depression'),
-        diabetes = unpack(data, 'diabetes'),
-        diarrhea = unpack(data, 'diarrhea'),
-        obesity = unpack(data, 'obesity'),
-        rehab = unpack(data, 'rehab'),
-        stroke = unpack(data, 'stroke'),
-        vaccine = unpack(data, 'vaccine')
+data = [{
+    type: 'scatterpolar',
+    r: [179192, 94220, 137010, 167778, 150355, 121874, 137974, 155732, 143489],
+    theta: ["Cancer", "Cardiovascular", "Depression", "Diabetes", "Diarrhea", "Obesity", "Rehab", "Stroke", "Vaccine"],
+    fill: 'toself'
+}]
 
-    data = [{
-        type: 'scatterpolar',
-        r: [179192, 94220, 137010, 167778, 150355, 121874, 137974, 155732, 143489],
-        theta: ["Cancer", "Cardiovascular", "Depression", "Diabetes", "Diarrhea", "Obesity", "Rehab", "Stroke", "Vaccine"],
-        fill: 'toself'
-    }]
+layout = {
+    title: 'The Sum total Volume of Health condition Searches from 2004- 2017 ',
+    width: 1000,
+    height: 700,
+    polar: {
+        radialaxis: {
+            visible: true,
+            range: [0, 179192]
+        }
+    },
+    showlegend: false
+}
 
-    layout = {
-        title: 'The Sum total Volume of Health condition Searches from 2004- 2017 ',
-        width: 1000,
-        height: 700,
-        polar: {
-            radialaxis: {
-                visible: true,
-                range: [0, 179192]
-            }
-        },
-        showlegend: false
-    }
+Plotly.newPlot("radarmyDiv", data, layout)
 
-    Plotly.newPlot("radarmyDiv", data, layout)
-});
 
 ////////////////////////////////////////////////////
 // Radar plot 2 starthere                           // 
