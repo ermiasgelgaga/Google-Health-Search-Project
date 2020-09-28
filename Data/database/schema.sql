@@ -31,7 +31,7 @@ CREATE TABLE "leading_causes_of_death" (
     "Diseases_of_heart" VARCHAR,
     "Malignant_neoplasms" VARCHAR,
     "Accidents" VARCHAR,
-    "respiratory" VARCHAR,
+    "Respiratory" VARCHAR,
     "Cerebrovascular" VARCHAR,
     "Alzheimer" VARCHAR,
     "Diabetes" VARCHAR,
