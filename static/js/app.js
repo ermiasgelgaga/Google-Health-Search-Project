@@ -951,7 +951,7 @@ Plotly.d3.json('/casesleadingdeath', function(rows) {
             zeroline: false
         },
         yaxis: {
-            title: 'Searches',
+            title: 'Sum of number of death per 100,000',
             showline: false
         }
     };

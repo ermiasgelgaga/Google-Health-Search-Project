@@ -16,6 +16,7 @@ Plotly.d3.json('/allsearchrecord', function(rows) {
         vaccine = unpack(data, 'vaccine'),
         city = unpack(data, 'city'),
 
+
         listofCities = [],
         cancer_search = [],
         cardiovascular_search = [],
@@ -65,7 +66,7 @@ Plotly.d3.json('/allsearchrecord', function(rows) {
     setBarPlot('Abilene-Sweetwater');
 
     function setBarPlot(chosenCity) {
-        getCityData(chosenCity)
+        getCityData(chosenCity);
         var Cancer = {
             x: serched_years,
             y: cancer_search,
@@ -153,6 +154,7 @@ Plotly.d3.json('/allsearchrecord', function(rows) {
             height: 600,
             title: 'Total Volume of Searches by year Versus Health Conditions',
             barmode: 'stack',
+            type: "column",
             xaxis: {
                 title: 'Years',
                 showgrid: false,
@@ -164,7 +166,7 @@ Plotly.d3.json('/allsearchrecord', function(rows) {
             }
         };
 
-        Plotly.plot('comparison-1', data, layout);
+        Plotly.newPlot('comparison-1', data, layout);
 
     };
     var innerContainer = document.querySelector('[data-num="0"'),
@@ -186,10 +188,5 @@ Plotly.d3.json('/allsearchrecord', function(rows) {
     }
 
     citySelector.addEventListener('change', updateCity, false);
-
-
-
-
-
 
 });
