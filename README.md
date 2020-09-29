@@ -18,8 +18,17 @@ How have the most searched diseases changed over the years in the US?
 <img src="/img/architectural__new.png" height="500" width="1200" />
 
 
-## Data cleaning and visualization 
-Python Jupyter Notebook was used in cleaning the data. This project makes use of Python Flask–powered RESTful API, HTML/CSS, JavaScript, D3, Plotly and SQL database PostgreSQL for analysis and visualisation
+## ETL 
+### EXTRACT 
+Data sourced from Google Trend, specifically Google Health Search from 2004 - 2017.
+
+### Transform
+Data cleaned and transformed by using Python Jupyter Notebook.
+
+### LOAD 
+This project makes use of Python Flask–powered RESTful API, HTML/CSS, JavaScript, D3, Plotly and SQL database PostgreSQL for analysis and visualisation
+
+
 
 ## Data Analysis 
 The following visualization has made:
