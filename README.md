@@ -18,16 +18,19 @@ How have the most searched diseases changed over the years in the US?
 <img src="/img/architectural__new.png" height="500" width="1200" />
 
 
-## ETL 
+## ETL
+
 ### EXTRACT 
 Data sourced from Google Trend, specifically Google Health Search from 2004 - 2017.
 
 ### Transform
-Data cleaned and transformed by using Python Jupyter Notebook.
+Data cleaned and transformed by using Python Jupyter Notebook.* [`Health_Analysis.ipynb`](https://github.com/ermiasgelaye/Google-Health-Search-Project/blob/master/Data/Data_Cleaning/Health_Analysis.ipynb)
 
 ### LOAD 
-This project makes use of Python Flask–powered RESTful API, HTML/CSS, JavaScript, D3, Plotly and SQL database PostgreSQL for analysis and visualisation
 
+- This project used Python Jupyter Notebook to load transformed data in to PostgreSQL database. [`loadData.ipynb`](https://github.com/ermiasgelaye/Google-Health-Search-Project/blob/master/Data/database/load_in_to_db/loadData.ipynb)
+
+- Python Flask–powered RESTful API were used to deploy the data into the web, and API end point links created.<img src="/img/Api_links.png" height="300" width="300" />
 
 
 ## Data Analysis 
@@ -52,9 +55,6 @@ The following visualization has made:
 
 ### Radar plot on all Time Total Volume of Health Searches
 <img src="/img/radar.png" height="500" width="900" />
-
-### API Links
-<img src="/img/Api_links.png" height="300" width="300" />
 
 ## Deployment 
 The app is deployed in Heroku in order to access the page click the following link [Eagle Dashboard](https://eagledashboard-health.herokuapp.com/)
