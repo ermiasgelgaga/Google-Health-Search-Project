@@ -768,7 +768,7 @@ Plotly.newPlot("radarmyDiv", data, layout)
 
 
 ////////////////////////////////////////////////////
-// Radar plot 2 starthere                           // 
+// Radar plot 2 start here                           // 
 /////////////////////////////////////////////////////
 
 

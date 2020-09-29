@@ -2,6 +2,22 @@ Plotly.d3.json('/allsearchrecord', function(rows) {
     function unpack(rows, key) {
         return rows.map(function(row) { return row[key]; });
     }
+
+    function sum(input) {
+
+        if (toString.call(input) !== "[object Array]")
+            return false;
+
+        var total = 0;
+        for (var i = 0; i < input.length; i++) {
+            if (isNaN(input[i])) {
+                continue;
+            }
+            total += Number(input[i]);
+        }
+        return total;
+    }
+
     var data = rows.data
 
     var allyear = unpack(data, 'year'),
@@ -15,9 +31,22 @@ Plotly.d3.json('/allsearchrecord', function(rows) {
         stroke = unpack(data, 'stroke'),
         vaccine = unpack(data, 'vaccine'),
         city = unpack(data, 'city'),
+        state = unpack(data, 'postal'),
+        sum_cancer = sum(cancer),
+        sum_cardiovascular = sum(cardiovascular),
+        sum_depression = sum(depression),
+        sum_diabetes = sum(diabetes),
+        sum_diarrhea = sum(diarrhea),
+        sum_obesity = sum(obesity),
+        sum_rehab = sum(rehab),
+        sum_stroke = sum(stroke),
+        sum_vaccine = sum(vaccine),
+
+
 
 
         listofCities = [],
+        searched_state = [],
         cancer_search = [],
         cardiovascular_search = [],
         depression_search = [],
@@ -27,7 +56,20 @@ Plotly.d3.json('/allsearchrecord', function(rows) {
         rehab_search = [],
         stroke_search = [],
         vaccine_search = [],
-        serched_years = [];
+        serched_years = [],
+        sum_cancer_search = [],
+        sum_cardiovascular_search = [],
+        sum_depression_search = [],
+        sum_diabetes_search = [],
+        sum_diarrhea_search = [],
+        sum_obesity_search = [],
+        sum_rehab_search = [],
+        sum_stroke_search = [],
+        sum_vaccine_search = [];
+    sum_total_search = [];
+
+
+
 
 
     for (var i = 0; i < city.length; i++) {
@@ -47,6 +89,19 @@ Plotly.d3.json('/allsearchrecord', function(rows) {
         rehab_search = [];
         stroke_search = [];
         vaccine_search = [];
+        searched_state = [];
+        sum_cancer_search = [];
+        sum_cardiovascular_search = [];
+        sum_depression_search = [];
+        sum_diabetes_search = [];
+        sum_diarrhea_search = [];
+        sum_obesity_search = [];
+        sum_rehab_search = [];
+        sum_stroke_search = [];
+        sum_vaccine_search = [];
+        sum_total_search = [];
+
+
         for (var i = 0; i < city.length; i++) {
             if (city[i] === chosenCity) {
                 serched_years.push(allyear[i]);
@@ -59,6 +114,21 @@ Plotly.d3.json('/allsearchrecord', function(rows) {
                 rehab_search.push(rehab[i]);
                 stroke_search.push(stroke[i]);
                 vaccine_search.push(vaccine[i]);
+                searched_state.push(state[i]);
+                sum_cancer_search.push(sum_cancer);
+                sum_cardiovascular_search.push(sum_cardiovascular);
+                sum_depression_search.push(sum_depression);
+                sum_diabetes_search.push(sum_diabetes);
+                sum_diarrhea_search.push(sum_diarrhea);
+                sum_obesity_search.push(sum_obesity);
+                sum_rehab_search.push(sum_rehab);
+                sum_stroke_search.push(sum_stroke);
+                sum_vaccine_search.push(sum_vaccine);
+                sum_total_search.push(sum_vaccine);
+
+
+
+
             }
         }
     };
@@ -150,8 +220,8 @@ Plotly.d3.json('/allsearchrecord', function(rows) {
 
         var data = [Cancer, Cardiovascular, Depression, Diabetes, Diarrhea, Obesity, Rehab, Stroke, Vaccine];
         var layout = {
-            width: 1000,
-            height: 600,
+            width: 800,
+            height: 700,
             title: 'Total Volume of Searches by year Versus Health Conditions',
             barmode: 'stack',
             type: "column",
@@ -191,7 +261,7 @@ Plotly.d3.json('/allsearchrecord', function(rows) {
 
         var layout = {
             title: 'Diarrhea vs. Diabetes',
-            width: 700,
+            width: 480,
             height: 500,
 
         };
@@ -222,7 +292,7 @@ Plotly.d3.json('/allsearchrecord', function(rows) {
 
         var layout = {
             title: 'Depression vs. Diabetes',
-            width: 700,
+            width: 480,
             height: 500,
 
         };
@@ -252,7 +322,7 @@ Plotly.d3.json('/allsearchrecord', function(rows) {
 
         var layout = {
             title: 'Vaccine vs. Diabetes',
-            width: 700,
+            width: 480,
             height: 500,
 
         };
@@ -283,7 +353,7 @@ Plotly.d3.json('/allsearchrecord', function(rows) {
 
         var layout = {
             title: 'Vaccine vs. Depression',
-            width: 700,
+            width: 480,
             height: 500,
 
         };
@@ -291,9 +361,49 @@ Plotly.d3.json('/allsearchrecord', function(rows) {
         Plotly.newPlot('scatter4', data, layout);
 
 
+        var data = [{
+            type: "choroplethmapbox",
+            name: "Searches",
+            geojson: "https://raw.githubusercontent.com/python-visualization/folium/master/examples/data/us-states.json",
+            locations: searched_state,
+            z: sum_total_search,
+
+            zmin: 2555,
+            zmax: 98134,
+
+            colorbar: { y: 0, yanchor: "bottom", title: { text: "Seaches", side: "right" } },
+            colorscale: [
+                [0, '#131f0c'],
+                [1, '#bdfe88']
+            ],
+            autocolorscale: false,
+
+        }];
+
+
+        var layout = {
+            scope: "usa",
+            mapbox: { style: "dark", center: { lon: -95.712891, lat: 37.090240 }, zoom: 3 },
+            width: 500,
+            height: 500,
+            margin: { t: 0, b: 0 },
+
+        }
+        var config = { mapboxAccessToken: "pk.eyJ1IjoiZWdhZ2EiLCJhIjoiY2tmOG51MXY4MGR3NjJ5cnE4N3B2NTl0cCJ9.vVCAwSF-oh9ymZ8-pM-nBQ" };
+
+        Plotly.newPlot('IntermapDiv', data, layout, config);
+
+
+        console.log(sum_rehab_search)
 
 
     };
+
+
+
+
+
+
 
     var innerContainer = document.querySelector('[data-num="0"'),
         plotEl = innerContainer.querySelector('.plot'),
@@ -314,5 +424,6 @@ Plotly.d3.json('/allsearchrecord', function(rows) {
     }
 
     citySelector.addEventListener('change', updateCity, false);
+
 
 });
