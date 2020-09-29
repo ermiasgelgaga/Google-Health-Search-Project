@@ -24,7 +24,7 @@ How have the most searched diseases changed over the years in the US?
 Data sourced from Google Trend, specifically Google Health Search from 2004 - 2017.
 
 ### Transform
-Data cleaned and transformed by using Python Jupyter Notebook.* [`Health_Analysis.ipynb`](https://github.com/ermiasgelaye/Google-Health-Search-Project/blob/master/Data/Data_Cleaning/Health_Analysis.ipynb)
+Data cleaned and transformed by using Python Jupyter Notebook. [`Health_Analysis.ipynb`](https://github.com/ermiasgelaye/Google-Health-Search-Project/blob/master/Data/Data_Cleaning/Health_Analysis.ipynb)
 
 ### LOAD 
 
