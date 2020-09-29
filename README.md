@@ -36,25 +36,25 @@ Data cleaned and transformed by using Python Jupyter Notebook. [`Health_Analysis
 ## Data Analysis 
 The following visualization has made:
 ### Health Search Volume by State and Region (Choropleth map)
-<img src="/img/map.png" height="500" width="900" />
+<img src="/img/map.gif" height="500" width="900" />
 
 ###  Health Search Volume by Year (Single Line Chart)
-<img src="/img/line_chart1.png" height="500" width="900" />
+<img src="/img/line_chart1.gif" height="500" width="900" />
 
 ###  Health Search Volume by Year and Condition (Multiple Line Chart)
-<img src="/img/line_chart2.png" height="500" width="900" />
+<img src="/img/line_chart2.gif" height="500" width="900" />
 
 ###  Health Search volume by State.
-<img src="/img/bar_graph.png" height="500" width="900" />
+<img src="/img/bar_graph.gif" height="500" width="900" />
 
 ###  Correlation Between Health Conditions
-<img src="/img/corroletion_matrix.png" height="500" width="900" />
+<img src="/img/corroletion_matrix.gif" height="500" width="900" />
 
 ### Boxplot of Health Google Search 2004-2016
-<img src="/img/box_plot.png" height="500" width="900" />
+<img src="/img/box_plot.gif" height="500" width="900" />
 
 ### Radar plot on all Time Total Volume of Health Searches
-<img src="/img/radar.png" height="500" width="900" />
+<img src="/img/radar.gif" height="500" width="900" />
 
 ## Deployment 
 The app is deployed in Heroku in order to access the page click the following link [Eagle Dashboard](https://eagledashboard-health.herokuapp.com/)
