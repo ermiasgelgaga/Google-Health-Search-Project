@@ -59,13 +59,10 @@ The following visualization has made:
 <img src="/img/box_plot.gif" height="500" width="900" />
 
 ### Radar Plot on All Time Total Volume of Health Searches
-<img src="/img/radar.gif" height="500" width="900" />
+<img src="/img/radar.gif" height="500" width="500" />
 
 ### Radar Plot on the Sum Total Volume of 10 Leading Causes of Death Per 100,000 Population from 2004-2017
-<img src="/img/radar.gif" height="500" width="900" />
-
-### 10 Leading Causes of Death Per 100,000 Population from 2004 - 2017
-<img src="/img/radar2.gif" height="500" width="900" />
+<img src="/img/radar2.gif" height="500" width="500" />
 
 ### Interactive Charts With Dropdown Down Selection "City"
 <img src="/img/comparison.gif" height="500" width="900" />
