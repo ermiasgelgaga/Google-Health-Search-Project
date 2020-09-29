@@ -50,6 +50,10 @@ The following visualization made:
 ### Health Search Volume by State and Region (Choropleth map)
 <img src="/img/map.gif" height="500" width="900" />
 
+
+### Interactive Charts With Dropdown Down Selection "City"
+<img src="/img/comparison2.gif" height="500" width="900" />
+
 ###  Health Search Volume by Year (Single Line Chart)
 <img src="/img/line_chart1.gif" height="500" width="900" />
 
@@ -71,8 +75,6 @@ The following visualization made:
 ### Radar Plot on the Sum Total Volume of 10 Leading Causes of Death Per 100,000 Population from 2004-2017
 <img src="/img/radar2.gif" height="500" width="900" />
 
-### Interactive Charts With Dropdown Down Selection "City"
-<img src="/img/comparison.gif" height="500" width="900" />
 
 ## Team members (Team Eagle)
 * Adedamola Atekoja (‘Damola)
