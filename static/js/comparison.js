@@ -167,8 +167,134 @@ Plotly.d3.json('/allsearchrecord', function(rows) {
         };
 
         Plotly.newPlot('comparison-1', data, layout);
+        var Diarrhea_c = {
+            x: serched_years,
+            y: diarrhea_search,
+            mode: 'markers',
+            type: 'scatter',
+            marker: { size: 12 },
+            name: 'Diarrhea'
+
+        };
+
+        var Diabetes_c = {
+            x: serched_years,
+            y: diabetes_search,
+            mode: 'markers',
+            type: 'scatter',
+            marker: { size: 12 },
+            name: 'Diabetes'
+
+        };
+
+        var data = [Diarrhea_c, Diabetes_c];
+
+        var layout = {
+            title: 'Diarrhea vs. Diabetes',
+            width: 700,
+            height: 500,
+
+        };
+
+        Plotly.newPlot('scatter1', data, layout);
+
+        var Depression_c = {
+            x: serched_years,
+            y: depression_search,
+            mode: 'markers',
+            type: 'scatter',
+            marker: { size: 12 },
+            name: 'Depression'
+
+        };
+
+        var Diabetes_c = {
+            x: serched_years,
+            y: diabetes_search,
+            mode: 'markers',
+            type: 'scatter',
+            marker: { size: 12 },
+            name: 'Diabetes'
+
+        };
+
+        var data = [Depression_c, Diabetes_c];
+
+        var layout = {
+            title: 'Depression vs. Diabetes',
+            width: 700,
+            height: 500,
+
+        };
+
+        Plotly.newPlot('scatter2', data, layout);
+        var Vaccine_c = {
+            x: serched_years,
+            y: vaccine_search,
+            mode: 'markers',
+            type: 'scatter',
+            marker: { size: 12 },
+            name: 'Vaccine'
+
+        };
+
+        var Diabetes_c = {
+            x: serched_years,
+            y: diabetes_search,
+            mode: 'markers',
+            type: 'scatter',
+            marker: { size: 12 },
+            name: 'Diabetes'
+
+        };
+
+        var data = [Vaccine_c, Diabetes_c];
+
+        var layout = {
+            title: 'Vaccine vs. Diabetes',
+            width: 700,
+            height: 500,
+
+        };
+
+        Plotly.newPlot('scatter3', data, layout);
+
+        var Vaccine_c = {
+            x: serched_years,
+            y: vaccine_search,
+            mode: 'markers',
+            type: 'scatter',
+            marker: { size: 12 },
+            name: 'Vaccine'
+
+        };
+
+        var Depression_c = {
+            x: serched_years,
+            y: depression_search,
+            mode: 'markers',
+            type: 'scatter',
+            marker: { size: 12 },
+            name: 'Depression'
+
+        };
+
+        var data = [Vaccine_c, Depression_c];
+
+        var layout = {
+            title: 'Vaccine vs. Depression',
+            width: 700,
+            height: 500,
+
+        };
+
+        Plotly.newPlot('scatter4', data, layout);
+
+
+
 
     };
+
     var innerContainer = document.querySelector('[data-num="0"'),
         plotEl = innerContainer.querySelector('.plot'),
         citySelector = innerContainer.querySelector('.citydata');
