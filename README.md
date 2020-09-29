@@ -38,7 +38,7 @@ The following visualization has made:
 ###  Correlation Between Health Conditions
 <img src="/img/corroletion_matrix.png" height="500" width="900" />
 
-### Boxplot of Health Google Search 2004-2017
+### Boxplot of Health Google Search 2004-2016
 <img src="/img/box_plot.png" height="500" width="900" />
 
 ### Radar plot on all Time Total Volume of Health Searches
