@@ -34,7 +34,7 @@ Data cleaned and transformed by using Python Jupyter Notebook. [`Health_Analysis
 
 - Python Flask–powered RESTful API were used to deploy the data into the web, and API end point links created.
 
-<img src="/img/Api_links.png" height="300" width="300" />
+<img src="/img/Api_links.png" height="300" width="300"/>
 
 ## Deployment 
 The app is deployed in Heroku in order to access the page click the following link 
@@ -51,7 +51,7 @@ The following visualization made:
 <img src="/img/map.gif" height="500" width="900" />
 
 
-### Interactive Charts With Dropdown Down Selection "City"
+### Interactive Charts With Dropdown Selection "City"
 <img src="/img/comparison2.gif" height="500" width="900" />
 
 ###  Health Search Volume by Year (Single Line Chart)
