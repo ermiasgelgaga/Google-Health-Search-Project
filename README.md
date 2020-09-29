@@ -21,20 +21,32 @@ How have the most searched diseases changed over the years in the US?
 ## ETL
 
 ### EXTRACT 
+
 Data sourced from Google Trend, specifically Google Health Search from 2004 - 2017.
 
 ### Transform
+
 Data cleaned and transformed by using Python Jupyter Notebook. [`Health_Analysis.ipynb`](https://github.com/ermiasgelaye/Google-Health-Search-Project/blob/master/Data/Data_Cleaning/Health_Analysis.ipynb)
 
 ### LOAD 
 
 - This project used Python Jupyter Notebook to load transformed data in to PostgreSQL database. [`loadData.ipynb`](https://github.com/ermiasgelaye/Google-Health-Search-Project/blob/master/Data/database/load_in_to_db/loadData.ipynb)
 
-- Python Flask–powered RESTful API were used to deploy the data into the web, and API end point links created.<img src="/img/Api_links.png" height="300" width="300" />
+- Python Flask–powered RESTful API were used to deploy the data into the web, and API end point links created.
+
+<img src="/img/Api_links.png" height="300" width="300" />
+
+## Deployment 
+The app is deployed in Heroku in order to access the page click the following link 
+[Eagle Dashboard](https://eagledashboard-health.herokuapp.com/)
+
+- https://eagledashboard-health.herokuapp.com/
 
 
-## Data Analysis 
-The following visualization has made:
+## Data Analysis and Visualization
+
+The following visualization made:
+
 ### Health Search Volume by State and Region (Choropleth map)
 <img src="/img/map.gif" height="500" width="900" />
 
@@ -53,11 +65,14 @@ The following visualization has made:
 ### Boxplot of Health Google Search 2004-2016
 <img src="/img/box_plot.gif" height="500" width="900" />
 
-### Radar plot on all Time Total Volume of Health Searches
+### Radar Plot on All Time Total Volume of Health Searches
 <img src="/img/radar.gif" height="500" width="900" />
 
-## Deployment 
-The app is deployed in Heroku in order to access the page click the following link [Eagle Dashboard](https://eagledashboard-health.herokuapp.com/)
+### Radar Plot on the Sum Total Volume of 10 Leading Causes of Death Per 100,000 Population from 2004-2017
+<img src="/img/radar2.gif" height="500" width="900" />
+
+### Interactive Charts With Dropdown Down Selection "City"
+<img src="/img/comparison.gif" height="500" width="900" />
 
 ## Team members (Team Eagle)
 * Adedamola Atekoja (‘Damola)
