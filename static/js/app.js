@@ -593,7 +593,7 @@ Plotly.d3.json('/searchbystate', function(rows) {
     var layout = {
         scope: "usa",
         mapbox: { style: "dark", center: { lon: -95.712891, lat: 37.090240 }, zoom: 3 },
-        width: 800,
+        width: 1200,
         height: 500,
         margin: { t: 0, b: 0 },
 

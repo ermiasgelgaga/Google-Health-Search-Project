@@ -397,6 +397,7 @@ Plotly.d3.json('/allsearchrecord', function(rows) {
 
 
 
+
     };
     var innerContainer = document.querySelector('[data-num="0"'),
         plotEl = innerContainer.querySelector('.plot'),
