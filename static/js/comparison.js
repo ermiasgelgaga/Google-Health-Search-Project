@@ -384,8 +384,8 @@ Plotly.d3.json('/allsearchrecord', function(rows) {
         var layout = {
             scope: "usa",
             mapbox: { style: "dark", center: { lon: -95.712891, lat: 37.090240 }, zoom: 3 },
-            width: 500,
-            height: 500,
+            width: 400,
+            height: 630,
             margin: { t: 0, b: 0 },
 
         }
@@ -398,13 +398,6 @@ Plotly.d3.json('/allsearchrecord', function(rows) {
 
 
     };
-
-
-
-
-
-
-
     var innerContainer = document.querySelector('[data-num="0"'),
         plotEl = innerContainer.querySelector('.plot'),
         citySelector = innerContainer.querySelector('.citydata');
