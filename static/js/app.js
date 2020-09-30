@@ -783,7 +783,7 @@ data = [{
 layout = {
     title: 'The Sum total Volume of 10 Leading Causes of Death Per 100,000 Population from 2004-2017 ',
     width: 1000,
-    height: 300,
+    height: 700,
     polar: {
         radialaxis: {
             visible: true,
