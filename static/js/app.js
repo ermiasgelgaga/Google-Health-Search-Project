@@ -593,7 +593,7 @@ Plotly.d3.json('/searchbystate', function(rows) {
     var layout = {
         scope: "usa",
         mapbox: { style: "dark", center: { lon: -95.712891, lat: 37.090240 }, zoom: 3 },
-        width: 1200,
+        width: 800,
         height: 500,
         margin: { t: 0, b: 0 },
 
@@ -783,7 +783,7 @@ data = [{
 layout = {
     title: 'The Sum total Volume of 10 Leading Causes of Death Per 100,000 Population from 2004-2017 ',
     width: 1000,
-    height: 700,
+    height: 300,
     polar: {
         radialaxis: {
             visible: true,
