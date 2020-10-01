@@ -106,7 +106,7 @@ body {
 
 body {
     background-color: #ffffff;
-    background: linear-gradient(#ffffff, #ffffff);
+    background: linear-gradient(#f8f9fa, #ffffff);
     font-family: Arial, Helvetica, sans-serif;
     /* "Gill Sans", "Lucida Sans", Tahoma, Verdana, sans-serif; */
     /* background: url(/images/wallpaper.png) repeat;  */
@@ -128,7 +128,7 @@ h3 {
 .header {
     height: 200px;
     padding-top: 20px;
-    background: #ffffff;
+    background: #cdcdcd;
 }
 
 
@@ -293,7 +293,7 @@ h3 {
 
 .main-content {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(203, 227, 241, 0.1);
     padding: 20px;
     /* margin-right: 1%; */
 }

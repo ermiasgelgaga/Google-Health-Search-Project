@@ -128,7 +128,7 @@ h3 {
 .header {
     height: 200px;
     padding-top: 20px;
-    background: #ffffff;
+    background: #cdcdcd;
 }
 
 
@@ -293,7 +293,7 @@ h3 {
 
 .main-content {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.1);
     padding: 20px;
     /* margin-right: 1%; */
 }
