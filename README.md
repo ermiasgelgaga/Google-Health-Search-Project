@@ -27,15 +27,15 @@ How have the most online searched diseases changed over the past two decades in 
 
 ## ETL Process
 
-### EXTRACT 
+### Extract 
 
-Data sourced from [Google Trends](https://www.kaggle.com/GoogleNewsLab/health-searches-us-county), specifically Google Health Search from 2004 - 2017.
+Data sourced from [Google Trends](https://www.kaggle.com/GoogleNewsLab/health-searches-us-county), specifically Google Health Search from 2004 - 2017, and [the US CDC data](https://www.cdc.gov/nchs/fastats/deaths.htm) at the same period of time.
 
 ### Transform
 
 Data cleaned and transformed by using Python Jupyter Notebook. [`Health_Analysis.ipynb`](https://github.com/ermiasgelaye/Google-Health-Search-Project/blob/master/Data/Data_Cleaning/Health_Analysis.ipynb)
 
-### LOAD 
+### Load 
 
 - This project used Python Jupyter Notebook to load transformed data in to PostgreSQL database. [`loadData.ipynb`](https://github.com/ermiasgelaye/Google-Health-Search-Project/blob/master/Data/database/load_in_to_db/loadData.ipynb)
 
@@ -55,7 +55,7 @@ You can find our presentation [slide here](https://docs.google.com/presentation/
 
 ## Data Analysis and Visualization
 
-The following visualizations are made:
+The following visualizations are [made](https://eagledashboard-health.herokuapp.com/static/dashbords/main.html):
 
 ### Health Search Volume by State and Region (Choropleth map)
 <img src="/img/map.gif" height="500" width="900" />
@@ -70,10 +70,10 @@ The following visualizations are made:
 ###  Health Search Volume by Year and Condition (Multiple Line Chart)
 <img src="/img/line_chart2.gif" height="500" width="900" />
 
-###  Health Search volume by State.
+###  Health Search volume by States
 <img src="/img/bar_graph.gif" height="500" width="900" />
 
-###  Correlation Between Health Conditions
+###  Correlation Between Searches of Health Conditions
 <img src="/img/corroletion_matrix.gif" height="500" width="900" />
 
 ### Boxplot of Health Google Search 2004-2017
