@@ -1,7 +1,7 @@
 ## Changes of Online Health Search Trends
 <img src="/img/google-medic-update-1533729137.gif" height="500" width="900" />
 
-🌱🌱🌱Check my main project out [here](https://eagledashboard-health.herokuapp.com)!
+🌱🌱🌱Check the main project out [here](https://eagledashboard-health.herokuapp.com)!
 
 ## Project Goal
 How has the online search interest for top health issues or diseases changed over time? And how does the online search interest compare with the real-life leading causes of death?
