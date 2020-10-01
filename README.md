@@ -1,5 +1,7 @@
-## Google Health Search Trends by US Metropolitan Area, 2004 – 2017
+## Changes of Online Health Search Trends in the United States from 2004 to 2017
 <img src="/img/google-medic-update-1533729137.gif" height="500" width="900" />
+
+Check my main project out [here](https://eagledashboard-health.herokuapp.com)!
 
 ## Project Goal
 How has the online search interest for top health issues or diseases changed over time? And how does the online search interest compare with the real-life leading causes of death?
@@ -21,13 +23,13 @@ How have the most online searched diseases changed over the past two decades in 
    
 ## Data Architectural Diagram 
 <img src="/img/Screen Shot 2020-10-01 at 12.21.00 AM.png" height="500" width="1200" />
-S
 
-## ETL
+
+## ETL Process
 
 ### EXTRACT 
 
-Data sourced from Google Trend, specifically Google Health Search from 2004 - 2017.
+Data sourced from [Google Trends](https://www.kaggle.com/GoogleNewsLab/health-searches-us-county), specifically Google Health Search from 2004 - 2017.
 
 ### Transform
 
@@ -43,7 +45,7 @@ Data cleaned and transformed by using Python Jupyter Notebook. [`Health_Analysis
 
 ## Deployment 
 The app is deployed in Heroku in order to access the page click the following link 
-[Eagle Dashboard](https://eagledashboard-health.herokuapp.com/)
+[Eagle Dashboard](https://eagledashboard-health.herokuapp.com/) to explore our whole project
 
 - https://eagledashboard-health.herokuapp.com/
 
@@ -53,7 +55,7 @@ You can find our presentation [slide here](https://docs.google.com/presentation/
 
 ## Data Analysis and Visualization
 
-The following visualization made:
+The following visualizations are made:
 
 ### Health Search Volume by State and Region (Choropleth map)
 <img src="/img/map.gif" height="500" width="900" />
