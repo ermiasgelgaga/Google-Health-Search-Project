@@ -42,6 +42,9 @@ The app is deployed in Heroku in order to access the page click the following li
 
 - https://eagledashboard-health.herokuapp.com/
 
+You can find our presentation [slide here](https://docs.google.com/presentation/d/1opQ4gxv21dA1kt5X3b3Z1609Jmmp3sWWBpQKmz1-A_Y/edit#slide=id.g9a6fda686b_5_0)
+- https://docs.google.com/presentation/d/1opQ4gxv21dA1kt5X3b3Z1609Jmmp3sWWBpQKmz1-A_Y/edit#slide=id.g9a6fda686b_5_0
+
 
 ## Data Analysis and Visualization
 
