@@ -2,10 +2,15 @@
 <img src="/img/google-medic-update-1533729137.gif" height="500" width="900" />
 
 ## Project Goal
-Google Trends data allows us to see what people are searching for at a very local level. The goal of this project is to track, and visualize the top searches for common health issues in the United States, from Cancer to Diabetes, and compare them with the actual location of occurrences for those same health conditions to understand how search data reflects life for millions of Americans.
+How has the online search interest for top health issues or diseases changed over time? And how does the online search interest compare with the real-life leading causes of death?
+
+To investigate this question, our team used the online health search data in the US from 2004 to 2017 provided by Google Trends as well as the real-life leading death-causing disease data provided by the US CDC Department. We chose the United States to as the representative population. And Google Trends data in particular allows us to see what people are searching for at a very local level. With regard to the booming technological advancements and the growing reliance people have had on Internet, we will make visualizations and draw insights from our data to understand in the past two decades how the online search patterns reflect the real-life health conditions for millions of Americans.
+
+Overall, the online health search has been increasing and presumably will keep increasing, due to the advancement of Telehealth and technologies, which is a foreseeable phenomenon in the future, in the United States and probably similarly else where.
+
 
 ## Research Question
-How have the most searched diseases changed over the years in the US?
+How have the most online searched diseases changed over the past two decades in the United States?
 
 ## Data sources
 * Kaggle: Health searches by US Metropolitan Area, 2004-2017
@@ -16,7 +21,7 @@ How have the most searched diseases changed over the years in the US?
    
 ## Data Architectural Diagram 
 <img src="/img/Screen Shot 2020-10-01 at 12.21.00 AM.png" height="500" width="1200" />
-
+S
 
 ## ETL
 
