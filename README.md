@@ -52,7 +52,7 @@ The following visualization made:
 
 
 ### Interactive Charts With Dropdown Selection "City"
-<img src="/img/comparison2.gif" height="500" width="900" />
+<img src="/img/comparison.gif" height="500" width="900" />
 
 ###  Health Search Volume by Year (Single Line Chart)
 <img src="/img/line_chart1.gif" height="500" width="900" />
