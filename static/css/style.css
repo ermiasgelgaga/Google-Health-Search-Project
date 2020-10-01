@@ -95,6 +95,11 @@ section {
     display: block;
 }
 
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
 body {
     line-height: 1;
 }
@@ -102,9 +107,10 @@ body {
 body {
     background-color: #f8f9fa;
     background: linear-gradient(#f8f9fa, #ffffff);
-    font-family: "Gill Sans", "Lucida Sans", Tahoma, Verdana, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    /* "Gill Sans", "Lucida Sans", Tahoma, Verdana, sans-serif; */
     /* background: url(/images/wallpaper.png) repeat;  */
-    color: #424949;
+    color: #000;
     /* text-align: center; */
 }
 
@@ -140,8 +146,8 @@ h3 {
 
 .post {
     margin-top: 50px;
-    margin-right: 100px;
-    margin-left: 100px;
+    margin-right: 50px;
+    margin-left: 50px;
 }
 
 #nav-select {
@@ -164,23 +170,24 @@ h3 {
 .navbar {
     padding: 10px;
     background: none;
-    font-family: "Gill Sans", "Lucida Sans", Tahoma, Verdana, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    /* font-family: "Gill Sans", "Lucida Sans", Tahoma, Verdana, sans-serif; */
 }
 
 
 /* Getting rid of the default link styles here */
 
 .navbar-li-a {
-    color: #000;
+    color: black;
     text-decoration: none;
-    font-family: "Gill Sans", "Lucida Sans", Tahoma, Verdana, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #badge {
     font-size: x-large;
-    font-family: "Gill Sans", "Lucida Sans", Tahoma, Verdana, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: lighter;
-    color: #424949;
+    color: grey;
     margin-left: 5%;
     background-color: transparent;
     height: 60px;
@@ -237,9 +244,8 @@ h3 {
 .main-header {
     text-align: center;
     font-size: xx-large;
-    font-family: "Gill Sans", "Lucida Sans", Tahoma, Verdana, sans-serif;
-    font-weight: lighter;
-    color: #424949;
+    font-family: Arial, Helvetica, sans-serif;
+    /* font-weight: lighter; */
 }
 
 .main-image-featured {
@@ -283,8 +289,8 @@ h3 {
 }
 
 .main-content {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: rgba(255, 255, 255, 0.1);
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(203, 227, 241, 0.1);
     padding: 20px;
     /* margin-right: 1%; */
 }
@@ -295,13 +301,13 @@ h3 {
 }
 
 .main-p {
-    font-family: "Gill Sans", "Lucida Sans", Tahoma, Verdana, sans-serif;
-    font-size: 15pt;
-    display: block;
-    /* line-height: 30px; */
-    color: #424949;
-    font-weight: 300;
-    line-height: 1;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18pt;
+    /* display: block; */
+    line-height: 30px;
+    color: #000000;
+    font-weight: light;
+    /* line-height: 15; */
 }
 
 #index-text-box {
@@ -801,6 +807,8 @@ header h6+p {
     }
 }
 
+<<<<<<< HEAD
+=======
 .column {
     float: left;
     width: 33.33%;
@@ -830,3 +838,4 @@ header h6+p {
 .middle {
     width: 250%;
 }
+>>>>>>> upstream/master
