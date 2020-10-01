@@ -8,7 +8,7 @@ How has the online search interest for top health issues or diseases changed ove
 
 To investigate this question, our team used the online health search data in the US from 2004 to 2017 provided by Google Trends as well as the real-life leading death-causing disease data provided by the US CDC Department. We chose the United States to as the representative population. And Google Trends data in particular allows us to see what people are searching for at a very local level. With regard to the booming technological advancements and the growing reliance people have had on Internet, we will make visualizations and draw insights from our data to understand in the past two decades how the online search patterns reflect the real-life health conditions for millions of Americans.
 
-Overall, the online health search has been increasing and presumably will keep increasing, due to the advancement of Telehealth and technologies, which is a foreseeable phenomenon in the future, in the United States and probably similarly else where.
+Overall, the online health search has been increasing and presumably will keep increasing, due to the growth of Internt and technologies, which is a foreseeable phenomenon in the future, in the United States and probably similarly else where.
 
 
 ## Research Question
