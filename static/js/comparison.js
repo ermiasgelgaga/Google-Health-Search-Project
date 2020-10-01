@@ -429,7 +429,7 @@ Plotly.d3.json('/allsearchrecord', function(rows) {
             scope: "usa",
             mapbox: { style: "dark", center: { lon: -95.712891, lat: 37.090240 }, zoom: 1.7 },
             width: 800,
-            height: 450,
+            height: 650,
             margin: { t: 0, b: 0 },
 
         }
