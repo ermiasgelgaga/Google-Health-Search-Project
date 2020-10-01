@@ -1,4 +1,4 @@
-## Changes of Online Health Search Trends in the United States from 2004 to 2017
+## Changes of Online Health Search Trends
 <img src="/img/google-medic-update-1533729137.gif" height="500" width="900" />
 
 🌱🌱🌱Check my main project out [here](https://eagledashboard-health.herokuapp.com)!
