@@ -337,7 +337,7 @@ Plotly.d3.json('/allsearchrecord', function(rows) {
 
         var layout = {
             title: 'Vaccine vs. Diabetes',
-            width: 450,
+            width: 500,
             height: 480,
 
         };
@@ -372,7 +372,7 @@ Plotly.d3.json('/allsearchrecord', function(rows) {
 
         var layout = {
             title: 'Vaccine vs. Depression',
-            width: 450,
+            width: 500,
             height: 480,
 
         };
