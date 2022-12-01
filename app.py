@@ -16,7 +16,7 @@ from flask_sqlalchemy import SQLAlchemy
 # Database Setup
 ##################################################
 
-engine = create_engine('postgres://ujxnojqwamlbge:0909f706368f392cc604998d8ac79a1c8f8976f8fc4d838259dcc450ec9e3174@ec2-44-207-109-54.compute-1.amazonaws.com:5432/d94nnsk3a1vpcm')
+engine = create_engine('postgres://egaga:PAknjzOmCEUpWd7LaqBs6V1LM7GiwzNb@dpg-ce4g5d9a6gdivt61ju00-a.oregon-postgres.render.com/googlehealth')
 
 
 # checking the table names
