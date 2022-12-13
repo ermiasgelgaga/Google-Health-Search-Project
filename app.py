@@ -16,7 +16,7 @@ from flask_sqlalchemy import SQLAlchemy
 # Database Setup
 ##################################################
 
-engine = create_engine('postgres://ujxnojqwamlbge:0909f706368f392cc604998d8ac79a1c8f8976f8fc4d838259dcc450ec9e3174@ec2-44-207-109-54.compute-1.amazonaws.com:5432/d94nnsk3a1vpcm')
+engine = create_engine('postgres://xuirglkcfvyzsn:000863431f432350cbe9b7972fcfa03cb70aa1709efcc9e16ddfdd83d645dc7b@ec2-54-157-79-121.compute-1.amazonaws.com:5432/ddjlk9h25ehvfe')
 
 
 # checking the table names
