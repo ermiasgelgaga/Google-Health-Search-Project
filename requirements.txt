@@ -1,23 +1,4 @@
---allow-unverified certifi
---allow-unverified chardet 
---allow-unverified click 
---allow-unverified Flask 
---allow-unverified Flask-SQLAlchemy
---allow-unverified gunicorn
---allow-unverified idna
---allow-unverified itsdangerous
---allow-unverified Jinja2
---allow-unverified MarkupSafe
---allow-unverified numpy
---allow-unverified pandas
---allow-unverified psycopg2
---allow-unverified python-dateutil
---allow-unverified pytz
---allow-unverified requests
---allow-unverified six
---allow-unverified SQLAlchemy
---allow-unverified urllib3
---allow-unverified Werkzeug
+--allow-unverifie
 certifi==2020.6.20
 chardet==3.0.4
 click==7.1.2
