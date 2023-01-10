@@ -17,13 +17,6 @@ from flask_sqlalchemy import SQLAlchemy
 # Database Setup
 ##################################################
 
-<<<<<<< Updated upstream
-engine = create_engine('postgresql://kdojexxzviryyp:64e74879664d1ab6e5f2f2dccd55344d562770cb46a018801a67352779dce8aa@ec2-52-70-86-157.compute-1.amazonaws.com:5432/d29l5bii4auh29')
-=======
-engine = create_engine('postgres://kdojexxzviryyp:64e74879664d1ab6e5f2f2dccd55344d562770cb46a018801a67352779dce8aa@ec2-52-70-86-157.compute-1.amazonaws.com:5432/d29l5bii4auh29')
->>>>>>> Stashed changes
-
-
 # checking the table names
 ## engine.table_names()
 
