@@ -3,7 +3,8 @@ import os
 import json
 import requests
 import sqlalchemy
-
+from flask import Flask
+from flask_sqlalchemy import SQLAlchemy
 from sqlalchemy.ext.automap import automap_base
 from sqlalchemy.orm import Session
 from sqlalchemy import create_engine
@@ -16,7 +17,7 @@ from flask_sqlalchemy import SQLAlchemy
 # Database Setup
 ##################################################
 
-engine = create_engine('postgres://kdojexxzviryyp:64e74879664d1ab6e5f2f2dccd55344d562770cb46a018801a67352779dce8aa@ec2-52-70-86-157.compute-1.amazonaws.com:5432/d29l5bii4auh29')
+engine = create_engine('postgresql://kdojexxzviryyp:64e74879664d1ab6e5f2f2dccd55344d562770cb46a018801a67352779dce8aa@ec2-52-70-86-157.compute-1.amazonaws.com:5432/d29l5bii4auh29')
 
 
 # checking the table names
