@@ -95,22 +95,16 @@ section {
     display: block;
 }
 
-html, body {
-    height: 100%;
-    width: 100%;
-}
-
 body {
     line-height: 1;
 }
 
 body {
-    background-color: #ffffff;
-    background: linear-gradient(#ffffff, #ffffff);
-    font-family: Arial, Helvetica, sans-serif;
-    /* "Gill Sans", "Lucida Sans", Tahoma, Verdana, sans-serif; */
+    background-color: #f8f9fa;
+    background: linear-gradient(#f8f9fa, #ffffff);
+    font-family: "Gill Sans", "Lucida Sans", Tahoma, Verdana, sans-serif;
     /* background: url(/images/wallpaper.png) repeat;  */
-    color: #000;
+    color: #424949;
     /* text-align: center; */
 }
 
@@ -128,7 +122,7 @@ h3 {
 .header {
     height: 200px;
     padding-top: 20px;
-    background: #ffffff;
+    background: #cdcdcd;
 }
 
 
@@ -141,16 +135,13 @@ h3 {
     text-align: center;
 }
 
-.navbar-light .navbar-nav .nav-link {
-    color: rgb(0, 0, 0);
-}
 
 /* Giving the .post element margin on 3 sides */
 
 .post {
     margin-top: 50px;
-    margin-right: 50px;
-    margin-left: 50px;
+    margin-right: 100px;
+    margin-left: 100px;
 }
 
 #nav-select {
@@ -173,24 +164,23 @@ h3 {
 .navbar {
     padding: 10px;
     background: none;
-    font-family: Arial, Helvetica, sans-serif;
-    /* font-family: "Gill Sans", "Lucida Sans", Tahoma, Verdana, sans-serif; */
+    font-family: "Gill Sans", "Lucida Sans", Tahoma, Verdana, sans-serif;
 }
 
 
 /* Getting rid of the default link styles here */
 
 .navbar-li-a {
-    color: rgb(0, 0, 0);
+    color: #000;
     text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Gill Sans", "Lucida Sans", Tahoma, Verdana, sans-serif;
 }
 
 #badge {
     font-size: x-large;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Gill Sans", "Lucida Sans", Tahoma, Verdana, sans-serif;
     font-weight: lighter;
-    color: rgb(0, 0, 0);
+    color: #424949;
     margin-left: 5%;
     background-color: transparent;
     height: 60px;
@@ -247,8 +237,9 @@ h3 {
 .main-header {
     text-align: center;
     font-size: xx-large;
-    font-family: Arial, Helvetica, sans-serif;
-    /* font-weight: lighter; */
+    font-family: "Gill Sans", "Lucida Sans", Tahoma, Verdana, sans-serif;
+    font-weight: lighter;
+    color: #424949;
 }
 
 .main-image-featured {
@@ -292,8 +283,8 @@ h3 {
 }
 
 .main-content {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(255, 255, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgba(255, 255, 255, 0.1);
     padding: 20px;
     /* margin-right: 1%; */
 }
@@ -304,13 +295,13 @@ h3 {
 }
 
 .main-p {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 18pt;
-    /* display: block; */
-    line-height: 30px;
-    color: #000000;
-    font-weight: light;
-    /* line-height: 15; */
+    font-family: "Gill Sans", "Lucida Sans", Tahoma, Verdana, sans-serif;
+    font-size: 15pt;
+    display: block;
+    /* line-height: 30px; */
+    color: #424949;
+    font-weight: 300;
+    line-height: 1;
 }
 
 #index-text-box {

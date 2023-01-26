@@ -686,7 +686,7 @@ Plotly.d3.json('/mostsserached', function(rows) {
         x: state,
         y: rehab,
         type: 'bar',
-        name: 'Rehab',
+        name: 'Obesity',
         marker: { color: '#880' }
 
     };
@@ -751,7 +751,7 @@ data = [{
 }]
 
 layout = {
-    title: 'The Sum Total Volume of Health Conditions from 2004-2017',
+    title: 'The Sum total Volume of Health Condition Searches from 2004- 2017 ',
     width: 1000,
     height: 700,
     polar: {
