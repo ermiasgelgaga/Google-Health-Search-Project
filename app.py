@@ -1,8 +1,9 @@
 import numpy as np
 import os
 import json
-from flask import Flask
-from flask_sqlalchemy import SQLAlchemy
+import requests
+import sqlalchemy
+
 from sqlalchemy.ext.automap import automap_base
 from sqlalchemy.orm import Session
 from sqlalchemy import create_engine
@@ -11,42 +12,27 @@ from config import pg_user, pg_password, db_name
 from flask import Flask, jsonify, render_template, abort, redirect
 from flask_sqlalchemy import SQLAlchemy
 
-
-
 #################################################
 # Database Setup
 ##################################################
 
+engine = create_engine('postgres://egaga:PAknjzOmCEUpWd7LaqBs6V1LM7GiwzNb@dpg-ce4g5d9a6gdivt61ju00-a.oregon-postgres.render.com/googlehealth')
+
+
 # checking the table names
-## engine.table_names()
+engine.table_names()
 
 
 #################################################
 # Flask Setup
 #################################################
-
-DATABASE_URL = "postgres://egaga:PAknjzOmCEUpWd7LaqBs6V1LM7GiwzNb@dpg-ce4g5d9a6gdivt61ju00-a.oregon-postgres.render.com/googlehealth"
-
-DATABASE_URL = DATABASE_URL.replace(
-    'postgres://',
-    'postgresql://',
-    1
-)
-
-engine = create_engine(DATABASE_URL)
-engine.table_names()
-
-
-
 app = Flask(__name__)
 
-app.config['SQLAlCHEMY_DATABASE_URI']=os.getenv('DATABASE_URI','') or "sqlite:///db.sqlite"
-
+app.config['SQLAlCHEMY_DATABASE_URI']=os.environ.get('DATABASE_URI','') or "sqlite:///db.sqlite"
 
 app.config['SQLAlCHEMY_TRACK_MODIFICATION']=False
 
 db=SQLAlchemy(app)
-
 
 #################################################
 # Flask Routes
@@ -65,9 +51,9 @@ def home():
 @app.route('/searchbyyear')
 def searchbyyear():
     sqlStatement = """
-    SELECT year, SUM ("Cancer" + "cardiovascular" + "stroke" + "depression" + "rehab" + "vaccine" + "diarrhea" + "obesity" + "diabetes") AS Searches  
-    FROM search_condition 
-    GROUP BY year
+   SELECT year, SUM ("Cancer" + "cardiovascular" + "stroke" + "depression" + "rehab" + "vaccine" + "diarrhea" + "obesity" + "diabetes") AS Searches  
+   FROM search_condition 
+   GROUP BY year
     ORDER BY year;
     """
     df = pdsql.read_sql(sqlStatement, engine)
@@ -75,21 +61,6 @@ def searchbyyear():
     df = df.to_json(orient='table')
     result = json.loads(df)
     return jsonify(result)
-
-@app.route('/allsearchrecord')
-def allsearchrecord():
-    sqlStatement = """
-    SELECT *
-    FROM location l
-    INNER JOIN search_condition s on s.location_id = l.location_id
-    ORDER BY year;
-    """
-    df = pdsql.read_sql(sqlStatement, engine)
-    df.set_index('year', inplace=True)
-    df = df.to_json(orient='table')
-    result = json.loads(df)
-    return jsonify(result)
-
 @app.route('/searchyearandcondition')
 def searchyearandcondition():
     sqlStatement = """
@@ -109,11 +80,11 @@ def searchyearandcondition():
 def searchbycity():
 
     sqlStatement = """
-    SELECT l.city,l.postal,l.state, l.latitude, l.longitude, SUM (s."Cancer" + s."cardiovascular" + s."stroke" + s."depression" + s."rehab" + s."vaccine" + s."diarrhea" + s."obesity" + s."diabetes") AS Searches  
-    FROM location l
-    INNER JOIN search_condition s on s.location_id = l.location_id
-    GROUP BY l.city,l.state,l.postal, l.latitude, l.longitude
-    ORDER BY l.city;
+SELECT l.city,l.postal,l.state, l.latitude, l.longitude, SUM (s."Cancer" + s."cardiovascular" + s."stroke" + s."depression" + s."rehab" + s."vaccine" + s."diarrhea" + s."obesity" + s."diabetes") AS Searches  
+FROM location l
+INNER JOIN search_condition s on s.location_id = l.location_id
+GROUP BY l.city,l.state,l.postal, l.latitude, l.longitude
+ORDER BY l.city;
 
     """
     df = pdsql.read_sql(sqlStatement, engine)
@@ -125,26 +96,24 @@ def searchbycity():
 @app.route('/searchbystate')
 def searchbystate():
     sqlStatement = """
-    SELECT l.state,l.postal, SUM (s."Cancer" + s."cardiovascular" + s."stroke" + s."depression" + s."rehab" + s."vaccine" + s."diarrhea" + s."obesity" + s."diabetes") AS Searches  
-    FROM location l
-    INNER JOIN search_condition s on s.location_id = l.location_id
-    GROUP BY l.state,l.postal;
-    """
+SELECT l.state,l.postal, SUM (s."Cancer" + s."cardiovascular" + s."stroke" + s."depression" + s."rehab" + s."vaccine" + s."diarrhea" + s."obesity" + s."diabetes") AS Searches  
+FROM location l
+INNER JOIN search_condition s on s.location_id = l.location_id
+GROUP BY l.state,l.postal;
+ """
     df = pdsql.read_sql(sqlStatement, engine)
     df.set_index('state', inplace=True)
     df = df.to_json(orient='table')
     result = json.loads(df)
     return jsonify(result)
-
-
 @app.route('/bystateandyear')
 def bylocationandyear():
     sqlStatement = """
-    SELECT l.state, l.latitude, l.longitude,s.year, SUM (s."Cancer" + s."cardiovascular" + s."stroke" + s."depression" + s."rehab" + s."vaccine" + s."diarrhea" + s."obesity" + s."diabetes") AS Searches
-    FROM location l
-    INNER JOIN search_condition s on s.location_id = l.location_id
-    GROUP BY l.state, l.latitude, l.longitude,s.year
-    ORDER BY year;
+ SELECT l.state, l.latitude, l.longitude,s.year, SUM (s."Cancer" + s."cardiovascular" + s."stroke" + s."depression" + s."rehab" + s."vaccine" + s."diarrhea" + s."obesity" + s."diabetes") AS Searches  
+FROM location l
+INNER JOIN search_condition s on s.location_id = l.location_id
+GROUP BY l.state, l.latitude, l.longitude,s.year
+ORDER BY year;
 
     """
     df = pdsql.read_sql(sqlStatement, engine)
@@ -158,6 +127,23 @@ def bylocationandyear():
 def casesleadingdeath():
     sqlStatement = """
     SELECT * FROM leading_causes_of_death;
+
+    """
+    df = pdsql.read_sql(sqlStatement, engine)
+    df.set_index('year', inplace=True)
+    df = df.to_json(orient='table')
+    result = json.loads(df)
+    return jsonify(result)
+
+
+@app.route('/allsearchrecord')
+def allsearchrecord():
+    sqlStatement = """
+    SELECT *
+    FROM location l
+    INNER JOIN search_condition s on s.location_id = l.location_id
+    ORDER BY year;
+
 
     """
     df = pdsql.read_sql(sqlStatement, engine)
