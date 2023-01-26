@@ -16,10 +16,15 @@ from flask_sqlalchemy import SQLAlchemy
 # Database Setup
 ##################################################
 
-engine = create_engine('postgres://egaga:PAknjzOmCEUpWd7LaqBs6V1LM7GiwzNb@dpg-ce4g5d9a6gdivt61ju00-a.oregon-postgres.render.com/googlehealth')
+DATABASE_URL = "postgres://egaga:PAknjzOmCEUpWd7LaqBs6V1LM7GiwzNb@dpg-ce4g5d9a6gdivt61ju00-a.oregon-postgres.render.com/googlehealth"
 
+DATABASE_URL = DATABASE_URL.replace(
+    'postgres://',
+    'postgresql://',
+    1
+)
 
-# checking the table names
+engine = create_engine(DATABASE_URL)
 engine.table_names()
 
 
