@@ -15,8 +15,7 @@ from flask_sqlalchemy import SQLAlchemy
 # Database Setup
 ##################################################
 
-DATABASE_URL = "postgres://mydatabase:1C2SsTE5scYpMhfmPNgFasEVc3tPNcjL@dpg-cjs6qs5m702s73b8aji0-a.singapore-postgres.render.com/mydatabase_xmd6"
-
+DATABASE_URL = "postgres://mydatabase:M091UUFTKeSXwOezJdCCvTu7wqz9Xbhu@dpg-clp0n7146foc73a5gjmg-a.singapore-postgres.render.com/mydatabase_c3xa"
 DATABASE_URL = DATABASE_URL.replace(
     'postgres://',
     'postgresql://',
@@ -24,37 +23,34 @@ DATABASE_URL = DATABASE_URL.replace(
 )
 
 engine = create_engine(DATABASE_URL)
-engine.table_names()
-
-
-# checking the table names
-engine.table_names()
+meta = sqlalchemy.MetaData()
+meta.reflect(bind=engine)
+table_names = meta.tables.keys()
+print(table_names)  # or use the list of table_names as needed
 
 
 #################################################
 # Flask Setup
 #################################################
+
 app = Flask(__name__)
 
-app.config['SQLAlCHEMY_DATABASE_URI']=os.environ.get('DATABASE_URI','') or "sqlite:///db.sqlite"
+app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get('DATABASE_URI', '') or "sqlite:///db.sqlite"
+app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
-app.config['SQLAlCHEMY_TRACK_MODIFICATION']=False
-
-db=SQLAlchemy(app)
+db = SQLAlchemy(app)
 
 #################################################
 # Flask Routes
 #################################################
+
 @app.route("/")
 def index():
     return render_template("index.html")
 
-
 @app.route("/Home")
-def home():                                                                                                                     
+def home():
     return render_template("index.html")
-
-
 
 @app.route('/searchbyyear')
 def searchbyyear():
@@ -69,6 +65,7 @@ def searchbyyear():
     df = df.to_json(orient='table')
     result = json.loads(df)
     return jsonify(result)
+
 @app.route('/searchyearandcondition')
 def searchyearandcondition():
     sqlStatement = """
@@ -86,14 +83,12 @@ def searchyearandcondition():
 
 @app.route('/searchbycity')
 def searchbycity():
-
     sqlStatement = """
 SELECT l.city,l.postal,l.state, l.latitude, l.longitude, SUM (s."Cancer" + s."cardiovascular" + s."stroke" + s."depression" + s."rehab" + s."vaccine" + s."diarrhea" + s."obesity" + s."diabetes") AS Searches  
 FROM location l
 INNER JOIN search_condition s on s.location_id = l.location_id
 GROUP BY l.city,l.state,l.postal, l.latitude, l.longitude
 ORDER BY l.city;
-
     """
     df = pdsql.read_sql(sqlStatement, engine)
     df.set_index('city', inplace=True)
@@ -114,22 +109,21 @@ GROUP BY l.state,l.postal;
     df = df.to_json(orient='table')
     result = json.loads(df)
     return jsonify(result)
+
 @app.route('/bystateandyear')
 def bylocationandyear():
     sqlStatement = """
  SELECT l.state, l.latitude, l.longitude,s.year, SUM (s."Cancer" + s."cardiovascular" + s."stroke" + s."depression" + s."rehab" + s."vaccine" + s."diarrhea" + s."obesity" + s."diabetes") AS Searches  
 FROM location l
 INNER JOIN search_condition s on s.location_id = l.location_id
-GROUP BY l.state, l.latitude, l.longitude,s.year
-ORDER BY year;
-
+GROUP BY l.state, l.latitude, l.longitude, s.year
+ORDER BY s.year;
     """
     df = pdsql.read_sql(sqlStatement, engine)
     df.set_index('state', inplace=True)
     df = df.to_json(orient='table')
     result = json.loads(df)
     return jsonify(result)
-
 
 @app.route('/casesleadingdeath')
 def casesleadingdeath():
@@ -143,16 +137,13 @@ def casesleadingdeath():
     result = json.loads(df)
     return jsonify(result)
 
-
 @app.route('/allsearchrecord')
 def allsearchrecord():
     sqlStatement = """
     SELECT *
     FROM location l
     INNER JOIN search_condition s on s.location_id = l.location_id
-    ORDER BY year;
-
-
+    ORDER BY s.year;
     """
     df = pdsql.read_sql(sqlStatement, engine)
     df.set_index('year', inplace=True)
@@ -181,6 +172,7 @@ def conditions():
     df = df.to_json(orient='table')
     result = json.loads(df)
     return jsonify(result)
+
 @app.route('/mostsserached')
 def mostsserached():
     sqlStatement = """
@@ -208,7 +200,6 @@ def totalcondition():
     df = df.to_json(orient='table')
     result = json.loads(df)
     return jsonify(result)
-
 
 @app.route('/totaldeathcase')
 def totaldeathcase():
