@@ -15,7 +15,7 @@ from flask_sqlalchemy import SQLAlchemy
 # Database Setup
 ##################################################
 
-DATABASE_URL = "postgres://mydatabase_lqyh_user:4JUDsCCcDxE157GVixHZdthqk0RsQ6XO@dpg-cpk3q8qcn0vc73b02140-a.singapore-postgres.render.com/mydatabase_lqyh"
+DATABASE_URL = "postgres://mydatabase_00dz_user:8PRBjWPI7uHVj43FqEyIHXljBDNFSwQh@dpg-cpk4p1qcn0vc73b0n9l0-a.frankfurt-postgres.render.com/mydatabase_00dz"
 DATABASE_URL = DATABASE_URL.replace(
     'postgres://',
     'postgresql://',
