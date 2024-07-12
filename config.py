@@ -3,7 +3,7 @@
 
 pg_user = 'avnadmin'
 pg_password = 'UMOKcUwA3qcYj52WR6lIB4SHAMATuoBU'
-db_name = 'defaultdb?sslmode=require'
+db_name = 'defaultdb'
 pg_host = 'mydatabase-ermiasgelaye-d9b4.c.aivencloud.com:26131'
 
 # Create the DATABASE_URL string
