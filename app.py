@@ -50,9 +50,12 @@ db = SQLAlchemy(app)
 def index():
     return render_template("index.html")
 
+
 @app.route("/Home")
-def home():
+def home():                                                                                                                     
     return render_template("index.html")
+
+
 
 @app.route('/searchbyyear')
 def searchbyyear():
@@ -67,7 +70,6 @@ def searchbyyear():
     df = df.to_json(orient='table')
     result = json.loads(df)
     return jsonify(result)
-
 @app.route('/searchyearandcondition')
 def searchyearandcondition():
     sqlStatement = """
@@ -85,12 +87,14 @@ def searchyearandcondition():
 
 @app.route('/searchbycity')
 def searchbycity():
+
     sqlStatement = """
 SELECT l.city,l.postal,l.state, l.latitude, l.longitude, SUM (s."Cancer" + s."cardiovascular" + s."stroke" + s."depression" + s."rehab" + s."vaccine" + s."diarrhea" + s."obesity" + s."diabetes") AS Searches  
 FROM location l
 INNER JOIN search_condition s on s.location_id = l.location_id
 GROUP BY l.city,l.state,l.postal, l.latitude, l.longitude
 ORDER BY l.city;
+
     """
     df = pdsql.read_sql(sqlStatement, engine)
     df.set_index('city', inplace=True)
@@ -111,21 +115,22 @@ GROUP BY l.state,l.postal;
     df = df.to_json(orient='table')
     result = json.loads(df)
     return jsonify(result)
-
 @app.route('/bystateandyear')
 def bylocationandyear():
     sqlStatement = """
  SELECT l.state, l.latitude, l.longitude,s.year, SUM (s."Cancer" + s."cardiovascular" + s."stroke" + s."depression" + s."rehab" + s."vaccine" + s."diarrhea" + s."obesity" + s."diabetes") AS Searches  
 FROM location l
 INNER JOIN search_condition s on s.location_id = l.location_id
-GROUP BY l.state, l.latitude, l.longitude, s.year
-ORDER BY s.year;
+GROUP BY l.state, l.latitude, l.longitude,s.year
+ORDER BY year;
+
     """
     df = pdsql.read_sql(sqlStatement, engine)
     df.set_index('state', inplace=True)
     df = df.to_json(orient='table')
     result = json.loads(df)
     return jsonify(result)
+
 
 @app.route('/casesleadingdeath')
 def casesleadingdeath():
@@ -139,13 +144,16 @@ def casesleadingdeath():
     result = json.loads(df)
     return jsonify(result)
 
+
 @app.route('/allsearchrecord')
 def allsearchrecord():
     sqlStatement = """
     SELECT *
     FROM location l
     INNER JOIN search_condition s on s.location_id = l.location_id
-    ORDER BY s.year;
+    ORDER BY year;
+
+
     """
     df = pdsql.read_sql(sqlStatement, engine)
     df.set_index('year', inplace=True)
@@ -174,7 +182,6 @@ def conditions():
     df = df.to_json(orient='table')
     result = json.loads(df)
     return jsonify(result)
-
 @app.route('/mostsserached')
 def mostsserached():
     sqlStatement = """
@@ -202,6 +209,7 @@ def totalcondition():
     df = df.to_json(orient='table')
     result = json.loads(df)
     return jsonify(result)
+
 
 @app.route('/totaldeathcase')
 def totaldeathcase():
