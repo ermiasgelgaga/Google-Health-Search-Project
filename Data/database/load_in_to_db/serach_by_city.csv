@@ -1,211 +1,211 @@
 city,postal,state,latitude,longitude,searches
-Abilene-Sweetwater,TX,Texas,32.4106903,-99.7653019,6295.0
-Ada,OK,Oklahoma,34.774531,-96.6783449,6394.0
-Albany,GA,Georgia,42.6525793,-73.7562317,6193.0
-Albany-Schenectady-Troy,NY,New York,42.669682,-73.7485195,6093.0
-Albuquerque-Santa,NM,New Mexico,35.0843859,-106.650422,6009.0
-Alexandria,LA,Louisiana,38.8048355,-77.0469214,6167.0
-Alpena,MI,Michigan,45.0616794,-83.4327528,6216.0
-Amarillo,TX,Texas,35.2219971,-101.8312969,5739.0
-Anchorage,AK,Alaska,61.2180556,-149.9002778,5388.0
-Anderson,SC,South Carolina,38.9440204,-95.206647,6024.0
-Atlanta,GA,Georgia,33.7489954,-84.3879824,5560.0
-Augusta,GA,Georgia,33.4734978,-82.0105148,6501.0
-Austin,TX,Texas,30.267153,-97.7430608,5501.0
-Bakersfield,CA,California,35.3732921,-119.0187125,5406.0
-Baltimore,MD,Maryland,39.2903848,-76.6121893,6664.0
-Bangor,ME,Maine,44.8016128,-68.7712257,7012.0
-Baton Rouge,LA,Louisiana,30.4514677,-91.1871466,6293.0
-Beaumont-Port Arthur,TX,Texas,30.080174,-94.1265562,5811.0
-Bend,OR,Oregon,44.0581728,-121.3153096,5821.0
-"Billings,",MT,Montana,45.7832856,-108.5006904,6317.0
-Biloxi-Gulfport,MS,Mississippi,30.3674198,-89.0928155,5817.0
-Binghamton,NY,New York,42.0986867,-75.9179738,6189.0
-Birmingham,AL,Alabama,33.5185892,-86.8103567,6875.0
-Bluefield-Beckley-Oak Hill,WV,West Virginia,37.2698395,-81.2223195,6897.0
-Boise,ID,Idaho,43.6150186,-116.2023137,6032.0
-Boston,MA,Massachusetts,42.3600825,-71.0588801,6236.0
-Bowling Green,KY,Kentucky,36.9685219,-86.4808043,6311.0
-Buffalo,NY,New York,42.8864468,-78.8783689,6299.0
-Butte-Bozeman,MT,Montana,45.9654105,-112.5098066,6051.0
-Casper-Riverton,WY,Wyoming,43.0243013,-108.4057448,6028.0
-Cedar Rapids-Waterloo-Iowa City & Dubuque,IA,Iowa,41.8780025,-93.097702,6736.0
-Champaign & Springfield-Decatur,IL,Illinois,40.6331249,-89.3985283,6660.0
-Charleston,SC,South Carolina,32.7764749,-79.9310512,6448.0
-Charleston-Huntington,WV,West Virginia,38.3190758,-81.716355,7058.0
-Charlotte,NC,North Carolina,35.2270869,-80.8431267,5609.0
-Charlottesville,VA,Virginia,38.0293059,-78.4766781,6739.0
-Chattanooga,TN,Tennessee,35.0456297,-85.3096801,5983.0
-Cheyenne WY-Scottsbluff,NE,Nebraska,41.876312,-103.637984,5951.0
-Chicago,IL,Illinois,41.8781136,-87.6297982,5561.0
-Chico-Redding,CA,California,40.5733498,-122.3748005,5953.0
-Cincinnati,OH,Ohio,39.1031182,-84.5120196,6005.0
-Clarksburg-Weston,WV,West Virginia,39.0384274,-80.467313,6520.0
-Cleveland-Akron (Canton),OH,Ohio,40.9153779,-81.4418833,5959.0
-Colorado Springs-Pueblo,CO,Colorado,38.9117395,-104.7887027,5479.0
-Columbia,SC,South Carolina,36.1335816,-95.9515853,6418.0
-Columbia-Jefferson City,MO,Missouri,38.5709147,-92.2439177,7343.0
-Columbus,GA,Georgia,39.9611755,-82.9987942,6584.0
-Columbus,OH,Ohio,39.9611755,-82.9987942,5962.0
-Columbus-Tupelo-West Point,MS,Mississippi,34.2230246,-88.7278448,6628.0
-Corpus Christi,TX,Texas,27.8005828,-97.396381,5826.0
-Dallas-Ft. Worth,TX,Texas,32.7766642,-96.7969879,5295.0
-Dayton,OH,Ohio,39.7589478,-84.1916069,5950.0
-Denver,CO,Colorado,39.7392358,-104.990251,5398.0
-Des Moines-Ames,IA,Iowa,42.0236281,-93.6097448,6015.0
-Detroit,MI,Michigan,42.331427,-83.0457538,5893.0
-Dorado,AR,Arkansas,18.4588347,-66.2676683,6800.0
-Dothan,AL,Alabama,31.2232313,-85.3904888,6141.0
-Duluth MN-Superior,WI,Wisconsin,46.7866719,-92.1004852,6770.0
-Elmira,NY,New York,42.0897965,-76.8077338,5971.0
-El Paso,TX,Texas,31.7618778,-106.4850217,5836.0
-Erie,PA,Pennsylvania,42.1292241,-80.085059,6864.0
-Eugene,OR,Oregon,44.0520691,-123.0867536,6079.0
-Eureka,CA,California,37.8239167,-96.2891703,5610.0
-Evansville,IN,Indiana,37.9715592,-87.5710898,6530.0
-Fairbanks,AK,Alaska,64.8377778,-147.7163888,5367.0
-Fargo-Valley City,ND,North Dakota,46.9243955,-98.0035186,6542.0
-Flint-Saginaw-Bay City,MI,Michigan,43.5993199,-83.8890847,6336.0
-Florence-Myrtle Beach,SC,South Carolina,33.6824661,-78.9638109,5753.0
-Fresno-Visalia,CA,California,36.32166,-119.3148878,5429.0
-Ft. Myers-Naples,FL,Florida,26.1518464,-81.7964871,5789.0
-Ft. Smith-Fayetteville-Springdale-Rogers,AR,Arkansas,35.3859242,-94.3985475,5883.0
-Ft. Wayne,IN,Indiana,41.079273,-85.1393513,6127.0
-Gainesville,FL,Florida,29.6516344,-82.3248262,7881.0
-Glendive,MT,Montana,47.106401,-104.7107931,986.0
-Grand Junction-Montrose,CO,Colorado,38.4967651,-107.8989028,6018.0
-Grand Rapids-Kalamazoo-Battle Creek,MI,Michigan,42.2355515,-85.5515933,5989.0
-Great Falls,MT,Montana,38.9987208,-77.2538699,6159.0
-Green Bay-Appleton,WI,Wisconsin,44.3008901,-88.3481422,5674.0
-Greensboro-High Point-Winston Salem,NC,North Carolina,35.9556923,-80.0053176,6281.0
-Greenville-New Bern-Washington,NC,North Carolina,35.1199116,-77.0896246,6695.0
-Greenwood-Greenville,MS,Mississippi,34.8633424,-82.2755461,7908.0
-Hagerstown,MD,Maryland,39.6417629,-77.7199932,5256.0
-Harlingen-Weslaco-Brownsville-McAllen,TX,Texas,31.9685988,-99.9018131,5511.0
-Harrisburg-Lancaster-Lebanon-York,PA,Pennsylvania,40.266374,-76.875646,6471.0
-Harrisburg-Mount Vernon,IL,Illinois,40.3265286,-76.8664828,6788.0
-Harrisonburg,VA,Virginia,38.4495688,-78.8689155,6658.0
-Hartford & New Haven,CT,Connecticut,41.3052288,-72.9220308,6568.0
-Hattiesburg-Laurel,MS,Mississippi,31.468239,-89.335421,6420.0
-Helena,MT,Montana,46.5891452,-112.0391057,6621.0
-Honolulu,HI,Hawaii,21.3069444,-157.8583333,5555.0
-Houston,TX,Texas,29.7604267,-95.3698028,5500.0
-Huntsville-Decatur (Florence),AL,Alabama,34.721323,-86.5751171,6039.0
-Idaho Falls-Pocatello,ID,Idaho,42.906046,-112.4315298,6365.0
-Indianapolis,IN,Indiana,39.768403,-86.158068,6544.0
-Jackson,TN,Tennessee,37.0370221,-95.6164276,6501.0
-Jackson,MS,Mississippi,37.0370221,-95.6164276,6657.0
-Jacksonville,FL,Florida,30.3321838,-81.655651,6294.0
-Johnstown-Altoona,PA,Pennsylvania,40.4529782,-78.3930329,6558.0
-Jonesboro,AR,Arkansas,35.8422967,-90.704279,6951.0
-Juneau,AK,Alaska,58.3019444,-134.4197221,5068.0
-Kansas City,MO,Missouri,39.0997265,-94.5785667,6118.0
-Keokuk,IA,Iowa,40.4044731,-91.3963966,6936.0
-Kirksville,MO,Missouri,40.1947539,-92.5832496,6880.0
-Knoxville,TN,Tennessee,35.9606384,-83.9207392,6162.0
-La Crosse-Eau Claire,WI,Wisconsin,44.8651049,-91.4743642,6484.0
-Lafayette,LA,Louisiana,40.4167022,-86.8752869,5787.0
-Lafayette,IN,Indiana,40.4167022,-86.8752869,6280.0
-Lake Charles,LA,Louisiana,30.2265949,-93.2173758,6054.0
-Lansing,MI,Michigan,42.732535,-84.5555347,6720.0
-Laredo,TX,Texas,27.5035613,-99.5075519,5043.0
-Las Vegas,NV,Nevada,36.1699412,-115.1398296,5179.0
-Lawton,OK,Oklahoma,34.6035669,-98.3959291,6390.0
-Lexington,KY,Kentucky,38.0405837,-84.5037164,7144.0
-Lima,OH,Ohio,-12.0463731,-77.042754,6172.0
-Lincoln & Hastings-Kearney,NE,Nebraska,40.7004026,-99.0783395,6128.0
-Little Rock-Pine Bluff,AR,Arkansas,34.2025124,-92.0491611,6583.0
-Los Angeles,CA,California,34.0522342,-118.2436849,5046.0
-Louisville,KY,Kentucky,38.2526647,-85.7584557,6638.0
-Lubbock,TX,Texas,33.5778631,-101.8551665,6136.0
-Macon,GA,Georgia,32.8406946,-83.6324022,6213.0
-Madison,WI,Wisconsin,43.0730517,-89.4012302,5901.0
-Mankato,MN,Minnesota,44.1635775,-93.9993996,6419.0
-Marquette,MI,Michigan,46.5436199,-87.3953713,6560.0
-Medford-Klamath Falls,OR,Oregon,42.224924,-121.7722781,5773.0
-Memphis,TN,Tennessee,35.1495343,-90.0489801,6539.0
-Meridian,MS,Mississippi,37.7117226,-97.3723586,7372.0
-Miami-Ft. Lauderdale,FL,Florida,26.1228039,-80.150752,5094.0
-Milwaukee,WI,Wisconsin,43.0389025,-87.9064736,6046.0
-Minneapolis-St. Paul,MN,Minnesota,44.9374831,-93.2009998,5831.0
-Minot-Bismarck-Dickinson(Williston),ND,North Dakota,46.6105457,-104.1852614,6045.0
-Missoula,MT,Montana,46.8721284,-113.9940314,6078.0
-Mobile AL-Pensacola (Ft. Walton Beach),FL,Florida,30.4500468,-87.2497794,5849.0
-Monterey-Salinas,CA,California,36.6777372,-121.6555013,5150.0
-Montgomery (Selma),AL,Alabama,32.405772,-87.0187444,6700.0
-Nashville,TN,Tennessee,36.1626638,-86.7816016,6586.0
-New Bedford,MA,Massachusetts,41.6362152,-70.934205,6120.0
-New Orleans,LA,Louisiana,29.9510658,-90.0715323,5937.0
-New York,NY,New York,40.7127753,-74.0059728,5409.0
-Norfolk-Portsmouth-Newport News,VA,Virginia,36.8354258,-76.2982742,5783.0
-North Platte,NE,Nebraska,41.1402759,-100.7601454,5610.0
-Odessa-Midland,TX,Texas,31.8456816,-102.3676431,5431.0
-Oklahoma City,OK,Oklahoma,35.4675602,-97.5164276,5896.0
-Omaha,NE,Nebraska,41.2565369,-95.9345034,6170.0
-Orlando-Daytona Beach-Melbourne,FL,Florida,27.6648274,-81.5157535,5605.0
-Palm Springs,CA,California,33.8302961,-116.5452921,5320.0
-Panama City,FL,Florida,30.1588129,-85.6602058,5604.0
-Parkersburg,WV,West Virginia,39.2667418,-81.5615135,6827.0
-Peoria-Bloomington,IL,Illinois,40.6751478,-89.611001,6317.0
-Philadelphia,PA,Pennsylvania,39.9525839,-75.1652215,6444.0
-Phoenix,AZ,Arizona,33.4483771,-112.0740373,5815.0
-Pittsburg,KS,Kansas,38.0279762,-121.8846806,6046.0
-Pittsburgh,PA,Pennsylvania,40.4406248,-79.9958864,6752.0
-Plattsburgh,NY,New York,44.6994873,-73.4529124,6457.0
-Portland,OR,Oregon,45.5051064,-122.6750261,5082.0
-Portland-Auburn,ME,Maine,45.253783,-69.4454689,6361.0
-Presque Isle,ME,Maine,46.681153,-68.0158614,7379.0
-Raleigh-Durham (Fayetteville),NC,North Carolina,35.0478668,-78.8565861,6367.0
-Rapid City,SD,South Dakota,44.0805434,-103.2310149,6187.0
-Reno,NV,Nevada,39.5296329,-119.8138027,5541.0
-Richmond-Petersburg,VA,Virginia,37.4315734,-78.6568942,6282.0
-Roanoke-Lynchburg,VA,Virginia,37.3177678,-79.9994997,5601.0
-Rochester,MN,Minnesota,43.1565779,-77.6088465,8634.0
-Rochester,NY,New York,43.1565779,-77.6088465,6071.0
-Rockford,IL,Illinois,42.2711311,-89.0939952,6047.0
-Rock Island-Moline,IL,Illinois,41.5067003,-90.5151342,6017.0
-Sacramento-Stockton-Modesto,CA,California,37.8968929,-121.2514811,5620.0
-Salisbury,MD,Maryland,38.3606736,-75.5993692,6524.0
-Salt Lake City,UT,Utah,40.7607793,-111.8910474,5742.0
-San Angelo,TX,Texas,31.4637723,-100.4370375,6288.0
-San Antonio,TX,Texas,29.4241219,-98.4936282,5782.0
-San Diego,CA,California,32.715738,-117.1610838,5492.0
-San Jose,CA,California,37.3382082,-121.8863286,4622.0
-Santa Barbara-Santa Maria-San Luis Obispo,CA,California,34.937706,-120.433378,5172.0
-Savannah,GA,Georgia,32.0808989,-81.091203,5993.0
-Seattle-Tacoma,WA,Washington,47.4502499,-122.3088165,5331.0
-Shreveport,LA,Louisiana,32.5251516,-93.7501789,6129.0
-Sioux City,IA,Iowa,42.4963416,-96.4049408,6117.0
-Sioux Falls(Mitchell),SD,South Dakota,43.4889533,-96.7293265,6863.0
-South Bend-Elkhart,IN,Indiana,41.6843287,-85.9708313,5808.0
-Spokane,WA,Washington,47.6587802,-117.4260465,6002.0
-Springfield,MO,Missouri,37.2089572,-93.2922989,6129.0
-Springfield-Holyoke,MA,Massachusetts,42.2042586,-72.6162009,6451.0
-St. Joseph,MO,Missouri,42.1440481,-83.1786345,6690.0
-St. Louis,MO,Missouri,38.6270025,-90.1994042,6000.0
-Syracuse,NY,New York,43.0481221,-76.1474244,6436.0
-Tampa-St. Petersburg (Sarasota),FL,Florida,27.8823552,-82.6759794,5925.0
-Terre Haute,IN,Indiana,39.4667034,-87.4139092,6705.0
-Thomasville,GA,Georgia,35.8826369,-80.0819879,6602.0
-Toledo,OH,Ohio,41.6528052,-83.5378674,6462.0
-Topeka,KS,Kansas,39.0473451,-95.6751576,6109.0
-Traverse City-Cadillac,MI,Michigan,44.7354212,-85.5946084,6379.0
-Tri-Cities,VA,Virginia,46.2349999,-119.2233014,6904.0
-Tucson (Sierra Vista),AZ,Arizona,32.2709837,-110.9614306,5992.0
-Tulsa,OK,Oklahoma,36.1539816,-95.992775,5448.0
-Twin Falls,ID,Idaho,42.5558381,-114.4700518,6047.0
-Tyler-Longview(Lufkin & Nacogdoches),TX,Texas,32.3512601,-95.3010624,6462.0
-Utica,NY,New York,43.100903,-75.232664,6479.0
-Victoria,TX,Texas,-37.4713077,144.7851531,5737.0
-Waco-Temple-Bryan,TX,Texas,30.6724861,-96.3750299,5941.0
-Watertown,NY,New York,42.3709299,-71.1828321,6394.0
-Wausau-Rhinelander,WI,Wisconsin,45.6555505,-89.3920037,6680.0
-West Palm Beach-Ft. Pierce,FL,Florida,27.4680959,-80.2922282,5551.0
-Wheeling WV-Steubenville,OH,Ohio,40.0658125,-80.7214227,6813.0
-Wichita-Hutchinson,KS,Kansas,38.0232033,-97.9405316,5823.0
-Wilkes Barre-Scranton,PA,Pennsylvania,41.240536,-75.848551,6630.0
-Wilmington,NC,North Carolina,34.2103894,-77.8868117,6465.0
-Yakima-Pasco-Richland-Kennewick,WA,Washington,46.2323882,-119.134048,5771.0
-Youngstown,OH,Ohio,41.0997803,-80.6495194,6313.0
-Yuma AZ-El Centro,CA,California,32.7001663,-114.5258431,5778.0
-Zanesville,OH,Ohio,39.9403453,-82.0131924,6020.0
+Abilene-Sweetwater,TX,Texas,32.4106903,-99.7653019,100720.0
+Ada,OK,Oklahoma,34.774531,-96.6783449,102304.0
+Albany,GA,Georgia,42.6525793,-73.7562317,99088.0
+Albany-Schenectady-Troy,NY,New York,42.669682,-73.7485195,97488.0
+Albuquerque-Santa,NM,New Mexico,35.0843859,-106.650422,96144.0
+Alexandria,LA,Louisiana,38.8048355,-77.0469214,98672.0
+Alpena,MI,Michigan,45.0616794,-83.4327528,99456.0
+Amarillo,TX,Texas,35.2219971,-101.8312969,91824.0
+Anchorage,AK,Alaska,61.2180556,-149.9002778,86208.0
+Anderson,SC,South Carolina,38.9440204,-95.206647,96384.0
+Atlanta,GA,Georgia,33.7489954,-84.3879824,88960.0
+Augusta,GA,Georgia,33.4734978,-82.0105148,104016.0
+Austin,TX,Texas,30.267153,-97.7430608,88016.0
+Bakersfield,CA,California,35.3732921,-119.0187125,86496.0
+Baltimore,MD,Maryland,39.2903848,-76.6121893,106624.0
+Bangor,ME,Maine,44.8016128,-68.7712257,112192.0
+Baton Rouge,LA,Louisiana,30.4514677,-91.1871466,100688.0
+Beaumont-Port Arthur,TX,Texas,30.080174,-94.1265562,92976.0
+Bend,OR,Oregon,44.0581728,-121.3153096,93136.0
+"Billings,",MT,Montana,45.7832856,-108.5006904,101072.0
+Biloxi-Gulfport,MS,Mississippi,30.3674198,-89.0928155,93072.0
+Binghamton,NY,New York,42.0986867,-75.9179738,99024.0
+Birmingham,AL,Alabama,33.5185892,-86.8103567,110000.0
+Bluefield-Beckley-Oak Hill,WV,West Virginia,37.2698395,-81.2223195,110352.0
+Boise,ID,Idaho,43.6150186,-116.2023137,96512.0
+Boston,MA,Massachusetts,42.3600825,-71.0588801,99776.0
+Bowling Green,KY,Kentucky,36.9685219,-86.4808043,100976.0
+Buffalo,NY,New York,42.8864468,-78.8783689,100784.0
+Butte-Bozeman,MT,Montana,45.9654105,-112.5098066,96816.0
+Casper-Riverton,WY,Wyoming,43.0243013,-108.4057448,96448.0
+Cedar Rapids-Waterloo-Iowa City & Dubuque,IA,Iowa,41.8780025,-93.097702,107776.0
+Champaign & Springfield-Decatur,IL,Illinois,40.6331249,-89.3985283,106560.0
+Charleston,SC,South Carolina,32.7764749,-79.9310512,103168.0
+Charleston-Huntington,WV,West Virginia,38.3190758,-81.716355,112928.0
+Charlotte,NC,North Carolina,35.2270869,-80.8431267,89744.0
+Charlottesville,VA,Virginia,38.0293059,-78.4766781,107824.0
+Chattanooga,TN,Tennessee,35.0456297,-85.3096801,95728.0
+Cheyenne WY-Scottsbluff,NE,Nebraska,41.876312,-103.637984,95216.0
+Chicago,IL,Illinois,41.8781136,-87.6297982,88976.0
+Chico-Redding,CA,California,40.5733498,-122.3748005,95248.0
+Cincinnati,OH,Ohio,39.1031182,-84.5120196,96080.0
+Clarksburg-Weston,WV,West Virginia,39.0384274,-80.467313,104320.0
+Cleveland-Akron (Canton),OH,Ohio,40.9153779,-81.4418833,95344.0
+Colorado Springs-Pueblo,CO,Colorado,38.9117395,-104.7887027,87664.0
+Columbia,SC,South Carolina,36.1335816,-95.9515853,102688.0
+Columbia-Jefferson City,MO,Missouri,38.5709147,-92.2439177,117488.0
+Columbus,GA,Georgia,39.9611755,-82.9987942,105344.0
+Columbus,OH,Ohio,39.9611755,-82.9987942,95392.0
+Columbus-Tupelo-West Point,MS,Mississippi,34.2230246,-88.7278448,106048.0
+Corpus Christi,TX,Texas,27.8005828,-97.396381,93216.0
+Dallas-Ft. Worth,TX,Texas,32.7766642,-96.7969879,84720.0
+Dayton,OH,Ohio,39.7589478,-84.1916069,95200.0
+Denver,CO,Colorado,39.7392358,-104.990251,86368.0
+Des Moines-Ames,IA,Iowa,42.0236281,-93.6097448,96240.0
+Detroit,MI,Michigan,42.331427,-83.0457538,94288.0
+Dorado,AR,Arkansas,18.4588347,-66.2676683,108800.0
+Dothan,AL,Alabama,31.2232313,-85.3904888,98256.0
+Duluth MN-Superior,WI,Wisconsin,46.7866719,-92.1004852,108320.0
+Elmira,NY,New York,42.0897965,-76.8077338,95536.0
+El Paso,TX,Texas,31.7618778,-106.4850217,93376.0
+Erie,PA,Pennsylvania,42.1292241,-80.085059,109824.0
+Eugene,OR,Oregon,44.0520691,-123.0867536,97264.0
+Eureka,CA,California,37.8239167,-96.2891703,89760.0
+Evansville,IN,Indiana,37.9715592,-87.5710898,104480.0
+Fairbanks,AK,Alaska,64.8377778,-147.7163888,85872.0
+Fargo-Valley City,ND,North Dakota,46.9243955,-98.0035186,104672.0
+Flint-Saginaw-Bay City,MI,Michigan,43.5993199,-83.8890847,101376.0
+Florence-Myrtle Beach,SC,South Carolina,33.6824661,-78.9638109,92048.0
+Fresno-Visalia,CA,California,36.32166,-119.3148878,86864.0
+Ft. Myers-Naples,FL,Florida,26.1518464,-81.7964871,92624.0
+Ft. Smith-Fayetteville-Springdale-Rogers,AR,Arkansas,35.3859242,-94.3985475,94128.0
+Ft. Wayne,IN,Indiana,41.079273,-85.1393513,98032.0
+Gainesville,FL,Florida,29.6516344,-82.3248262,126096.0
+Glendive,MT,Montana,47.106401,-104.7107931,15776.0
+Grand Junction-Montrose,CO,Colorado,38.4967651,-107.8989028,96288.0
+Grand Rapids-Kalamazoo-Battle Creek,MI,Michigan,42.2355515,-85.5515933,95824.0
+Great Falls,MT,Montana,38.9987208,-77.2538699,98544.0
+Green Bay-Appleton,WI,Wisconsin,44.3008901,-88.3481422,90784.0
+Greensboro-High Point-Winston Salem,NC,North Carolina,35.9556923,-80.0053176,100496.0
+Greenville-New Bern-Washington,NC,North Carolina,35.1199116,-77.0896246,107120.0
+Greenwood-Greenville,MS,Mississippi,34.8633424,-82.2755461,126528.0
+Hagerstown,MD,Maryland,39.6417629,-77.7199932,84096.0
+Harlingen-Weslaco-Brownsville-McAllen,TX,Texas,31.9685988,-99.9018131,88176.0
+Harrisburg-Lancaster-Lebanon-York,PA,Pennsylvania,40.266374,-76.875646,103536.0
+Harrisburg-Mount Vernon,IL,Illinois,40.3265286,-76.8664828,108608.0
+Harrisonburg,VA,Virginia,38.4495688,-78.8689155,106528.0
+Hartford & New Haven,CT,Connecticut,41.3052288,-72.9220308,105088.0
+Hattiesburg-Laurel,MS,Mississippi,31.468239,-89.335421,102720.0
+Helena,MT,Montana,46.5891452,-112.0391057,105936.0
+Honolulu,HI,Hawaii,21.3069444,-157.8583333,88880.0
+Houston,TX,Texas,29.7604267,-95.3698028,88000.0
+Huntsville-Decatur (Florence),AL,Alabama,34.721323,-86.5751171,96624.0
+Idaho Falls-Pocatello,ID,Idaho,42.906046,-112.4315298,101840.0
+Indianapolis,IN,Indiana,39.768403,-86.158068,104704.0
+Jackson,TN,Tennessee,37.0370221,-95.6164276,104016.0
+Jackson,MS,Mississippi,37.0370221,-95.6164276,106512.0
+Jacksonville,FL,Florida,30.3321838,-81.655651,100704.0
+Johnstown-Altoona,PA,Pennsylvania,40.4529782,-78.3930329,104928.0
+Jonesboro,AR,Arkansas,35.8422967,-90.704279,111216.0
+Juneau,AK,Alaska,58.3019444,-134.4197221,81088.0
+Kansas City,MO,Missouri,39.0997265,-94.5785667,97888.0
+Keokuk,IA,Iowa,40.4044731,-91.3963966,110976.0
+Kirksville,MO,Missouri,40.1947539,-92.5832496,110080.0
+Knoxville,TN,Tennessee,35.9606384,-83.9207392,98592.0
+La Crosse-Eau Claire,WI,Wisconsin,44.8651049,-91.4743642,103744.0
+Lafayette,IN,Indiana,40.4167022,-86.8752869,100480.0
+Lafayette,LA,Louisiana,40.4167022,-86.8752869,92592.0
+Lake Charles,LA,Louisiana,30.2265949,-93.2173758,96864.0
+Lansing,MI,Michigan,42.732535,-84.5555347,107520.0
+Laredo,TX,Texas,27.5035613,-99.5075519,80688.0
+Las Vegas,NV,Nevada,36.1699412,-115.1398296,82864.0
+Lawton,OK,Oklahoma,34.6035669,-98.3959291,102240.0
+Lexington,KY,Kentucky,38.0405837,-84.5037164,114304.0
+Lima,OH,Ohio,-12.0463731,-77.042754,98752.0
+Lincoln & Hastings-Kearney,NE,Nebraska,40.7004026,-99.0783395,98048.0
+Little Rock-Pine Bluff,AR,Arkansas,34.2025124,-92.0491611,105328.0
+Los Angeles,CA,California,34.0522342,-118.2436849,80736.0
+Louisville,KY,Kentucky,38.2526647,-85.7584557,106208.0
+Lubbock,TX,Texas,33.5778631,-101.8551665,98176.0
+Macon,GA,Georgia,32.8406946,-83.6324022,99408.0
+Madison,WI,Wisconsin,43.0730517,-89.4012302,94416.0
+Mankato,MN,Minnesota,44.1635775,-93.9993996,102704.0
+Marquette,MI,Michigan,46.5436199,-87.3953713,104960.0
+Medford-Klamath Falls,OR,Oregon,42.224924,-121.7722781,92368.0
+Memphis,TN,Tennessee,35.1495343,-90.0489801,104624.0
+Meridian,MS,Mississippi,37.7117226,-97.3723586,117952.0
+Miami-Ft. Lauderdale,FL,Florida,26.1228039,-80.150752,81504.0
+Milwaukee,WI,Wisconsin,43.0389025,-87.9064736,96736.0
+Minneapolis-St. Paul,MN,Minnesota,44.9374831,-93.2009998,93296.0
+Minot-Bismarck-Dickinson(Williston),ND,North Dakota,46.6105457,-104.1852614,96720.0
+Missoula,MT,Montana,46.8721284,-113.9940314,97248.0
+Mobile AL-Pensacola (Ft. Walton Beach),FL,Florida,30.4500468,-87.2497794,93584.0
+Monterey-Salinas,CA,California,36.6777372,-121.6555013,82400.0
+Montgomery (Selma),AL,Alabama,32.405772,-87.0187444,107200.0
+Nashville,TN,Tennessee,36.1626638,-86.7816016,105376.0
+New Bedford,MA,Massachusetts,41.6362152,-70.934205,97920.0
+New Orleans,LA,Louisiana,29.9510658,-90.0715323,94992.0
+New York,NY,New York,40.7127753,-74.0059728,86544.0
+Norfolk-Portsmouth-Newport News,VA,Virginia,36.8354258,-76.2982742,92528.0
+North Platte,NE,Nebraska,41.1402759,-100.7601454,89760.0
+Odessa-Midland,TX,Texas,31.8456816,-102.3676431,86896.0
+Oklahoma City,OK,Oklahoma,35.4675602,-97.5164276,94336.0
+Omaha,NE,Nebraska,41.2565369,-95.9345034,98720.0
+Orlando-Daytona Beach-Melbourne,FL,Florida,27.6648274,-81.5157535,89680.0
+Palm Springs,CA,California,33.8302961,-116.5452921,85120.0
+Panama City,FL,Florida,30.1588129,-85.6602058,89664.0
+Parkersburg,WV,West Virginia,39.2667418,-81.5615135,109232.0
+Peoria-Bloomington,IL,Illinois,40.6751478,-89.611001,101072.0
+Philadelphia,PA,Pennsylvania,39.9525839,-75.1652215,103104.0
+Phoenix,AZ,Arizona,33.4483771,-112.0740373,93040.0
+Pittsburg,KS,Kansas,38.0279762,-121.8846806,96736.0
+Pittsburgh,PA,Pennsylvania,40.4406248,-79.9958864,108032.0
+Plattsburgh,NY,New York,44.6994873,-73.4529124,103312.0
+Portland,OR,Oregon,45.5051064,-122.6750261,81312.0
+Portland-Auburn,ME,Maine,45.253783,-69.4454689,101776.0
+Presque Isle,ME,Maine,46.681153,-68.0158614,118064.0
+Raleigh-Durham (Fayetteville),NC,North Carolina,35.0478668,-78.8565861,101872.0
+Rapid City,SD,South Dakota,44.0805434,-103.2310149,98992.0
+Reno,NV,Nevada,39.5296329,-119.8138027,88656.0
+Richmond-Petersburg,VA,Virginia,37.4315734,-78.6568942,100512.0
+Roanoke-Lynchburg,VA,Virginia,37.3177678,-79.9994997,89616.0
+Rochester,NY,New York,43.1565779,-77.6088465,97136.0
+Rochester,MN,Minnesota,43.1565779,-77.6088465,138144.0
+Rockford,IL,Illinois,42.2711311,-89.0939952,96752.0
+Rock Island-Moline,IL,Illinois,41.5067003,-90.5151342,96272.0
+Sacramento-Stockton-Modesto,CA,California,37.8968929,-121.2514811,89920.0
+Salisbury,MD,Maryland,38.3606736,-75.5993692,104384.0
+Salt Lake City,UT,Utah,40.7607793,-111.8910474,91872.0
+San Angelo,TX,Texas,31.4637723,-100.4370375,100608.0
+San Antonio,TX,Texas,29.4241219,-98.4936282,92512.0
+San Diego,CA,California,32.715738,-117.1610838,87872.0
+San Jose,CA,California,37.3382082,-121.8863286,73952.0
+Santa Barbara-Santa Maria-San Luis Obispo,CA,California,34.937706,-120.433378,82752.0
+Savannah,GA,Georgia,32.0808989,-81.091203,95888.0
+Seattle-Tacoma,WA,Washington,47.4502499,-122.3088165,85296.0
+Shreveport,LA,Louisiana,32.5251516,-93.7501789,98064.0
+Sioux City,IA,Iowa,42.4963416,-96.4049408,97872.0
+Sioux Falls(Mitchell),SD,South Dakota,43.4889533,-96.7293265,109808.0
+South Bend-Elkhart,IN,Indiana,41.6843287,-85.9708313,92928.0
+Spokane,WA,Washington,47.6587802,-117.4260465,96032.0
+Springfield,MO,Missouri,37.2089572,-93.2922989,98064.0
+Springfield-Holyoke,MA,Massachusetts,42.2042586,-72.6162009,103216.0
+St. Joseph,MO,Missouri,42.1440481,-83.1786345,107040.0
+St. Louis,MO,Missouri,38.6270025,-90.1994042,96000.0
+Syracuse,NY,New York,43.0481221,-76.1474244,102976.0
+Tampa-St. Petersburg (Sarasota),FL,Florida,27.8823552,-82.6759794,94800.0
+Terre Haute,IN,Indiana,39.4667034,-87.4139092,107280.0
+Thomasville,GA,Georgia,35.8826369,-80.0819879,105632.0
+Toledo,OH,Ohio,41.6528052,-83.5378674,103392.0
+Topeka,KS,Kansas,39.0473451,-95.6751576,97744.0
+Traverse City-Cadillac,MI,Michigan,44.7354212,-85.5946084,102064.0
+Tri-Cities,VA,Virginia,46.2349999,-119.2233014,110464.0
+Tucson (Sierra Vista),AZ,Arizona,32.2709837,-110.9614306,95872.0
+Tulsa,OK,Oklahoma,36.1539816,-95.992775,87168.0
+Twin Falls,ID,Idaho,42.5558381,-114.4700518,96752.0
+Tyler-Longview(Lufkin & Nacogdoches),TX,Texas,32.3512601,-95.3010624,103392.0
+Utica,NY,New York,43.100903,-75.232664,103664.0
+Victoria,TX,Texas,-37.4713077,144.7851531,91792.0
+Waco-Temple-Bryan,TX,Texas,30.6724861,-96.3750299,95056.0
+Watertown,NY,New York,42.3709299,-71.1828321,102304.0
+Wausau-Rhinelander,WI,Wisconsin,45.6555505,-89.3920037,106880.0
+West Palm Beach-Ft. Pierce,FL,Florida,27.4680959,-80.2922282,88816.0
+Wheeling WV-Steubenville,OH,Ohio,40.0658125,-80.7214227,109008.0
+Wichita-Hutchinson,KS,Kansas,38.0232033,-97.9405316,93168.0
+Wilkes Barre-Scranton,PA,Pennsylvania,41.240536,-75.848551,106080.0
+Wilmington,NC,North Carolina,34.2103894,-77.8868117,103440.0
+Yakima-Pasco-Richland-Kennewick,WA,Washington,46.2323882,-119.134048,92336.0
+Youngstown,OH,Ohio,41.0997803,-80.6495194,101008.0
+Yuma AZ-El Centro,CA,California,32.7001663,-114.5258431,92448.0
+Zanesville,OH,Ohio,39.9403453,-82.0131924,96320.0
