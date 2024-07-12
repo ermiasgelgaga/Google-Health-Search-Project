@@ -1,4 +1,3 @@
-
 # Configuration file for database credentials
 
 pg_user = 'avnadmin'
