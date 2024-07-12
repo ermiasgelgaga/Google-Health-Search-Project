@@ -2,7 +2,7 @@
 # Configuration file for database credentials
 
 pg_user = 'avnadmin'
-pg_password = 'UMOKcUwA3qcYj52WR6lIB4SHAMATuoBU'
+pg_password = 'AVNS_eYXEknDp3jDY0lScacb'
 db_name = 'defaultdb'
 pg_host = 'mydatabase-ermiasgelaye-d9b4.c.aivencloud.com:26131'
 

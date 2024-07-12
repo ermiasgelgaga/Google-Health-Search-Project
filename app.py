@@ -12,7 +12,6 @@ from flask import Flask, jsonify, render_template, abort, redirect
 from flask_sqlalchemy import SQLAlchemy
 from sqlalchemy import create_engine, MetaData
 
-
 from flask import Flask, jsonify, render_template
 import pandas as pd
 import json
