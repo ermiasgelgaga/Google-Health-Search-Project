@@ -15,7 +15,11 @@ import psycopg2
 
 # Construct the DATABASE_URL
 DATABASE_URL = f"postgresql://{pg_user}:{pg_password}@{pg_host}/{db_name}"
-DATABASE_URL = DATABASE_URL.replace('postgres://', 'postgresql://', 1)
+DATABASE_URL = DATABASE_URL.replace(
+    'postgres://',
+    'postgresql://',
+    1
+)
 
 # Create SQLAlchemy engine
 engine = create_engine(DATABASE_URL)
